@@ -28,63 +28,6 @@ flowchart TD
     D -->|Yes| E[Gemini Enhancement]
     D -->|No| F[Return spaCy Only]
     E --> G[Parse JSON Response]
-    G --> H[Merge Results]
-    C --> H
-    H --> I[Deduplicated Entities]
-    F --> I
-```
-
-### Stage 1: spaCy Baseline
-
-**Algorithm**: `extract_entities_spacy(text_chunks, doc_id)`
-
-**Steps**:
-1. Load spaCy model (`en_core_web_sm`)
-2. For each text chunk:
-   - Run spaCy NER
-   - Map labels (PERSON, ORG → ORGANIZATION, GPE/LOC → LOCATION, etc.)
-   - Calculate confidence score:
-     ```python
-     confidence = min(0.95, BASE_CONFIDENCE + length_boost)
-     length_boost = min(0.2, len(entity_name) * 0.01)
-     ```
-   - Extract source snippet (50 chars before/after)
-3. Merge duplicate entities within chunks
-4. Boost confidence for repeated entities (+0.05 per occurrence)
-
-**Complexity**: O(n × m) where n = number of chunks, m = average chunk length
-
-### Stage 2: Gemini Enhancement
-
-**Algorithm**: `extract_entities_with_gemini(text_chunks, doc_id, use_gemini=True)`
-
-**Steps**:
-1. Get spaCy baseline entities
-2. For each chunk:
-   - Send to Gemini with structured prompt
-   - Request JSON format with entity list
-   - Parse response with retry logic (3 attempts)
-   - Cap Gemini confidence at 0.92
-3. Merge spaCy and Gemini results:
-   - Entities found by both: boost confidence (+0.05)
-   - Gemini-only entities: add if confidence ≥ 0.55
-   - Merge source snippets (avoid duplicates)
-
-**Prompt Structure**:
-```
-Extract entities from the following text. Return JSON with:
-{
-  "entities": [
-    {"name": "...", "type": "PERSON|ORGANIZATION|CONCEPT|...", "confidence": 0.0-1.0}
-  ]
-}
-
-Types: PERSON, ORGANIZATION, CONCEPT, DATE, PAPER, LOCATION
-
-Text: [chunk]
-```
-
-**Complexity**: O(n × (m + g)) where g = Gemini API latency (~1-2s per chunk)
 
 ---
 
@@ -146,34 +89,6 @@ flowchart TD
    cosine_sim = dot(emb1, emb2) / (norm(emb1) * norm(emb2))
    ```
 
-3. **Abbreviation Detection**
-   - One name contains the other
-   - Shorter name ≤ 5 characters
-   - Example: "AI" ⊂ "Artificial Intelligence"
-
-### Merging Strategy
-
-**Algorithm**: `deduplicate_entities(entities, embeddings)`
-
-**Steps**:
-1. Group entities by type (PERSON, ORGANIZATION, etc.)
-2. For each type group:
-   - Compare all pairs (n² comparisons)
-   - Build merge clusters using union-find
-3. For each cluster:
-   - Select canonical entity (highest confidence)
-   - Merge aliases from all variants
-   - Combine source snippets
-   - Average confidence scores
-
-**Complexity**: O(t × n² × (s + e)) where:
-- t = number of entity types
-- n = average entities per type
-- s = string comparison cost
-- e = embedding comparison cost
-
-**Optimization**: Group by type reduces comparisons from O(N²) to O(t × (N/t)²)
-
 ---
 
 ## Relationship Classification
@@ -224,36 +139,43 @@ This allows a rare entity (1 occurrence) to have strong relationship (weight=1.0
 
 **Complexity**: O(n² × c) where n = entities, c = average chunks per entity
 
-### Stage 2: LLM Relationship Typing
+### Stage 2: Hybrid Relationship Classification
 
-**Algorithm**: `classify_relationships_with_llm(relationships, gemini_client)`
+**Algorithm**: `classify_relationships_with_llm` (Hybrid Approach)
 
-**Steps**:
-1. Filter relationships with weight ≥ 0.5
-2. For each high-weight relationship:
-   - Send entity pair + example snippets to Gemini
-   - Request relationship type classification
-   - Update `relationType` field
-   - Boost confidence if LLM is confident
+**Goal**: Assign specific types (e.g., `founded`, `works_at`) instead of generic `related_to`.
 
-**Prompt Structure**:
-```
-Classify the relationship between these entities:
-Entity 1: [name]
-Entity 2: [name]
-
-Context examples:
-- [snippet 1]
-- [snippet 2]
-
-Return JSON:
-{
-  "type": "works_at|founded|authored|located_in|related_to|...",
-  "confidence": 0.0-1.0
-}
+**Flow**:
+```mermaid
+flowchart TD
+    A[Relationship (weight ≥ 0.5)] --> B{Pattern Match?}
+    B -->|Yes| C[Assign Specific Type]
+    C --> D[Set Confidence 0.85]
+    B -->|No| E{Call Gemini LLM}
+    E -->|Success| F[Assign LLM Type]
+    E -->|Fail/Unsure| G[Keep 'related_to']
 ```
 
-**Complexity**: O(r × g) where r = high-weight relationships, g = LLM latency
+**1. Pattern Matching (Fast Path)**
+- **Input**: Relationship text examples + Entity Types
+- **Logic**: Check for explicit keywords validated by entity types
+- **Supported Patterns**:
+  - `founded` (founded, established)
+  - `ceo_of` (CEO, president of)
+  - `works_at` (works at, employed by)
+  - `located_in` (located in, based in)
+  - `authored` (wrote, published)
+  - `acquired_by` (acquired, bought)
+  - ...and more
+
+**2. LLM Classification (Fallback)**
+- **Input**: Entity names, Entity Types (PERSON, ORG), Text Snippets
+- **Prompt**: Includes entity types and instructions to prefer specific relationships.
+- **Output**: JSON with `type` and `confidence`.
+
+**Complexity**: 
+- Pattern Matching: O(1) per relationship (instant)
+- LLM Fallback: O(latency) only for unclear cases
 
 ---
 

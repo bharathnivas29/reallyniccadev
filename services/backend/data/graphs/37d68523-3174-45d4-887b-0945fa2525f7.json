@@ -1,0 +1,156 @@
+{
+  "nodes": [
+    {
+      "id": "d57d224b-03bd-4a4d-a91a-21563b598d6d",
+      "label": "Steve Jobs",
+      "type": "PERSON",
+      "confidence": 0.75,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Steve Jobs founded Apple in California in 1989",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "388e1459-c8a9-40d6-828e-b56f1d8db6f5",
+      "label": "Apple",
+      "type": "ORGANIZATION",
+      "confidence": 0.7000000000000001,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Steve Jobs founded Apple in California in 1989",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "e3c8a9ef-fe04-496c-acd2-1f9de188f382",
+      "label": "California",
+      "type": "LOCATION",
+      "confidence": 0.75,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Steve Jobs founded Apple in California in 1989",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "bd756519-da73-4795-a86d-d2da98525f70",
+      "label": "1989",
+      "type": "DATE",
+      "confidence": 0.6900000000000001,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Steve Jobs founded Apple in California in 1989",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "09377dd0-70f8-4ef0-a2fd-43ba30297725",
+      "sourceId": "d57d224b-03bd-4a4d-a91a-21563b598d6d",
+      "targetId": "388e1459-c8a9-40d6-828e-b56f1d8db6f5",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Steve Jobs founded Apple in California in 1989"
+      ]
+    },
+    {
+      "id": "5463c28e-dfb1-41f1-9e5b-5cc061cdc39e",
+      "sourceId": "d57d224b-03bd-4a4d-a91a-21563b598d6d",
+      "targetId": "e3c8a9ef-fe04-496c-acd2-1f9de188f382",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Steve Jobs founded Apple in California in 1989"
+      ]
+    },
+    {
+      "id": "91f60277-856e-424b-bbd6-51f27f435b21",
+      "sourceId": "d57d224b-03bd-4a4d-a91a-21563b598d6d",
+      "targetId": "bd756519-da73-4795-a86d-d2da98525f70",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Steve Jobs founded Apple in California in 1989"
+      ]
+    },
+    {
+      "id": "003958cc-5797-42ab-ab58-450d890fc328",
+      "sourceId": "388e1459-c8a9-40d6-828e-b56f1d8db6f5",
+      "targetId": "e3c8a9ef-fe04-496c-acd2-1f9de188f382",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Steve Jobs founded Apple in California in 1989"
+      ]
+    },
+    {
+      "id": "6e6f3f62-e5d2-444e-8874-96c0eb6cc90e",
+      "sourceId": "388e1459-c8a9-40d6-828e-b56f1d8db6f5",
+      "targetId": "bd756519-da73-4795-a86d-d2da98525f70",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Steve Jobs founded Apple in California in 1989"
+      ]
+    },
+    {
+      "id": "664e51e9-b752-4778-8c50-d2f38f8a5688",
+      "sourceId": "e3c8a9ef-fe04-496c-acd2-1f9de188f382",
+      "targetId": "bd756519-da73-4795-a86d-d2da98525f70",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Steve Jobs founded Apple in California in 1989"
+      ]
+    }
+  ],
+  "meta": {
+    "graphId": "37d68523-3174-45d4-887b-0945fa2525f7",
+    "createdAt": "2025-11-26T19:37:30.789Z",
+    "updatedAt": "2025-11-26T19:37:30.789Z",
+    "sourceText": "Steve Jobs founded Apple in California in 1989"
+  }
+}

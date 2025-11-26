@@ -1,0 +1,441 @@
+{
+  "nodes": [
+    {
+      "id": "091d167f-70e5-41a6-9138-57786e0b0be7",
+      "label": "Tesla Announces Major Expansion",
+      "type": "ORGANIZATION",
+      "confidence": 0.8600000000000001,
+      "sources": [
+        {
+          "docId": "Tesla's AI Revolution Building the.txt",
+          "snippet": "Tesla Announces Major Expansion in Austin  AUSTIN, Texas - November 15, 2023 - Te",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "Tesla's AI Revolution Building the.txt",
+          "snippet": "Tesla Announces Major Expansion in Austin\n\nAUSTIN, Texas - November 15, 2023 - Tesla Inc., led by CEO Elon Musk, announced plans to expand its Gigafactory in Austin, Texas. The $2.5 billion investment",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [
+        "Tesla"
+      ],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "671a3d18-b373-4b1a-ba65-08c9221fcb36",
+      "label": "Austin",
+      "type": "LOCATION",
+      "confidence": 0.71,
+      "sources": [
+        {
+          "docId": "Tesla's AI Revolution Building the.txt",
+          "snippet": "Tesla Announces Major Expansion in Austin  AUSTIN, Texas - November 15, 2023 - Tesla Inc.,",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "Tesla's AI Revolution Building the.txt",
+          "snippet": "usk, announced plans to expand its Gigafactory in Austin, Texas. The $2.5 billion investment will create 5",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "Tesla's AI Revolution Building the.txt",
+          "snippet": "Tesla Announces Major Expansion in Austin\n\nAUSTIN, Texas - November 15, 2023 - Tesla Inc., led by CEO Elon Musk, announced plans to expand its Gigafactory in Austin, Texas. The $2.5 billion investment",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "Tesla's AI Revolution Building the.txt",
+          "snippet": "Tesla Announces Major Expansion in Austin  AUSTIN, Texas - November 15, 2023 - Tesla Inc., led by C",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [
+        "AUSTIN"
+      ],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "bd4fec7c-fe23-46f7-9117-f3d0acf71476",
+      "label": "Texas",
+      "type": "LOCATION",
+      "confidence": 0.7500000000000001,
+      "sources": [
+        {
+          "docId": "Tesla's AI Revolution Building the.txt",
+          "snippet": "esla Announces Major Expansion in Austin  AUSTIN, Texas - November 15, 2023 - Tesla Inc., led by CEO Elon",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "Tesla's AI Revolution Building the.txt",
+          "snippet": "ounced plans to expand its Gigafactory in Austin, Texas. The $2.5 billion investment will create 5,000 ne",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "Tesla's AI Revolution Building the.txt",
+          "snippet": "Tesla Announces Major Expansion in Austin\n\nAUSTIN, Texas - November 15, 2023 - Tesla Inc., led by CEO Elon Musk, announced plans to expand its Gigafactory in Austin, Texas. The $2.5 billion investment",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "66ab1e1c-1b11-4bc6-844a-9c1dcd082456",
+      "label": "November 15,",
+      "type": "DATE",
+      "confidence": 0.8200000000000001,
+      "sources": [
+        {
+          "docId": "Tesla's AI Revolution Building the.txt",
+          "snippet": "ounces Major Expansion in Austin  AUSTIN, Texas - November 15, 2023 - Tesla Inc., led by CEO Elon Musk, announce",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "Tesla's AI Revolution Building the.txt",
+          "snippet": "Tesla Announces Major Expansion in Austin\n\nAUSTIN, Texas - November 15, 2023 - Tesla Inc., led by CEO Elon Musk, announced plans to expand its Gigafactory in Austin, Texas. The $2.5 billion investment",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [
+        "November 15, 2023"
+      ],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "728703ca-9da4-46f0-a223-15f402396d78",
+      "label": "Elon Musk",
+      "type": "PERSON",
+      "confidence": 0.74,
+      "sources": [
+        {
+          "docId": "Tesla's AI Revolution Building the.txt",
+          "snippet": "exas - November 15, 2023 - Tesla Inc., led by CEO Elon Musk, announced plans to expand its Gigafactory in Aus",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "Tesla's AI Revolution Building the.txt",
+          "snippet": "Tesla Announces Major Expansion in Austin\n\nAUSTIN, Texas - November 15, 2023 - Tesla Inc., led by CEO Elon Musk, announced plans to expand its Gigafactory in Austin, Texas. The $2.5 billion investment",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "c8826a1e-61ac-47a8-9905-6f8f5c4d99a0",
+      "label": "2025",
+      "type": "DATE",
+      "confidence": 0.6900000000000001,
+      "sources": [
+        {
+          "docId": "Tesla's AI Revolution Building the.txt",
+          "snippet": "billion investment will create 5,000 new jobs by 2025.",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "Tesla's AI Revolution Building the.txt",
+          "snippet": "Tesla Announces Major Expansion in Austin\n\nAUSTIN, Texas - November 15, 2023 - Tesla Inc., led by CEO Elon Musk, announced plans to expand its Gigafactory in Austin, Texas. The $2.5 billion investment",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "c620a73a-22c2-4db3-8dfe-134c20918906",
+      "label": "Gigafactory",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "sources": [
+        {
+          "docId": "Tesla's AI Revolution Building the.txt",
+          "snippet": "Tesla Announces Major Expansion in Austin\n\nAUSTIN, Texas - November 15, 2023 - Tesla Inc., led by CEO Elon Musk, announced plans to expand its Gigafactory in Austin, Texas. The $2.5 billion investment",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "04008d17-b8b4-4698-bf34-53b181a999db",
+      "sourceId": "091d167f-70e5-41a6-9138-57786e0b0be7",
+      "targetId": "671a3d18-b373-4b1a-ba65-08c9221fcb36",
+      "type": "cooccurrence",
+      "relationType": "located_in",
+      "weight": 1,
+      "confidence": 0.85,
+      "examples": [
+        "Tesla Announces Major Expansion in Austin\n\nAUSTIN, Texas - November 15, 2023 - Tesla Inc., led by CEO Elon Musk, announced plans to expand its Gigafactory in Austin, Texas. The $2.5 billion investm..."
+      ]
+    },
+    {
+      "id": "c6ae1157-62b3-410b-abc7-38a7af646ee4",
+      "sourceId": "091d167f-70e5-41a6-9138-57786e0b0be7",
+      "targetId": "bd4fec7c-fe23-46f7-9117-f3d0acf71476",
+      "type": "cooccurrence",
+      "relationType": "located_in",
+      "weight": 1,
+      "confidence": 0.85,
+      "examples": [
+        "Tesla Announces Major Expansion in Austin\n\nAUSTIN, Texas - November 15, 2023 - Tesla Inc., led by CEO Elon Musk, announced plans to expand its Gigafactory in Austin, Texas. The $2.5 billion investm..."
+      ]
+    },
+    {
+      "id": "a9186385-e90e-4df7-af69-f0b4499feedb",
+      "sourceId": "091d167f-70e5-41a6-9138-57786e0b0be7",
+      "targetId": "66ab1e1c-1b11-4bc6-844a-9c1dcd082456",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Tesla Announces Major Expansion in Austin\n\nAUSTIN, Texas - November 15, 2023 - Tesla Inc., led by CEO Elon Musk, announced plans to expand its Gigafactory in Austin, Texas. The $2.5 billion investm..."
+      ]
+    },
+    {
+      "id": "2d8d0219-cb86-4fb7-a7e9-eedfc310041e",
+      "sourceId": "091d167f-70e5-41a6-9138-57786e0b0be7",
+      "targetId": "728703ca-9da4-46f0-a223-15f402396d78",
+      "type": "cooccurrence",
+      "relationType": "ceo_of",
+      "weight": 1,
+      "confidence": 0.85,
+      "examples": [
+        "Tesla Announces Major Expansion in Austin\n\nAUSTIN, Texas - November 15, 2023 - Tesla Inc., led by CEO Elon Musk, announced plans to expand its Gigafactory in Austin, Texas. The $2.5 billion investm..."
+      ]
+    },
+    {
+      "id": "168fc7fc-e188-480b-9693-73bd73416b10",
+      "sourceId": "091d167f-70e5-41a6-9138-57786e0b0be7",
+      "targetId": "c8826a1e-61ac-47a8-9905-6f8f5c4d99a0",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Tesla Announces Major Expansion in Austin\n\nAUSTIN, Texas - November 15, 2023 - Tesla Inc., led by CEO Elon Musk, announced plans to expand its Gigafactory in Austin, Texas. The $2.5 billion investm..."
+      ]
+    },
+    {
+      "id": "bc8a0ba5-c4b7-467c-bede-6bb87998bcf0",
+      "sourceId": "091d167f-70e5-41a6-9138-57786e0b0be7",
+      "targetId": "c620a73a-22c2-4db3-8dfe-134c20918906",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Tesla Announces Major Expansion in Austin\n\nAUSTIN, Texas - November 15, 2023 - Tesla Inc., led by CEO Elon Musk, announced plans to expand its Gigafactory in Austin, Texas. The $2.5 billion investm..."
+      ]
+    },
+    {
+      "id": "e0178667-6f53-48c5-9463-63ce660d7af3",
+      "sourceId": "671a3d18-b373-4b1a-ba65-08c9221fcb36",
+      "targetId": "bd4fec7c-fe23-46f7-9117-f3d0acf71476",
+      "type": "cooccurrence",
+      "relationType": "located_in",
+      "weight": 1,
+      "confidence": 0.85,
+      "examples": [
+        "Tesla Announces Major Expansion in Austin\n\nAUSTIN, Texas - November 15, 2023 - Tesla Inc., led by CEO Elon Musk, announced plans to expand its Gigafactory in Austin, Texas. The $2.5 billion investm..."
+      ]
+    },
+    {
+      "id": "6cac2b40-7917-45f1-9208-7a6752b4a887",
+      "sourceId": "671a3d18-b373-4b1a-ba65-08c9221fcb36",
+      "targetId": "66ab1e1c-1b11-4bc6-844a-9c1dcd082456",
+      "type": "cooccurrence",
+      "relationType": "located_in",
+      "weight": 1,
+      "confidence": 0.85,
+      "examples": [
+        "Tesla Announces Major Expansion in Austin\n\nAUSTIN, Texas - November 15, 2023 - Tesla Inc., led by CEO Elon Musk, announced plans to expand its Gigafactory in Austin, Texas. The $2.5 billion investm..."
+      ]
+    },
+    {
+      "id": "c436ee75-9ef0-4d2e-889f-97b68cb7851c",
+      "sourceId": "671a3d18-b373-4b1a-ba65-08c9221fcb36",
+      "targetId": "728703ca-9da4-46f0-a223-15f402396d78",
+      "type": "cooccurrence",
+      "relationType": "located_in",
+      "weight": 1,
+      "confidence": 0.85,
+      "examples": [
+        "Tesla Announces Major Expansion in Austin\n\nAUSTIN, Texas - November 15, 2023 - Tesla Inc., led by CEO Elon Musk, announced plans to expand its Gigafactory in Austin, Texas. The $2.5 billion investm..."
+      ]
+    },
+    {
+      "id": "abd2612b-1daa-46c0-8c82-04058fef06b9",
+      "sourceId": "671a3d18-b373-4b1a-ba65-08c9221fcb36",
+      "targetId": "c8826a1e-61ac-47a8-9905-6f8f5c4d99a0",
+      "type": "cooccurrence",
+      "relationType": "located_in",
+      "weight": 1,
+      "confidence": 0.85,
+      "examples": [
+        "Tesla Announces Major Expansion in Austin\n\nAUSTIN, Texas - November 15, 2023 - Tesla Inc., led by CEO Elon Musk, announced plans to expand its Gigafactory in Austin, Texas. The $2.5 billion investm..."
+      ]
+    },
+    {
+      "id": "a381f3e8-6ec1-4ef7-be70-c616d84261cb",
+      "sourceId": "671a3d18-b373-4b1a-ba65-08c9221fcb36",
+      "targetId": "c620a73a-22c2-4db3-8dfe-134c20918906",
+      "type": "cooccurrence",
+      "relationType": "located_in",
+      "weight": 1,
+      "confidence": 0.85,
+      "examples": [
+        "Tesla Announces Major Expansion in Austin\n\nAUSTIN, Texas - November 15, 2023 - Tesla Inc., led by CEO Elon Musk, announced plans to expand its Gigafactory in Austin, Texas. The $2.5 billion investm..."
+      ]
+    },
+    {
+      "id": "5889a518-cad4-4fb5-b656-c0ba77edbacf",
+      "sourceId": "bd4fec7c-fe23-46f7-9117-f3d0acf71476",
+      "targetId": "66ab1e1c-1b11-4bc6-844a-9c1dcd082456",
+      "type": "cooccurrence",
+      "relationType": "located_in",
+      "weight": 1,
+      "confidence": 0.85,
+      "examples": [
+        "Tesla Announces Major Expansion in Austin\n\nAUSTIN, Texas - November 15, 2023 - Tesla Inc., led by CEO Elon Musk, announced plans to expand its Gigafactory in Austin, Texas. The $2.5 billion investm..."
+      ]
+    },
+    {
+      "id": "38ab4807-29e7-4c01-a363-e6fb91178338",
+      "sourceId": "bd4fec7c-fe23-46f7-9117-f3d0acf71476",
+      "targetId": "728703ca-9da4-46f0-a223-15f402396d78",
+      "type": "cooccurrence",
+      "relationType": "located_in",
+      "weight": 1,
+      "confidence": 0.85,
+      "examples": [
+        "Tesla Announces Major Expansion in Austin\n\nAUSTIN, Texas - November 15, 2023 - Tesla Inc., led by CEO Elon Musk, announced plans to expand its Gigafactory in Austin, Texas. The $2.5 billion investm..."
+      ]
+    },
+    {
+      "id": "4c65fd0d-e7dd-4d7e-8320-70dbda9ed743",
+      "sourceId": "bd4fec7c-fe23-46f7-9117-f3d0acf71476",
+      "targetId": "c8826a1e-61ac-47a8-9905-6f8f5c4d99a0",
+      "type": "cooccurrence",
+      "relationType": "located_in",
+      "weight": 1,
+      "confidence": 0.85,
+      "examples": [
+        "Tesla Announces Major Expansion in Austin\n\nAUSTIN, Texas - November 15, 2023 - Tesla Inc., led by CEO Elon Musk, announced plans to expand its Gigafactory in Austin, Texas. The $2.5 billion investm..."
+      ]
+    },
+    {
+      "id": "6ecf38d5-7499-455c-8a8c-c71060b9aff8",
+      "sourceId": "bd4fec7c-fe23-46f7-9117-f3d0acf71476",
+      "targetId": "c620a73a-22c2-4db3-8dfe-134c20918906",
+      "type": "cooccurrence",
+      "relationType": "located_in",
+      "weight": 1,
+      "confidence": 0.85,
+      "examples": [
+        "Tesla Announces Major Expansion in Austin\n\nAUSTIN, Texas - November 15, 2023 - Tesla Inc., led by CEO Elon Musk, announced plans to expand its Gigafactory in Austin, Texas. The $2.5 billion investm..."
+      ]
+    },
+    {
+      "id": "43fb3b22-0db9-4943-b9ff-3cdadc7e833c",
+      "sourceId": "66ab1e1c-1b11-4bc6-844a-9c1dcd082456",
+      "targetId": "728703ca-9da4-46f0-a223-15f402396d78",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Tesla Announces Major Expansion in Austin\n\nAUSTIN, Texas - November 15, 2023 - Tesla Inc., led by CEO Elon Musk, announced plans to expand its Gigafactory in Austin, Texas. The $2.5 billion investm..."
+      ]
+    },
+    {
+      "id": "27634b11-92a2-4d42-ad8e-53cd619f68f7",
+      "sourceId": "66ab1e1c-1b11-4bc6-844a-9c1dcd082456",
+      "targetId": "c8826a1e-61ac-47a8-9905-6f8f5c4d99a0",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Tesla Announces Major Expansion in Austin\n\nAUSTIN, Texas - November 15, 2023 - Tesla Inc., led by CEO Elon Musk, announced plans to expand its Gigafactory in Austin, Texas. The $2.5 billion investm..."
+      ]
+    },
+    {
+      "id": "0a35a577-6e70-4f07-83af-4a9d32bfe2a5",
+      "sourceId": "66ab1e1c-1b11-4bc6-844a-9c1dcd082456",
+      "targetId": "c620a73a-22c2-4db3-8dfe-134c20918906",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Tesla Announces Major Expansion in Austin\n\nAUSTIN, Texas - November 15, 2023 - Tesla Inc., led by CEO Elon Musk, announced plans to expand its Gigafactory in Austin, Texas. The $2.5 billion investm..."
+      ]
+    },
+    {
+      "id": "d8f058c8-2fd7-4642-b51a-b5ac2a06f679",
+      "sourceId": "728703ca-9da4-46f0-a223-15f402396d78",
+      "targetId": "c8826a1e-61ac-47a8-9905-6f8f5c4d99a0",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Tesla Announces Major Expansion in Austin\n\nAUSTIN, Texas - November 15, 2023 - Tesla Inc., led by CEO Elon Musk, announced plans to expand its Gigafactory in Austin, Texas. The $2.5 billion investm..."
+      ]
+    },
+    {
+      "id": "65470886-04c6-4087-973a-98e54446dc1c",
+      "sourceId": "728703ca-9da4-46f0-a223-15f402396d78",
+      "targetId": "c620a73a-22c2-4db3-8dfe-134c20918906",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Tesla Announces Major Expansion in Austin\n\nAUSTIN, Texas - November 15, 2023 - Tesla Inc., led by CEO Elon Musk, announced plans to expand its Gigafactory in Austin, Texas. The $2.5 billion investm..."
+      ]
+    },
+    {
+      "id": "af1454c5-1d1c-4f17-8d1a-18b37ac77f69",
+      "sourceId": "c8826a1e-61ac-47a8-9905-6f8f5c4d99a0",
+      "targetId": "c620a73a-22c2-4db3-8dfe-134c20918906",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Tesla Announces Major Expansion in Austin\n\nAUSTIN, Texas - November 15, 2023 - Tesla Inc., led by CEO Elon Musk, announced plans to expand its Gigafactory in Austin, Texas. The $2.5 billion investm..."
+      ]
+    }
+  ],
+  "meta": {
+    "graphId": "e53afe4f-8ca2-4e00-b7d1-3f34227363a4",
+    "createdAt": "2025-11-26T20:31:29.616Z",
+    "updatedAt": "2025-11-26T20:31:29.616Z",
+    "sourceText": "Tesla Announces Major Expansion in Austin\r\n\r\nAUSTIN, Texas - November 15, 2023 - Tesla Inc., led by CEO Elon Musk, announced plans to expand its Gigafactory in Austin, Texas. The $2.5 billion investme"
+  }
+}

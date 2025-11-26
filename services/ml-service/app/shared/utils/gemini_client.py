@@ -87,7 +87,9 @@ class GeminiClient:
         self,
         entity1: str,
         entity2: str,
-        snippets: List[str]
+        snippets: List[str],
+        source_type: str = None,
+        target_type: str = None
     ) -> dict:
         """
         Classify the relationship between two entities using Gemini.
@@ -96,6 +98,8 @@ class GeminiClient:
             entity1: First entity name.
             entity2: Second entity name.
             snippets: Text snippets showing the relationship context.
+            source_type: Optional type of first entity (PERSON, ORGANIZATION, etc.)
+            target_type: Optional type of second entity
             
         Returns:
             Dict with 'type' and 'confidence' keys.
@@ -111,42 +115,64 @@ class GeminiClient:
 
         # Safety check for snippets
         safe_snippets = snippets if snippets else []
-        snippet_text = "\\n".join([f"- {s}" for s in safe_snippets[:5]])
+        snippet_text = "\n".join([f"- {s}" for s in safe_snippets[:5]])
+        
+        # Build entity type context
+        type_info = ""
+        if source_type and target_type:
+            type_info = f" (TYPE: {source_type})" if source_type else ""
+            type_info2 = f" (TYPE: {target_type})" if target_type else ""
+            entity_type_context = f"\n\nEntity Types: {source_type} + {target_type}"
+        else:
+            type_info = ""
+            type_info2 = ""
+            entity_type_context = ""
 
         prompt = f"""
         Analyze the relationship between these two entities based on the text snippets.
         
-        Entity 1: {entity1}
-        Entity 2: {entity2}
+        Entity 1: {entity1}{type_info}
+        Entity 2: {entity2}{type_info2}{entity_type_context}
         
         Context Snippets:
         {snippet_text}
         
-        Classify the relationship into one of these types:
-        - WORKS_AT (person works at organization)
-        - FOUNDED (person founded organization)
-        - LOCATED_IN (entity located in place)
-        - USES (entity uses technology/concept)
-        - PART_OF (entity is part of another)
-        - AUTHORED (person wrote paper/book)
-        - CREATED (entity created another entity)
-        - STUDIED_AT (person studied at institution)
-        - COLLEAGUE_OF (person works with person)
-        - FAMILY_OF (person related to person)
-        - RELATED_TO (Use ONLY if absolutely no other type fits)
+        Classify the relationship into ONE of these types (use EXACT lowercase format):
+        - founded (person founded organization, or founded in year/location)
+        - works_at (person works at organization)
+        - ceo_of (person is CEO of organization)
+        - located_in (entity located in place)
+        - headquartered_in (organization HQ in location)
+        - uses (entity uses technology/concept)
+        - part_of (entity is part of another)
+        - authored (person wrote paper/book)
+        - created (entity created another)
+        - developed (entity developed concept/technology)
+        - studied_at (person studied at institution)
+        - colleague_of (person works with person)
+        - collaborated_with (entities worked together)
+        - acquired_by (organization acquired by another)
+        - born_in (person born in location)
+        - lives_in (person lives in location)
+        - related_to (ONLY if no specific type fits)
         
-        IMPORTANT: Prefer specific types over RELATED_TO. If the relationship is implied, infer the specific type.
+        CRITICAL INSTRUCTIONS:
+        1. Look at the TEXT CAREFULLY - if it says "founded", use "founded"
+        2. Consider entity types - PERSON+ORGANIZATION often means founded/works_at/ceo_of
+        3. ORGANIZATION+LOCATION means located_in or headquartered_in
+        4. PREFER SPECIFIC TYPES - only use "related_to" if truly unclear
+        5. Return relationship type in LOWERCASE
         
-        Return JSON only:
+        Return JSON only (no markdown, no extra text):
         {{
-            "type": "RELATION_TYPE",
-            "confidence": 0.0 to 1.0
+            "type": "relationship_type",
+            "confidence": 0.8
         }}
         """
         
         try:
-            logger.info(f"Classifying relationship: {entity1} <-> {entity2}")
-            logger.debug(f"Snippets: {snippets[:2]}")  # Log first 2 snippets
+            logger.info(f"Classifying: {entity1} ({source_type or '?'}) <-> {entity2} ({target_type or '?'})")
+            logger.debug(f"Snippets: {snippets[:1]}")  # Log first snippet
             
             response = self._call_with_retry(
                 self.model.generate_content,
@@ -154,7 +180,7 @@ class GeminiClient:
                 generation_config={"response_mime_type": "application/json"}
             )
             
-            logger.info(f"Gemini response received: {response.text[:200]}")  # Log first 200 chars
+            logger.info(f"Gemini response: {response.text}")
             
             import json
             result = json.loads(response.text)
@@ -162,8 +188,8 @@ class GeminiClient:
                 "type": result.get("type", "related_to").lower(),
                 "confidence": float(result.get("confidence", 0.5))
             }
-            logger.info(f"Classification result: {classification}")
+            logger.info(f"✓ Classified as '{classification['type']}' (confidence: {classification['confidence']:.2f})")
             return classification
         except Exception as e:
-            logger.warning(f"Relationship classification failed for {entity1}-{entity2}: {e}")
+            logger.error(f"Classification failed for {entity1}-{entity2}: {e}", exc_info=True)
             return {"type": "related_to", "confidence": 0.5}

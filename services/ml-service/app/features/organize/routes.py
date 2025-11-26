@@ -85,10 +85,15 @@ async def extract_graph(request: ExtractRequest):
         
         logger.info(f"Classifying top {len(top_relationships)}/{len(relationships)} relationships")
         
-        # Classify top relationships
+        # Initialize Gemini client for relationship classification
+        gemini_client = GeminiClient()
+        
+        # Classify top relationships with Gemini (reduced delay to prevent timeout)
         classified_relationships = relationship_classifier.classify_relationships_with_llm(
             top_relationships,
-            request.textChunks
+            gemini_client,
+            deduplicated_entities,  # Pass entities for type lookup
+            delay_ms=100  # Reduced from 500ms to prevent timeout
         )
         
         # Combine classified and remaining (unclassified) relationships

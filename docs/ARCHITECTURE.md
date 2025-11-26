@@ -86,25 +86,6 @@ Really Nicca Phase 1 is a **two-service system** designed to convert unstructure
 │  │                                                          │    │
 │  │  Multi-signal matching:                                 │    │
 │  │  • String similarity (Levenshtein ≥ 0.85)              │    │
-│  │  • Semantic similarity (Cosine ≥ 0.90)                 │    │
-│  │  • Abbreviation detection                               │    │
-│  │                                                          │    │
-│  │  Output: Canonical entities + aliases                   │    │
-│  └────────────────┬───────────────────────────────────────┘    │
-│                   │                                              │
-│  ┌────────────────v───────────────────────────────────────┐    │
-│  │  Stage 4: Relationship Classification                   │    │
-│  │                                                          │    │
-│  │  • Track entity occurrences per chunk                   │    │
-│  │  • Calculate co-occurrence weights                      │    │
-│  │  • Filter by threshold (≥ 0.3)                          │    │
-│  │  • Extract example snippets                             │    │
-│  │  • Optional: LLM relationship typing                    │    │
-│  └────────────────┬───────────────────────────────────────┘    │
-│                   │                                              │
-│                   v                                              │
-│           Entities[] + Relationships[]                           │
-│                  (JSON Response)                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
 

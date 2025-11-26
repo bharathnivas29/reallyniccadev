@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "id": "bd212994-021f-407a-aad6-ae4dd22b999a",
+      "label": "Apple",
+      "type": "ORGANIZATION",
+      "confidence": 0.7000000000000001,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Apple is founded by Steve Jobs",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "a29e132a-7920-4178-9d51-421cf8127cd7",
+      "label": "Steve Jobs",
+      "type": "PERSON",
+      "confidence": 0.75,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Apple is founded by Steve Jobs",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "3f255aae-7017-4844-a98a-5cf7592296fb",
+      "sourceId": "bd212994-021f-407a-aad6-ae4dd22b999a",
+      "targetId": "a29e132a-7920-4178-9d51-421cf8127cd7",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Apple is founded by Steve Jobs"
+      ]
+    }
+  ],
+  "meta": {
+    "graphId": "599d6c59-f51a-4d17-8d23-3cdc9bf39e4f",
+    "createdAt": "2025-11-26T19:47:31.188Z",
+    "updatedAt": "2025-11-26T19:47:31.188Z",
+    "sourceText": "Apple is founded by Steve Jobs"
+  }
+}

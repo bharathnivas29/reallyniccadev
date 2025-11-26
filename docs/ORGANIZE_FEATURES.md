@@ -51,10 +51,10 @@ the system should:
        - `PERSON`, `ORGANIZATION`, `CONCEPT`, `DATE`, `PAPER`
      - Generates embeddings for entities.
      - Deduplicates similar entities.
-     - Optionally classifies some relationships.
+     - Classifies relationships using Hybrid Approach (Pattern Matching + LLM).
    - ML returns:
      - `entities[]`
-     - `relationships[]` (optional, used to label explicit edges).
+     - `relationships[]` (with specific types like `founded`, `works_at`).
 
 3. **Graph Building (Backend)**
    - Build nodes from ML entities.
