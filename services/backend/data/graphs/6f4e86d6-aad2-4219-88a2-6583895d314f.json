@@ -1,0 +1,156 @@
+{
+  "nodes": [
+    {
+      "id": "3d1c1156-558d-4777-8979-fffd3ed49bd2",
+      "label": "Elon Musk",
+      "type": "PERSON",
+      "confidence": 0.69,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Elon Musk founded SpaceX in 2002. SpaceX is headquartered i",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "e1bf15e3-2c59-4347-9ea4-f64dde46e479",
+      "label": "2002",
+      "type": "DATE",
+      "confidence": 0.64,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Elon Musk founded SpaceX in 2002. SpaceX is headquartered in Hawthorne, California",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "27660ff9-ad58-48f8-b15a-a51f0e97fb6a",
+      "label": "Hawthorne",
+      "type": "LOCATION",
+      "confidence": 0.69,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "ounded SpaceX in 2002. SpaceX is headquartered in Hawthorne, California.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "3626b48f-834c-4f27-8af6-d60d2bd4816a",
+      "label": "California",
+      "type": "LOCATION",
+      "confidence": 0.7,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "eX in 2002. SpaceX is headquartered in Hawthorne, California.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "5340afd2-b263-4988-a631-2480af3bbc09",
+      "sourceId": "3d1c1156-558d-4777-8979-fffd3ed49bd2",
+      "targetId": "e1bf15e3-2c59-4347-9ea4-f64dde46e479",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk founded SpaceX in 2002. SpaceX is headquartered in Hawthorne, California."
+      ]
+    },
+    {
+      "id": "5f886e02-7000-42dc-9c6d-26638ceaa98e",
+      "sourceId": "3d1c1156-558d-4777-8979-fffd3ed49bd2",
+      "targetId": "27660ff9-ad58-48f8-b15a-a51f0e97fb6a",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk founded SpaceX in 2002. SpaceX is headquartered in Hawthorne, California."
+      ]
+    },
+    {
+      "id": "3b518086-55cd-4ab9-8b6d-2609e8a836e2",
+      "sourceId": "3d1c1156-558d-4777-8979-fffd3ed49bd2",
+      "targetId": "3626b48f-834c-4f27-8af6-d60d2bd4816a",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk founded SpaceX in 2002. SpaceX is headquartered in Hawthorne, California."
+      ]
+    },
+    {
+      "id": "effa6428-94b8-44d8-a1fb-d2599b6e192b",
+      "sourceId": "e1bf15e3-2c59-4347-9ea4-f64dde46e479",
+      "targetId": "27660ff9-ad58-48f8-b15a-a51f0e97fb6a",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk founded SpaceX in 2002. SpaceX is headquartered in Hawthorne, California."
+      ]
+    },
+    {
+      "id": "74683a3e-b78a-41cd-b21e-4c54d3ea02db",
+      "sourceId": "e1bf15e3-2c59-4347-9ea4-f64dde46e479",
+      "targetId": "3626b48f-834c-4f27-8af6-d60d2bd4816a",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk founded SpaceX in 2002. SpaceX is headquartered in Hawthorne, California."
+      ]
+    },
+    {
+      "id": "d0bae5ae-e34f-49cf-ba60-339fc0fce847",
+      "sourceId": "27660ff9-ad58-48f8-b15a-a51f0e97fb6a",
+      "targetId": "3626b48f-834c-4f27-8af6-d60d2bd4816a",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk founded SpaceX in 2002. SpaceX is headquartered in Hawthorne, California."
+      ]
+    }
+  ],
+  "meta": {
+    "graphId": "6f4e86d6-aad2-4219-88a2-6583895d314f",
+    "createdAt": "2025-11-26T06:06:19.138Z",
+    "updatedAt": "2025-11-26T06:06:19.138Z",
+    "sourceText": "Elon Musk founded SpaceX in 2002. SpaceX is headquartered in Hawthorne, California."
+  }
+}

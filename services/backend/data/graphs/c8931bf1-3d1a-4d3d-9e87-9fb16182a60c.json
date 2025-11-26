@@ -1,0 +1,517 @@
+{
+  "nodes": [
+    {
+      "id": "781e60ec-f8c5-4f1b-b92a-26f9a091013b",
+      "label": "Google",
+      "type": "ORGANIZATION",
+      "confidence": 0.71,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Google demonstrated quantum supremacy in 2019 with its S",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "001422e3-c375-4d32-9529-cd3513a793a7",
+      "label": "2019",
+      "type": "DATE",
+      "confidence": 0.6900000000000001,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑q",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "220c9445-44ba-4015-8fbd-78f4db0f9919",
+      "label": "Sycamore",
+      "type": "PERSON",
+      "confidence": 0.73,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "e demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum compu",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "ce8a505b-46cc-4cde-abef-98777aba22bc",
+      "label": "IBM",
+      "type": "ORGANIZATION",
+      "confidence": 0.68,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "um supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022.",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "98ee73cc-b8ca-4954-a145-f33ad15ae3da",
+      "label": "quantum",
+      "type": "ORGANIZATION",
+      "confidence": 0.6699999999999999,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "45544d54-0e80-47fd-bd73-94d53f73716c",
+      "label": "2022",
+      "type": "DATE",
+      "confidence": 0.6900000000000001,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "sor. IBM released a 127‑qubit quantum computer in 2022.",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "a1a4fce5-95b7-4dff-98d6-b4923740db96",
+      "label": "quantum supremacy",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "183244af-d669-492a-b440-1291f715150b",
+      "label": "127-qubit quantum computer",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "1c518327-0c8e-44e2-a813-8147b59674dd",
+      "sourceId": "781e60ec-f8c5-4f1b-b92a-26f9a091013b",
+      "targetId": "001422e3-c375-4d32-9529-cd3513a793a7",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022."
+      ]
+    },
+    {
+      "id": "f8aa4952-6ce3-4ecf-aff3-a2f7683e8d06",
+      "sourceId": "781e60ec-f8c5-4f1b-b92a-26f9a091013b",
+      "targetId": "220c9445-44ba-4015-8fbd-78f4db0f9919",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022."
+      ]
+    },
+    {
+      "id": "218beff6-618d-4d7d-9192-2cc4de75efd9",
+      "sourceId": "781e60ec-f8c5-4f1b-b92a-26f9a091013b",
+      "targetId": "ce8a505b-46cc-4cde-abef-98777aba22bc",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022."
+      ]
+    },
+    {
+      "id": "26b0d19a-5328-4712-b680-6e2939aea3d6",
+      "sourceId": "781e60ec-f8c5-4f1b-b92a-26f9a091013b",
+      "targetId": "98ee73cc-b8ca-4954-a145-f33ad15ae3da",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022."
+      ]
+    },
+    {
+      "id": "ae0e6d01-85d6-46da-8c13-f8fd3cbd1f8f",
+      "sourceId": "781e60ec-f8c5-4f1b-b92a-26f9a091013b",
+      "targetId": "45544d54-0e80-47fd-bd73-94d53f73716c",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022."
+      ]
+    },
+    {
+      "id": "0bf62217-ad8a-413a-be05-86cdd5074bbd",
+      "sourceId": "781e60ec-f8c5-4f1b-b92a-26f9a091013b",
+      "targetId": "a1a4fce5-95b7-4dff-98d6-b4923740db96",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022."
+      ]
+    },
+    {
+      "id": "fd78c6ac-5120-409e-8d8f-a1045954c03c",
+      "sourceId": "781e60ec-f8c5-4f1b-b92a-26f9a091013b",
+      "targetId": "183244af-d669-492a-b440-1291f715150b",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022."
+      ]
+    },
+    {
+      "id": "d9c4f70c-2531-4080-80d0-1c9e91c443c0",
+      "sourceId": "001422e3-c375-4d32-9529-cd3513a793a7",
+      "targetId": "220c9445-44ba-4015-8fbd-78f4db0f9919",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022."
+      ]
+    },
+    {
+      "id": "9e5f4ab3-332e-4dcf-b99e-aa02d920fad6",
+      "sourceId": "001422e3-c375-4d32-9529-cd3513a793a7",
+      "targetId": "ce8a505b-46cc-4cde-abef-98777aba22bc",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022."
+      ]
+    },
+    {
+      "id": "775a22bb-b02b-4452-be24-f0d37a4db04a",
+      "sourceId": "001422e3-c375-4d32-9529-cd3513a793a7",
+      "targetId": "98ee73cc-b8ca-4954-a145-f33ad15ae3da",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022."
+      ]
+    },
+    {
+      "id": "540d80ef-bc11-4df4-beed-2446156b69e5",
+      "sourceId": "001422e3-c375-4d32-9529-cd3513a793a7",
+      "targetId": "45544d54-0e80-47fd-bd73-94d53f73716c",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022."
+      ]
+    },
+    {
+      "id": "41d3a1e1-d2c7-4e37-8c7a-c1b2335a5529",
+      "sourceId": "001422e3-c375-4d32-9529-cd3513a793a7",
+      "targetId": "a1a4fce5-95b7-4dff-98d6-b4923740db96",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022."
+      ]
+    },
+    {
+      "id": "ae35b1de-b8f8-4ff9-bfb1-b44adb0df222",
+      "sourceId": "001422e3-c375-4d32-9529-cd3513a793a7",
+      "targetId": "183244af-d669-492a-b440-1291f715150b",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022."
+      ]
+    },
+    {
+      "id": "35e96922-157a-425b-a0be-38a74905597b",
+      "sourceId": "220c9445-44ba-4015-8fbd-78f4db0f9919",
+      "targetId": "ce8a505b-46cc-4cde-abef-98777aba22bc",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022."
+      ]
+    },
+    {
+      "id": "94445dc8-e0d8-4d07-86f1-1e9d0ba62d14",
+      "sourceId": "220c9445-44ba-4015-8fbd-78f4db0f9919",
+      "targetId": "98ee73cc-b8ca-4954-a145-f33ad15ae3da",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022."
+      ]
+    },
+    {
+      "id": "a011151e-7c54-479d-bbe5-7e81be009c2c",
+      "sourceId": "220c9445-44ba-4015-8fbd-78f4db0f9919",
+      "targetId": "45544d54-0e80-47fd-bd73-94d53f73716c",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022."
+      ]
+    },
+    {
+      "id": "140ef330-d9ad-41d9-9ed9-9fc3a7d55455",
+      "sourceId": "220c9445-44ba-4015-8fbd-78f4db0f9919",
+      "targetId": "a1a4fce5-95b7-4dff-98d6-b4923740db96",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022."
+      ]
+    },
+    {
+      "id": "dd754b0c-c881-48cc-9add-04b26984f7ab",
+      "sourceId": "220c9445-44ba-4015-8fbd-78f4db0f9919",
+      "targetId": "183244af-d669-492a-b440-1291f715150b",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022."
+      ]
+    },
+    {
+      "id": "b1c38871-ba30-4da1-a97f-89a3f0eacb22",
+      "sourceId": "ce8a505b-46cc-4cde-abef-98777aba22bc",
+      "targetId": "98ee73cc-b8ca-4954-a145-f33ad15ae3da",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022."
+      ]
+    },
+    {
+      "id": "fe8a1d12-fa62-4e3d-9896-3f2d76bcb40e",
+      "sourceId": "ce8a505b-46cc-4cde-abef-98777aba22bc",
+      "targetId": "45544d54-0e80-47fd-bd73-94d53f73716c",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022."
+      ]
+    },
+    {
+      "id": "630825ee-2a29-4586-b04b-5818abad9480",
+      "sourceId": "ce8a505b-46cc-4cde-abef-98777aba22bc",
+      "targetId": "a1a4fce5-95b7-4dff-98d6-b4923740db96",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022."
+      ]
+    },
+    {
+      "id": "7c83788a-cc5f-4be2-8449-b09e52568046",
+      "sourceId": "ce8a505b-46cc-4cde-abef-98777aba22bc",
+      "targetId": "183244af-d669-492a-b440-1291f715150b",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022."
+      ]
+    },
+    {
+      "id": "65308950-9377-4fa2-84bb-a11638790952",
+      "sourceId": "98ee73cc-b8ca-4954-a145-f33ad15ae3da",
+      "targetId": "45544d54-0e80-47fd-bd73-94d53f73716c",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022."
+      ]
+    },
+    {
+      "id": "d2dfbaa4-448c-485d-ac9b-8d9fd6b664d1",
+      "sourceId": "98ee73cc-b8ca-4954-a145-f33ad15ae3da",
+      "targetId": "a1a4fce5-95b7-4dff-98d6-b4923740db96",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022."
+      ]
+    },
+    {
+      "id": "480e69c1-fe5d-4479-9351-1a5ff94029a0",
+      "sourceId": "98ee73cc-b8ca-4954-a145-f33ad15ae3da",
+      "targetId": "183244af-d669-492a-b440-1291f715150b",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022."
+      ]
+    },
+    {
+      "id": "cf2618f0-79bf-4dec-86a5-252d4adf4351",
+      "sourceId": "45544d54-0e80-47fd-bd73-94d53f73716c",
+      "targetId": "a1a4fce5-95b7-4dff-98d6-b4923740db96",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022."
+      ]
+    },
+    {
+      "id": "49fc724b-1b22-46af-b4f4-ec7bbf8801e5",
+      "sourceId": "45544d54-0e80-47fd-bd73-94d53f73716c",
+      "targetId": "183244af-d669-492a-b440-1291f715150b",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022."
+      ]
+    },
+    {
+      "id": "9a2d921a-3161-4a8b-8c04-c302bef1e541",
+      "sourceId": "a1a4fce5-95b7-4dff-98d6-b4923740db96",
+      "targetId": "183244af-d669-492a-b440-1291f715150b",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022."
+      ]
+    }
+  ],
+  "meta": {
+    "graphId": "c8931bf1-3d1a-4d3d-9e87-9fb16182a60c",
+    "createdAt": "2025-11-23T06:07:13.280Z",
+    "updatedAt": "2025-11-23T06:07:13.280Z",
+    "sourceText": "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022."
+  }
+}

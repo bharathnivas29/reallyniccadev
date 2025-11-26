@@ -1,0 +1,310 @@
+{
+  "nodes": [
+    {
+      "id": "8a08fb7e-3bd7-4a28-9cc9-da0c1e41f574",
+      "label": "Google",
+      "type": "ORGANIZATION",
+      "confidence": 0.71,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Google developed TensorFlow. OpenAI created GPT. Microso",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "Google developed TensorFlow. OpenAI created GPT. Microsoft owns GitHub.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "7a346932-b98d-4e14-8f53-75f48861d852",
+      "label": "TensorFlow",
+      "type": "CONCEPT",
+      "confidence": 0.75,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Google developed TensorFlow. OpenAI created GPT. Microsoft owns GitHub.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "4e654cad-167a-4ff5-8550-288c6c03bade",
+      "label": "OpenAI",
+      "type": "LOCATION",
+      "confidence": 0.71,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Google developed TensorFlow. OpenAI created GPT. Microsoft owns GitHub.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "530f11b9-589e-44b2-ae88-c3ac53302670",
+      "label": "GPT",
+      "type": "ORGANIZATION",
+      "confidence": 0.68,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Google developed TensorFlow. OpenAI created GPT. Microsoft owns GitHub.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "8911cc4c-c7fa-47ed-94e2-23170e436c02",
+      "label": "Microsoft",
+      "type": "ORGANIZATION",
+      "confidence": 0.74,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Google developed TensorFlow. OpenAI created GPT. Microsoft owns GitHub.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "80e36676-2005-492e-90f6-b4dd9e812cf5",
+      "label": "GitHub",
+      "type": "ORGANIZATION",
+      "confidence": 0.71,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "ed TensorFlow. OpenAI created GPT. Microsoft owns GitHub.",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "Google developed TensorFlow. OpenAI created GPT. Microsoft owns GitHub.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "c0e2753c-94d5-499c-ae41-1d557c90c2e4",
+      "sourceId": "8a08fb7e-3bd7-4a28-9cc9-da0c1e41f574",
+      "targetId": "7a346932-b98d-4e14-8f53-75f48861d852",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google developed TensorFlow. OpenAI created GPT. Microsoft owns GitHub."
+      ]
+    },
+    {
+      "id": "b3e5e372-da41-4703-868b-a3fc78657c68",
+      "sourceId": "8a08fb7e-3bd7-4a28-9cc9-da0c1e41f574",
+      "targetId": "4e654cad-167a-4ff5-8550-288c6c03bade",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google developed TensorFlow. OpenAI created GPT. Microsoft owns GitHub."
+      ]
+    },
+    {
+      "id": "89d9ec81-9ea1-41ee-a088-d781bdcc624f",
+      "sourceId": "8a08fb7e-3bd7-4a28-9cc9-da0c1e41f574",
+      "targetId": "530f11b9-589e-44b2-ae88-c3ac53302670",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google developed TensorFlow. OpenAI created GPT. Microsoft owns GitHub."
+      ]
+    },
+    {
+      "id": "37b914f5-6eb9-4ccc-98ec-20202cc9bfdb",
+      "sourceId": "8a08fb7e-3bd7-4a28-9cc9-da0c1e41f574",
+      "targetId": "8911cc4c-c7fa-47ed-94e2-23170e436c02",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google developed TensorFlow. OpenAI created GPT. Microsoft owns GitHub."
+      ]
+    },
+    {
+      "id": "0c4eb48f-1058-4ccb-b6f9-b64fe5dd84e0",
+      "sourceId": "8a08fb7e-3bd7-4a28-9cc9-da0c1e41f574",
+      "targetId": "80e36676-2005-492e-90f6-b4dd9e812cf5",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google developed TensorFlow. OpenAI created GPT. Microsoft owns GitHub."
+      ]
+    },
+    {
+      "id": "a0bdf801-d7db-4a2d-b0d5-8076e36112a2",
+      "sourceId": "7a346932-b98d-4e14-8f53-75f48861d852",
+      "targetId": "4e654cad-167a-4ff5-8550-288c6c03bade",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google developed TensorFlow. OpenAI created GPT. Microsoft owns GitHub."
+      ]
+    },
+    {
+      "id": "38f4da60-6a02-4912-bc18-6ac785c07a5f",
+      "sourceId": "7a346932-b98d-4e14-8f53-75f48861d852",
+      "targetId": "530f11b9-589e-44b2-ae88-c3ac53302670",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google developed TensorFlow. OpenAI created GPT. Microsoft owns GitHub."
+      ]
+    },
+    {
+      "id": "ea17d7eb-eaa9-44f4-aaa5-cdbd310b2536",
+      "sourceId": "7a346932-b98d-4e14-8f53-75f48861d852",
+      "targetId": "8911cc4c-c7fa-47ed-94e2-23170e436c02",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google developed TensorFlow. OpenAI created GPT. Microsoft owns GitHub."
+      ]
+    },
+    {
+      "id": "4be60ee8-17c5-4883-94f1-40e16da3ac1f",
+      "sourceId": "7a346932-b98d-4e14-8f53-75f48861d852",
+      "targetId": "80e36676-2005-492e-90f6-b4dd9e812cf5",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google developed TensorFlow. OpenAI created GPT. Microsoft owns GitHub."
+      ]
+    },
+    {
+      "id": "03699a15-af3c-4a1f-838c-a4d7fe47a5e4",
+      "sourceId": "4e654cad-167a-4ff5-8550-288c6c03bade",
+      "targetId": "530f11b9-589e-44b2-ae88-c3ac53302670",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google developed TensorFlow. OpenAI created GPT. Microsoft owns GitHub."
+      ]
+    },
+    {
+      "id": "dc250bc1-f7aa-4350-94b6-21bc2ab410ff",
+      "sourceId": "4e654cad-167a-4ff5-8550-288c6c03bade",
+      "targetId": "8911cc4c-c7fa-47ed-94e2-23170e436c02",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google developed TensorFlow. OpenAI created GPT. Microsoft owns GitHub."
+      ]
+    },
+    {
+      "id": "beaebed8-da6f-4c2a-8bc9-845dc1e3e0ab",
+      "sourceId": "4e654cad-167a-4ff5-8550-288c6c03bade",
+      "targetId": "80e36676-2005-492e-90f6-b4dd9e812cf5",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google developed TensorFlow. OpenAI created GPT. Microsoft owns GitHub."
+      ]
+    },
+    {
+      "id": "cacd0595-0ac4-4ff7-9b3a-f12a075ab70e",
+      "sourceId": "530f11b9-589e-44b2-ae88-c3ac53302670",
+      "targetId": "8911cc4c-c7fa-47ed-94e2-23170e436c02",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google developed TensorFlow. OpenAI created GPT. Microsoft owns GitHub."
+      ]
+    },
+    {
+      "id": "7ce4f842-2807-4f46-ba06-824b41da6b13",
+      "sourceId": "530f11b9-589e-44b2-ae88-c3ac53302670",
+      "targetId": "80e36676-2005-492e-90f6-b4dd9e812cf5",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google developed TensorFlow. OpenAI created GPT. Microsoft owns GitHub."
+      ]
+    },
+    {
+      "id": "a2aac32f-f163-4bbb-a20a-89bd1801c2cd",
+      "sourceId": "8911cc4c-c7fa-47ed-94e2-23170e436c02",
+      "targetId": "80e36676-2005-492e-90f6-b4dd9e812cf5",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Google developed TensorFlow. OpenAI created GPT. Microsoft owns GitHub."
+      ]
+    }
+  ],
+  "meta": {
+    "graphId": "8ee0228c-9d00-466f-8cc2-567318febff9",
+    "createdAt": "2025-11-23T18:52:25.309Z",
+    "updatedAt": "2025-11-23T18:52:25.309Z",
+    "sourceText": "Google developed TensorFlow. OpenAI created GPT. Microsoft owns GitHub."
+  }
+}

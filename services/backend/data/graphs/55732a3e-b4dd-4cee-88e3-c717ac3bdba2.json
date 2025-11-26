@@ -1,0 +1,65 @@
+{
+  "nodes": [
+    {
+      "id": "bf998a49-cf60-4b41-a118-f3316b7fb06d",
+      "label": "Albert Einstein",
+      "type": "PERSON",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Albert Einstein was a theoretical physicist who developed the the",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "Albert Einstein was a theoretical physicist who developed the theory of relativity.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "0c0ccb4d-ebf1-478b-b8fb-84ad27d2af09",
+      "label": "theory of relativity",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Albert Einstein was a theoretical physicist who developed the theory of relativity.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "209a70b8-5b17-4587-8ea2-71c95b131d9f",
+      "sourceId": "bf998a49-cf60-4b41-a118-f3316b7fb06d",
+      "targetId": "0c0ccb4d-ebf1-478b-b8fb-84ad27d2af09",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Albert Einstein was a theoretical physicist who developed the theory of relativity."
+      ]
+    }
+  ],
+  "meta": {
+    "graphId": "55732a3e-b4dd-4cee-88e3-c717ac3bdba2",
+    "createdAt": "2025-11-23T18:44:32.438Z",
+    "updatedAt": "2025-11-23T18:44:32.438Z",
+    "sourceText": "Albert Einstein was a theoretical physicist who developed the theory of relativity."
+  }
+}

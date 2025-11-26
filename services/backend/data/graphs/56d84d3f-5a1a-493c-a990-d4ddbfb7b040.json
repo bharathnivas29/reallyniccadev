@@ -1,0 +1,102 @@
+{
+  "nodes": [
+    {
+      "id": "504b8447-cb64-4ea2-b585-8891890aaa1c",
+      "label": "Apple Inc.",
+      "type": "ORGANIZATION",
+      "confidence": 0.75,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Apple Inc. was founded by Steve Jobs in California.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "ca9a11ee-1f63-4edc-bca1-e018b616446a",
+      "label": "Steve Jobs",
+      "type": "PERSON",
+      "confidence": 0.75,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Apple Inc. was founded by Steve Jobs in California.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "a5a88b7c-ec14-43ee-8aa7-7fa58f3cf447",
+      "label": "California",
+      "type": "LOCATION",
+      "confidence": 0.75,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Apple Inc. was founded by Steve Jobs in California.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "62c89a6e-c3e9-47b9-88de-995a382bc217",
+      "sourceId": "504b8447-cb64-4ea2-b585-8891890aaa1c",
+      "targetId": "ca9a11ee-1f63-4edc-bca1-e018b616446a",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Apple Inc. was founded by Steve Jobs in California."
+      ]
+    },
+    {
+      "id": "285af9b1-ca5d-4687-9eb5-c93e373eb6af",
+      "sourceId": "504b8447-cb64-4ea2-b585-8891890aaa1c",
+      "targetId": "a5a88b7c-ec14-43ee-8aa7-7fa58f3cf447",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Apple Inc. was founded by Steve Jobs in California."
+      ]
+    },
+    {
+      "id": "3aee2470-4abd-4990-baea-962cf15ff8e1",
+      "sourceId": "ca9a11ee-1f63-4edc-bca1-e018b616446a",
+      "targetId": "a5a88b7c-ec14-43ee-8aa7-7fa58f3cf447",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Apple Inc. was founded by Steve Jobs in California."
+      ]
+    }
+  ],
+  "meta": {
+    "graphId": "56d84d3f-5a1a-493c-a990-d4ddbfb7b040",
+    "createdAt": "2025-11-23T05:31:24.303Z",
+    "updatedAt": "2025-11-23T05:31:24.303Z",
+    "sourceText": "Apple Inc. was founded by Steve Jobs in California."
+  }
+}

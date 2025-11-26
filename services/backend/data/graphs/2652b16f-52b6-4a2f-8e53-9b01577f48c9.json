@@ -1,0 +1,2460 @@
+{
+  "nodes": [
+    {
+      "id": "5b3a386a-692b-47de-8ee3-e01cd05fbad2",
+      "label": "Artificial Intelligence (AI",
+      "type": "ORGANIZATION",
+      "confidence": 0.7350000000000001,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Artificial Intelligence (AI) has revolutionized technology in the 21st centur",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "the 21st century. Machine Learning,  a subset of AI, enables computers to learn from data without exp",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "has become the dominant programming language for AI development due to its  simplicity and extensive",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [
+        "AI"
+      ],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "fc773129-1ce0-41be-ac5b-df621f401ac6",
+      "label": "the 21st century",
+      "type": "DATE",
+      "confidence": 0.8400000000000001,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "ntelligence (AI) has revolutionized technology in the 21st century. Machine Learning,  a subset of AI, enables compu",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, \nwh",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [
+        "21st century"
+      ],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "484d1511-0427-4b44-83b4-884b92b3ac03",
+      "label": "Machine Learning",
+      "type": "PERSON",
+      "confidence": 0.81,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "as revolutionized technology in the 21st century. Machine Learning,  a subset of AI, enables computers to learn from",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, \nwh",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "dafb91a4-735c-4bd3-afb8-fcb32150bdf2",
+      "label": "Deep Learning",
+      "type": "PERSON",
+      "confidence": 0.78,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "to learn from data without explicit programming. Deep Learning,  which uses neural networks, has achieved remark",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, \nwh",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "0e979534-bdb0-4cf0-bf2c-4340d02613f4",
+      "label": "Google",
+      "type": "ORGANIZATION",
+      "confidence": 0.71,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "age recognition and natural language  processing. Google developed TensorFlow in 2015, an open-source fram",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, \nwh",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "b06bb280-e49b-4f00-a713-faf6915bc23f",
+      "label": "TensorFlow",
+      "type": "CONCEPT",
+      "confidence": 0.75,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "nd natural language  processing. Google developed TensorFlow in 2015, an open-source framework for machine lea",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, \nwh",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "02b7b190-d6f8-4202-99aa-43c303de49f8",
+      "label": "2015",
+      "type": "DATE",
+      "confidence": 0.7400000000000001,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "guage  processing. Google developed TensorFlow in 2015, an open-source framework for machine learning.",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "amework for machine learning.  OpenAI, founded in 2015, created GPT (Generative Pre-trained Transformer)",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, \nwh",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "83c88c8a-74f3-4564-b67a-116d8770d8e7",
+      "label": "OpenAI",
+      "type": "LOCATION",
+      "confidence": 0.71,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": ", an open-source framework for machine learning.  OpenAI, founded in 2015, created GPT (Generative Pre-tra",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, \nwh",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "937209f0-8fc4-47ae-80ec-3fcda1fdc92c",
+      "label": "GPT",
+      "type": "ORGANIZATION",
+      "confidence": 0.63,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "chine learning.  OpenAI, founded in 2015, created GPT (Generative Pre-trained Transformer) models that",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "aaa59fda-062a-47f6-ab64-ed5caac44df7",
+      "label": "Generative Pre-trained",
+      "type": "PERSON",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "learning.  OpenAI, founded in 2015, created GPT (Generative Pre-trained Transformer) models that can generate  human-like",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "fbfe3050-3a2e-4d18-8e81-933ea97e5c88",
+      "label": "Transformer",
+      "type": "ORGANIZATION",
+      "confidence": 0.71,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "nded in 2015, created GPT (Generative Pre-trained Transformer) models that can generate  human-like text. Pytho",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "8ea5aa43-2528-4355-9cec-bccb1c58150e",
+      "label": "Artificial Intelligence",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, \nwh",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "91755c6a-d981-4f97-9ccc-6dbea070ed56",
+      "label": "neural networks",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, \nwh",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "9521407d-df49-4e8b-a52d-478ef2266eff",
+      "label": "image recognition",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, \nwh",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "c36d6adf-3c0f-4b9a-b34a-f61bf8ebf87c",
+      "label": "natural language processing",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, \nwh",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "f52d2967-151a-4179-b6ee-fc67d0e92689",
+      "label": "GPT models",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, \nwh",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "f9c1105c-b2b8-4c00-a6a6-976b8ceb0d36",
+      "label": "Python",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, \nwh",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "63471b8e-a3db-4eb5-95db-daa2bb27dbae",
+      "label": "NumPy",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, \nwh",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "e484b335-8fa0-4893-a814-7a3b323c04c2",
+      "label": "PyTorch",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, \nwh",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "73f083ed-9dfe-419e-a0a3-8abad779059f",
+      "sourceId": "5b3a386a-692b-47de-8ee3-e01cd05fbad2",
+      "targetId": "fc773129-1ce0-41be-ac5b-df621f401ac6",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "64beb476-3448-4f75-82c6-c7ceff50f771",
+      "sourceId": "5b3a386a-692b-47de-8ee3-e01cd05fbad2",
+      "targetId": "484d1511-0427-4b44-83b4-884b92b3ac03",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "b150bdea-5e98-4058-b92d-fc9ebb5e7055",
+      "sourceId": "5b3a386a-692b-47de-8ee3-e01cd05fbad2",
+      "targetId": "dafb91a4-735c-4bd3-afb8-fcb32150bdf2",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "cf8faa72-8dc2-4454-b8ed-dfe2a92dd0db",
+      "sourceId": "5b3a386a-692b-47de-8ee3-e01cd05fbad2",
+      "targetId": "0e979534-bdb0-4cf0-bf2c-4340d02613f4",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "2d5f3b51-a9fd-4ff6-8184-c718bdf91f1e",
+      "sourceId": "5b3a386a-692b-47de-8ee3-e01cd05fbad2",
+      "targetId": "b06bb280-e49b-4f00-a713-faf6915bc23f",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "9c65a75a-b900-44a2-9b9c-f21f8e756f87",
+      "sourceId": "5b3a386a-692b-47de-8ee3-e01cd05fbad2",
+      "targetId": "02b7b190-d6f8-4202-99aa-43c303de49f8",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "56c44a02-569a-40f0-9984-8b0d3cb5231a",
+      "sourceId": "5b3a386a-692b-47de-8ee3-e01cd05fbad2",
+      "targetId": "83c88c8a-74f3-4564-b67a-116d8770d8e7",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "eeb86a75-12e6-434e-a911-20b595618f79",
+      "sourceId": "5b3a386a-692b-47de-8ee3-e01cd05fbad2",
+      "targetId": "937209f0-8fc4-47ae-80ec-3fcda1fdc92c",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "5ffcd2f0-cd53-4d0f-82f1-5a740e34a026",
+      "sourceId": "5b3a386a-692b-47de-8ee3-e01cd05fbad2",
+      "targetId": "aaa59fda-062a-47f6-ab64-ed5caac44df7",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "d19e6849-f46a-4abc-8b64-037b1d6a9ea7",
+      "sourceId": "5b3a386a-692b-47de-8ee3-e01cd05fbad2",
+      "targetId": "fbfe3050-3a2e-4d18-8e81-933ea97e5c88",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "f4943a79-dd03-48c5-97b3-c0b358e17b14",
+      "sourceId": "5b3a386a-692b-47de-8ee3-e01cd05fbad2",
+      "targetId": "8ea5aa43-2528-4355-9cec-bccb1c58150e",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "70a8fd67-e252-436c-8e77-ab0ed3258641",
+      "sourceId": "5b3a386a-692b-47de-8ee3-e01cd05fbad2",
+      "targetId": "91755c6a-d981-4f97-9ccc-6dbea070ed56",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "ce6418ff-ce89-4ca0-b56f-1639a245b7c7",
+      "sourceId": "5b3a386a-692b-47de-8ee3-e01cd05fbad2",
+      "targetId": "9521407d-df49-4e8b-a52d-478ef2266eff",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "75b00462-e8f2-4cd8-a1e2-77d3ed638359",
+      "sourceId": "5b3a386a-692b-47de-8ee3-e01cd05fbad2",
+      "targetId": "c36d6adf-3c0f-4b9a-b34a-f61bf8ebf87c",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "05304dc9-9f37-4627-80f9-11e522578e47",
+      "sourceId": "5b3a386a-692b-47de-8ee3-e01cd05fbad2",
+      "targetId": "f52d2967-151a-4179-b6ee-fc67d0e92689",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "6a2fe39d-ee9c-4134-ab29-b0bbb5f3eb43",
+      "sourceId": "5b3a386a-692b-47de-8ee3-e01cd05fbad2",
+      "targetId": "f9c1105c-b2b8-4c00-a6a6-976b8ceb0d36",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "d9c544ae-1d2a-431b-b01b-cee441d93dd2",
+      "sourceId": "5b3a386a-692b-47de-8ee3-e01cd05fbad2",
+      "targetId": "63471b8e-a3db-4eb5-95db-daa2bb27dbae",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "9a4732c3-0735-4f92-ba79-64fbbd372680",
+      "sourceId": "5b3a386a-692b-47de-8ee3-e01cd05fbad2",
+      "targetId": "e484b335-8fa0-4893-a814-7a3b323c04c2",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "df46c639-0fb6-4e80-a03d-ea3a36d20750",
+      "sourceId": "fc773129-1ce0-41be-ac5b-df621f401ac6",
+      "targetId": "484d1511-0427-4b44-83b4-884b92b3ac03",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "ab83debc-42f8-46ee-afd7-9ba1c6fcd164",
+      "sourceId": "fc773129-1ce0-41be-ac5b-df621f401ac6",
+      "targetId": "dafb91a4-735c-4bd3-afb8-fcb32150bdf2",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "cb5ebf7e-21c8-42ca-b50d-6ceb59c3ceff",
+      "sourceId": "fc773129-1ce0-41be-ac5b-df621f401ac6",
+      "targetId": "0e979534-bdb0-4cf0-bf2c-4340d02613f4",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "437579c7-ccdc-4033-b764-962f400304c2",
+      "sourceId": "fc773129-1ce0-41be-ac5b-df621f401ac6",
+      "targetId": "b06bb280-e49b-4f00-a713-faf6915bc23f",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "575987f8-4cbb-4bbd-a1da-55fac9445399",
+      "sourceId": "fc773129-1ce0-41be-ac5b-df621f401ac6",
+      "targetId": "02b7b190-d6f8-4202-99aa-43c303de49f8",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "2f0ca86f-97c8-4284-a0f6-bb8e9fa5e552",
+      "sourceId": "fc773129-1ce0-41be-ac5b-df621f401ac6",
+      "targetId": "83c88c8a-74f3-4564-b67a-116d8770d8e7",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "0277081c-6ba3-4b60-b41a-b52d58ad5133",
+      "sourceId": "fc773129-1ce0-41be-ac5b-df621f401ac6",
+      "targetId": "937209f0-8fc4-47ae-80ec-3fcda1fdc92c",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "e6a5f3e0-8dbd-451b-b25a-d415668aff68",
+      "sourceId": "fc773129-1ce0-41be-ac5b-df621f401ac6",
+      "targetId": "aaa59fda-062a-47f6-ab64-ed5caac44df7",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "728071f0-6f08-4187-a9ce-8673b685e4f8",
+      "sourceId": "fc773129-1ce0-41be-ac5b-df621f401ac6",
+      "targetId": "fbfe3050-3a2e-4d18-8e81-933ea97e5c88",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "4fa39309-cadd-4826-8189-f6cf52ecd543",
+      "sourceId": "fc773129-1ce0-41be-ac5b-df621f401ac6",
+      "targetId": "8ea5aa43-2528-4355-9cec-bccb1c58150e",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "71469b6e-0d51-4ab1-a07a-2ea2658aa9a2",
+      "sourceId": "fc773129-1ce0-41be-ac5b-df621f401ac6",
+      "targetId": "91755c6a-d981-4f97-9ccc-6dbea070ed56",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "4a2506cf-3132-4b69-9e76-37c3816b8bcb",
+      "sourceId": "fc773129-1ce0-41be-ac5b-df621f401ac6",
+      "targetId": "9521407d-df49-4e8b-a52d-478ef2266eff",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "7b3f9883-4f64-43df-a409-c735730ec465",
+      "sourceId": "fc773129-1ce0-41be-ac5b-df621f401ac6",
+      "targetId": "c36d6adf-3c0f-4b9a-b34a-f61bf8ebf87c",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "128d6017-e81b-4d48-a667-f9c2f5156e1f",
+      "sourceId": "fc773129-1ce0-41be-ac5b-df621f401ac6",
+      "targetId": "f52d2967-151a-4179-b6ee-fc67d0e92689",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "042dabba-beae-41cd-9f51-56041e02d53b",
+      "sourceId": "fc773129-1ce0-41be-ac5b-df621f401ac6",
+      "targetId": "f9c1105c-b2b8-4c00-a6a6-976b8ceb0d36",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "b98172b6-4edb-43fb-912d-fc1dff5d6540",
+      "sourceId": "fc773129-1ce0-41be-ac5b-df621f401ac6",
+      "targetId": "63471b8e-a3db-4eb5-95db-daa2bb27dbae",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "6ffbab76-c92e-484a-905e-b06b1f8d8da5",
+      "sourceId": "fc773129-1ce0-41be-ac5b-df621f401ac6",
+      "targetId": "e484b335-8fa0-4893-a814-7a3b323c04c2",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "59521535-4961-48dd-aed2-44d1d5c5ccab",
+      "sourceId": "484d1511-0427-4b44-83b4-884b92b3ac03",
+      "targetId": "dafb91a4-735c-4bd3-afb8-fcb32150bdf2",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "8c5a0b8e-cd0c-4727-a61a-01256a8cf398",
+      "sourceId": "484d1511-0427-4b44-83b4-884b92b3ac03",
+      "targetId": "0e979534-bdb0-4cf0-bf2c-4340d02613f4",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "17b5444c-68de-4b1d-8974-a75c26736745",
+      "sourceId": "484d1511-0427-4b44-83b4-884b92b3ac03",
+      "targetId": "b06bb280-e49b-4f00-a713-faf6915bc23f",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "44038a1e-4911-4d73-b05d-8653c2d01673",
+      "sourceId": "484d1511-0427-4b44-83b4-884b92b3ac03",
+      "targetId": "02b7b190-d6f8-4202-99aa-43c303de49f8",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "dfe1ed9b-7954-49ca-8ae8-ac8dd0b1a50c",
+      "sourceId": "484d1511-0427-4b44-83b4-884b92b3ac03",
+      "targetId": "83c88c8a-74f3-4564-b67a-116d8770d8e7",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "2cfa68ae-3f6f-4013-bcfc-4c7640b3a084",
+      "sourceId": "484d1511-0427-4b44-83b4-884b92b3ac03",
+      "targetId": "937209f0-8fc4-47ae-80ec-3fcda1fdc92c",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "3d05cb8c-efbc-45ff-87aa-a98186691383",
+      "sourceId": "484d1511-0427-4b44-83b4-884b92b3ac03",
+      "targetId": "aaa59fda-062a-47f6-ab64-ed5caac44df7",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "c19ac85e-8776-4426-84bd-c59c6d9d1742",
+      "sourceId": "484d1511-0427-4b44-83b4-884b92b3ac03",
+      "targetId": "fbfe3050-3a2e-4d18-8e81-933ea97e5c88",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "8c85e19d-b683-4f2b-a40b-28cdfe73151a",
+      "sourceId": "484d1511-0427-4b44-83b4-884b92b3ac03",
+      "targetId": "8ea5aa43-2528-4355-9cec-bccb1c58150e",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "669f0943-b94b-464d-94f8-a26cdc2a7b2b",
+      "sourceId": "484d1511-0427-4b44-83b4-884b92b3ac03",
+      "targetId": "91755c6a-d981-4f97-9ccc-6dbea070ed56",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "264daeb5-5222-45d8-8a72-b398ca557f49",
+      "sourceId": "484d1511-0427-4b44-83b4-884b92b3ac03",
+      "targetId": "9521407d-df49-4e8b-a52d-478ef2266eff",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "9cf448c8-f790-4f5e-9849-287657bdf869",
+      "sourceId": "484d1511-0427-4b44-83b4-884b92b3ac03",
+      "targetId": "c36d6adf-3c0f-4b9a-b34a-f61bf8ebf87c",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "0263bd70-44a3-49e1-970d-15f5f7fdf17d",
+      "sourceId": "484d1511-0427-4b44-83b4-884b92b3ac03",
+      "targetId": "f52d2967-151a-4179-b6ee-fc67d0e92689",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "fc74d0e4-1abb-4754-a95c-5ea62bd740d2",
+      "sourceId": "484d1511-0427-4b44-83b4-884b92b3ac03",
+      "targetId": "f9c1105c-b2b8-4c00-a6a6-976b8ceb0d36",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "e7e88956-2e60-4cd1-a158-68033c4008e5",
+      "sourceId": "484d1511-0427-4b44-83b4-884b92b3ac03",
+      "targetId": "63471b8e-a3db-4eb5-95db-daa2bb27dbae",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "a9ac05c2-d1ec-452e-ac04-200b40ca9dd1",
+      "sourceId": "484d1511-0427-4b44-83b4-884b92b3ac03",
+      "targetId": "e484b335-8fa0-4893-a814-7a3b323c04c2",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "7ed67556-28d1-40d8-9eb9-4f072dfe2f88",
+      "sourceId": "dafb91a4-735c-4bd3-afb8-fcb32150bdf2",
+      "targetId": "0e979534-bdb0-4cf0-bf2c-4340d02613f4",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "0b1ee039-f18f-4bdb-a491-c0cd5db6125e",
+      "sourceId": "dafb91a4-735c-4bd3-afb8-fcb32150bdf2",
+      "targetId": "b06bb280-e49b-4f00-a713-faf6915bc23f",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "0904168f-bb3c-43ed-9488-67af90948c5b",
+      "sourceId": "dafb91a4-735c-4bd3-afb8-fcb32150bdf2",
+      "targetId": "02b7b190-d6f8-4202-99aa-43c303de49f8",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "37a2a5ae-507d-4eb4-b9c9-6d0c40ff397b",
+      "sourceId": "dafb91a4-735c-4bd3-afb8-fcb32150bdf2",
+      "targetId": "83c88c8a-74f3-4564-b67a-116d8770d8e7",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "86223c5a-25ae-4bb6-8495-b761501a1950",
+      "sourceId": "dafb91a4-735c-4bd3-afb8-fcb32150bdf2",
+      "targetId": "937209f0-8fc4-47ae-80ec-3fcda1fdc92c",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "56e34f0a-e834-4a4b-a5d2-3f48e0aba4f2",
+      "sourceId": "dafb91a4-735c-4bd3-afb8-fcb32150bdf2",
+      "targetId": "aaa59fda-062a-47f6-ab64-ed5caac44df7",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "115b0fdf-da77-4d18-8fcd-83169fc2e3ba",
+      "sourceId": "dafb91a4-735c-4bd3-afb8-fcb32150bdf2",
+      "targetId": "fbfe3050-3a2e-4d18-8e81-933ea97e5c88",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "7773d361-f3b8-48fc-a5ca-eaa16784b2ad",
+      "sourceId": "dafb91a4-735c-4bd3-afb8-fcb32150bdf2",
+      "targetId": "8ea5aa43-2528-4355-9cec-bccb1c58150e",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "34e00e0c-5bfc-4442-8e24-d88664733d23",
+      "sourceId": "dafb91a4-735c-4bd3-afb8-fcb32150bdf2",
+      "targetId": "91755c6a-d981-4f97-9ccc-6dbea070ed56",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "15528271-caac-4f36-87ab-36cf0b07253b",
+      "sourceId": "dafb91a4-735c-4bd3-afb8-fcb32150bdf2",
+      "targetId": "9521407d-df49-4e8b-a52d-478ef2266eff",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "9f8ee374-92ac-43d7-a842-44853d3527bf",
+      "sourceId": "dafb91a4-735c-4bd3-afb8-fcb32150bdf2",
+      "targetId": "c36d6adf-3c0f-4b9a-b34a-f61bf8ebf87c",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "d3915dd9-98b8-4045-bf20-2311fb59b487",
+      "sourceId": "dafb91a4-735c-4bd3-afb8-fcb32150bdf2",
+      "targetId": "f52d2967-151a-4179-b6ee-fc67d0e92689",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "34ca3b5a-b869-4f91-a3bb-c2e475151a10",
+      "sourceId": "dafb91a4-735c-4bd3-afb8-fcb32150bdf2",
+      "targetId": "f9c1105c-b2b8-4c00-a6a6-976b8ceb0d36",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "6398bf31-99ed-47d5-9f93-c77dff675060",
+      "sourceId": "dafb91a4-735c-4bd3-afb8-fcb32150bdf2",
+      "targetId": "63471b8e-a3db-4eb5-95db-daa2bb27dbae",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "f2b93d9e-a66d-4c88-a305-da4fcce45b7a",
+      "sourceId": "dafb91a4-735c-4bd3-afb8-fcb32150bdf2",
+      "targetId": "e484b335-8fa0-4893-a814-7a3b323c04c2",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "703a067f-2a0d-4d96-90bc-749ef3e67fb3",
+      "sourceId": "0e979534-bdb0-4cf0-bf2c-4340d02613f4",
+      "targetId": "b06bb280-e49b-4f00-a713-faf6915bc23f",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "cf1655c0-5e24-4f90-ac71-35c829045220",
+      "sourceId": "0e979534-bdb0-4cf0-bf2c-4340d02613f4",
+      "targetId": "02b7b190-d6f8-4202-99aa-43c303de49f8",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "73df7c6e-b385-4a01-a0e4-72b52b040e0f",
+      "sourceId": "0e979534-bdb0-4cf0-bf2c-4340d02613f4",
+      "targetId": "83c88c8a-74f3-4564-b67a-116d8770d8e7",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "01b157db-22e6-4521-9e12-b25043d114df",
+      "sourceId": "0e979534-bdb0-4cf0-bf2c-4340d02613f4",
+      "targetId": "937209f0-8fc4-47ae-80ec-3fcda1fdc92c",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "cfcb64f2-4be8-4486-b510-89da1520dc05",
+      "sourceId": "0e979534-bdb0-4cf0-bf2c-4340d02613f4",
+      "targetId": "aaa59fda-062a-47f6-ab64-ed5caac44df7",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "9d11c371-2746-4363-94eb-797d02efbc2e",
+      "sourceId": "0e979534-bdb0-4cf0-bf2c-4340d02613f4",
+      "targetId": "fbfe3050-3a2e-4d18-8e81-933ea97e5c88",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "ed568172-ced5-493f-98d3-4617e40726da",
+      "sourceId": "0e979534-bdb0-4cf0-bf2c-4340d02613f4",
+      "targetId": "8ea5aa43-2528-4355-9cec-bccb1c58150e",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "96236533-5cd7-4857-bf42-01c589712664",
+      "sourceId": "0e979534-bdb0-4cf0-bf2c-4340d02613f4",
+      "targetId": "91755c6a-d981-4f97-9ccc-6dbea070ed56",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "3e766f6c-8940-4200-ab36-1ec4caa5fad6",
+      "sourceId": "0e979534-bdb0-4cf0-bf2c-4340d02613f4",
+      "targetId": "9521407d-df49-4e8b-a52d-478ef2266eff",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "7a609089-dccc-4ced-b747-b968a3874a5c",
+      "sourceId": "0e979534-bdb0-4cf0-bf2c-4340d02613f4",
+      "targetId": "c36d6adf-3c0f-4b9a-b34a-f61bf8ebf87c",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "f7ea6a2f-6ad2-456e-b2d4-bf61aca3f312",
+      "sourceId": "0e979534-bdb0-4cf0-bf2c-4340d02613f4",
+      "targetId": "f52d2967-151a-4179-b6ee-fc67d0e92689",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "954d44ed-cddc-4bbb-afb4-dece04e5aead",
+      "sourceId": "0e979534-bdb0-4cf0-bf2c-4340d02613f4",
+      "targetId": "f9c1105c-b2b8-4c00-a6a6-976b8ceb0d36",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "58397be0-47ea-4c73-8da1-f157780a3b1f",
+      "sourceId": "0e979534-bdb0-4cf0-bf2c-4340d02613f4",
+      "targetId": "63471b8e-a3db-4eb5-95db-daa2bb27dbae",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "8682e56b-2bca-4de2-ada3-b0d21546bec0",
+      "sourceId": "0e979534-bdb0-4cf0-bf2c-4340d02613f4",
+      "targetId": "e484b335-8fa0-4893-a814-7a3b323c04c2",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "1bbb83ad-16c2-4bcb-91b1-9e0bbea301f5",
+      "sourceId": "b06bb280-e49b-4f00-a713-faf6915bc23f",
+      "targetId": "02b7b190-d6f8-4202-99aa-43c303de49f8",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "67eef199-6519-4736-be80-e505458bd511",
+      "sourceId": "b06bb280-e49b-4f00-a713-faf6915bc23f",
+      "targetId": "83c88c8a-74f3-4564-b67a-116d8770d8e7",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "8edf10ef-51e7-44d2-a0ed-436bf4563d8c",
+      "sourceId": "b06bb280-e49b-4f00-a713-faf6915bc23f",
+      "targetId": "937209f0-8fc4-47ae-80ec-3fcda1fdc92c",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "683c62b4-d96a-472a-a831-b1c8af533632",
+      "sourceId": "b06bb280-e49b-4f00-a713-faf6915bc23f",
+      "targetId": "aaa59fda-062a-47f6-ab64-ed5caac44df7",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "8cc1cfd6-1dff-4dd5-b37c-1649c2372c00",
+      "sourceId": "b06bb280-e49b-4f00-a713-faf6915bc23f",
+      "targetId": "fbfe3050-3a2e-4d18-8e81-933ea97e5c88",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "c872d741-a175-4d54-8b81-f0661544cffb",
+      "sourceId": "b06bb280-e49b-4f00-a713-faf6915bc23f",
+      "targetId": "8ea5aa43-2528-4355-9cec-bccb1c58150e",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "279f78b3-74db-4fbc-a36f-949d1f2e0383",
+      "sourceId": "b06bb280-e49b-4f00-a713-faf6915bc23f",
+      "targetId": "91755c6a-d981-4f97-9ccc-6dbea070ed56",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "dd5a2001-7c57-4448-9d1e-37430304f97c",
+      "sourceId": "b06bb280-e49b-4f00-a713-faf6915bc23f",
+      "targetId": "9521407d-df49-4e8b-a52d-478ef2266eff",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "cc0d9995-9f9b-4eca-a7d0-49c65a73983d",
+      "sourceId": "b06bb280-e49b-4f00-a713-faf6915bc23f",
+      "targetId": "c36d6adf-3c0f-4b9a-b34a-f61bf8ebf87c",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "5e408a99-f66f-47e7-b2dc-66cf4e8d48fb",
+      "sourceId": "b06bb280-e49b-4f00-a713-faf6915bc23f",
+      "targetId": "f52d2967-151a-4179-b6ee-fc67d0e92689",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "a6e6f9cf-4c59-47f8-a1c4-801204d0c359",
+      "sourceId": "b06bb280-e49b-4f00-a713-faf6915bc23f",
+      "targetId": "f9c1105c-b2b8-4c00-a6a6-976b8ceb0d36",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "af7cb654-bbd5-4355-a45c-b3019f4bd97c",
+      "sourceId": "b06bb280-e49b-4f00-a713-faf6915bc23f",
+      "targetId": "63471b8e-a3db-4eb5-95db-daa2bb27dbae",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "4c88b948-648e-43d7-8223-e0f04a40fcce",
+      "sourceId": "b06bb280-e49b-4f00-a713-faf6915bc23f",
+      "targetId": "e484b335-8fa0-4893-a814-7a3b323c04c2",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "e2d19d2d-1ff6-423c-ac31-6123a2ca5429",
+      "sourceId": "02b7b190-d6f8-4202-99aa-43c303de49f8",
+      "targetId": "83c88c8a-74f3-4564-b67a-116d8770d8e7",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "e3aba1ee-4059-4b83-b991-8ca0998fb1aa",
+      "sourceId": "02b7b190-d6f8-4202-99aa-43c303de49f8",
+      "targetId": "937209f0-8fc4-47ae-80ec-3fcda1fdc92c",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "ae321be7-5425-4744-82ac-e0b017436a43",
+      "sourceId": "02b7b190-d6f8-4202-99aa-43c303de49f8",
+      "targetId": "aaa59fda-062a-47f6-ab64-ed5caac44df7",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "e2acab69-d67e-4ec4-b523-79d6dbe8da6f",
+      "sourceId": "02b7b190-d6f8-4202-99aa-43c303de49f8",
+      "targetId": "fbfe3050-3a2e-4d18-8e81-933ea97e5c88",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "0971a86f-1498-407e-87c6-69b09c37d697",
+      "sourceId": "02b7b190-d6f8-4202-99aa-43c303de49f8",
+      "targetId": "8ea5aa43-2528-4355-9cec-bccb1c58150e",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "4077f68c-29d1-4de6-9d4a-a2a57381e299",
+      "sourceId": "02b7b190-d6f8-4202-99aa-43c303de49f8",
+      "targetId": "91755c6a-d981-4f97-9ccc-6dbea070ed56",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "55c4c598-f26c-4ff6-a137-7d97956db6b5",
+      "sourceId": "02b7b190-d6f8-4202-99aa-43c303de49f8",
+      "targetId": "9521407d-df49-4e8b-a52d-478ef2266eff",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "1679811d-a773-4be2-a4fa-cb62140d9693",
+      "sourceId": "02b7b190-d6f8-4202-99aa-43c303de49f8",
+      "targetId": "c36d6adf-3c0f-4b9a-b34a-f61bf8ebf87c",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "3c885c28-76a2-460d-a4fd-92b013325a08",
+      "sourceId": "02b7b190-d6f8-4202-99aa-43c303de49f8",
+      "targetId": "f52d2967-151a-4179-b6ee-fc67d0e92689",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "343ef586-0e83-42c2-9330-deac8b017943",
+      "sourceId": "02b7b190-d6f8-4202-99aa-43c303de49f8",
+      "targetId": "f9c1105c-b2b8-4c00-a6a6-976b8ceb0d36",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "6bcab5e2-b9d3-4794-b163-4a4d49a01ff3",
+      "sourceId": "02b7b190-d6f8-4202-99aa-43c303de49f8",
+      "targetId": "63471b8e-a3db-4eb5-95db-daa2bb27dbae",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "28442a7b-9abb-4f5f-ab5e-cde76ab1ad13",
+      "sourceId": "02b7b190-d6f8-4202-99aa-43c303de49f8",
+      "targetId": "e484b335-8fa0-4893-a814-7a3b323c04c2",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "d8a1ae12-cdc8-4edb-a4b2-882f59e08df8",
+      "sourceId": "83c88c8a-74f3-4564-b67a-116d8770d8e7",
+      "targetId": "937209f0-8fc4-47ae-80ec-3fcda1fdc92c",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "4a2d5c68-52a3-4470-a676-ac4ff259e6f6",
+      "sourceId": "83c88c8a-74f3-4564-b67a-116d8770d8e7",
+      "targetId": "aaa59fda-062a-47f6-ab64-ed5caac44df7",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "fb4b4565-0de9-4a96-90a0-e1d61854fff5",
+      "sourceId": "83c88c8a-74f3-4564-b67a-116d8770d8e7",
+      "targetId": "fbfe3050-3a2e-4d18-8e81-933ea97e5c88",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "bb69d199-1aa5-4f77-9e09-3fdb2e7a21ff",
+      "sourceId": "83c88c8a-74f3-4564-b67a-116d8770d8e7",
+      "targetId": "8ea5aa43-2528-4355-9cec-bccb1c58150e",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "13e81354-7274-4304-8d0a-faa1920a494f",
+      "sourceId": "83c88c8a-74f3-4564-b67a-116d8770d8e7",
+      "targetId": "91755c6a-d981-4f97-9ccc-6dbea070ed56",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "8eb46fea-f088-493f-8c6b-9a0f918f47da",
+      "sourceId": "83c88c8a-74f3-4564-b67a-116d8770d8e7",
+      "targetId": "9521407d-df49-4e8b-a52d-478ef2266eff",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "7451af58-f8dc-43f9-9684-4b1aa297c7d7",
+      "sourceId": "83c88c8a-74f3-4564-b67a-116d8770d8e7",
+      "targetId": "c36d6adf-3c0f-4b9a-b34a-f61bf8ebf87c",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "2d78e80f-d20a-4be8-9245-d348279a50db",
+      "sourceId": "83c88c8a-74f3-4564-b67a-116d8770d8e7",
+      "targetId": "f52d2967-151a-4179-b6ee-fc67d0e92689",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "14bf2dde-828a-430c-adb7-470b9d936666",
+      "sourceId": "83c88c8a-74f3-4564-b67a-116d8770d8e7",
+      "targetId": "f9c1105c-b2b8-4c00-a6a6-976b8ceb0d36",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "dc0b8319-76d3-4529-a9fc-f76d4ee7ca03",
+      "sourceId": "83c88c8a-74f3-4564-b67a-116d8770d8e7",
+      "targetId": "63471b8e-a3db-4eb5-95db-daa2bb27dbae",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "6cab2837-fb85-4a00-a10f-05b6f888334a",
+      "sourceId": "83c88c8a-74f3-4564-b67a-116d8770d8e7",
+      "targetId": "e484b335-8fa0-4893-a814-7a3b323c04c2",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "a778edda-0102-496a-906c-06fd708c3e44",
+      "sourceId": "937209f0-8fc4-47ae-80ec-3fcda1fdc92c",
+      "targetId": "aaa59fda-062a-47f6-ab64-ed5caac44df7",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "8fba53b4-6943-4013-b1c7-88a6482c9958",
+      "sourceId": "937209f0-8fc4-47ae-80ec-3fcda1fdc92c",
+      "targetId": "fbfe3050-3a2e-4d18-8e81-933ea97e5c88",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "2e579e17-3615-4db4-a2bc-ad5d28eb6a18",
+      "sourceId": "937209f0-8fc4-47ae-80ec-3fcda1fdc92c",
+      "targetId": "8ea5aa43-2528-4355-9cec-bccb1c58150e",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "3e8f7349-ae1a-4cb4-9cf3-61e8bc8d76d2",
+      "sourceId": "937209f0-8fc4-47ae-80ec-3fcda1fdc92c",
+      "targetId": "91755c6a-d981-4f97-9ccc-6dbea070ed56",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "374faa14-0fca-4ab8-9a30-ae1a684c33ec",
+      "sourceId": "937209f0-8fc4-47ae-80ec-3fcda1fdc92c",
+      "targetId": "9521407d-df49-4e8b-a52d-478ef2266eff",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "1fb325ab-627d-42ef-b80d-9774e5f4de68",
+      "sourceId": "937209f0-8fc4-47ae-80ec-3fcda1fdc92c",
+      "targetId": "c36d6adf-3c0f-4b9a-b34a-f61bf8ebf87c",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "abe1d764-00f2-4f59-931a-a1c6058fdd15",
+      "sourceId": "937209f0-8fc4-47ae-80ec-3fcda1fdc92c",
+      "targetId": "f52d2967-151a-4179-b6ee-fc67d0e92689",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "c80d2abe-e1ce-4ee6-8cd5-120ee8916f70",
+      "sourceId": "937209f0-8fc4-47ae-80ec-3fcda1fdc92c",
+      "targetId": "f9c1105c-b2b8-4c00-a6a6-976b8ceb0d36",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "12f9309f-4681-41b3-a454-a0fdae3fcf72",
+      "sourceId": "937209f0-8fc4-47ae-80ec-3fcda1fdc92c",
+      "targetId": "63471b8e-a3db-4eb5-95db-daa2bb27dbae",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "b53418ed-b5db-4440-b79a-f6ca4bf77fbe",
+      "sourceId": "937209f0-8fc4-47ae-80ec-3fcda1fdc92c",
+      "targetId": "e484b335-8fa0-4893-a814-7a3b323c04c2",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "4e3a3775-e76d-4416-a1be-ea7f2e1342f0",
+      "sourceId": "aaa59fda-062a-47f6-ab64-ed5caac44df7",
+      "targetId": "fbfe3050-3a2e-4d18-8e81-933ea97e5c88",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "7ebf00a6-2291-473d-abc0-edca54872a87",
+      "sourceId": "aaa59fda-062a-47f6-ab64-ed5caac44df7",
+      "targetId": "8ea5aa43-2528-4355-9cec-bccb1c58150e",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "919099f0-738e-4ebc-8b21-19e446ea10f2",
+      "sourceId": "aaa59fda-062a-47f6-ab64-ed5caac44df7",
+      "targetId": "91755c6a-d981-4f97-9ccc-6dbea070ed56",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "5012f653-e6ea-44cc-a1fa-4566ac73964c",
+      "sourceId": "aaa59fda-062a-47f6-ab64-ed5caac44df7",
+      "targetId": "9521407d-df49-4e8b-a52d-478ef2266eff",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "a1d16803-94bb-42d9-9dee-73dcd02b2e73",
+      "sourceId": "aaa59fda-062a-47f6-ab64-ed5caac44df7",
+      "targetId": "c36d6adf-3c0f-4b9a-b34a-f61bf8ebf87c",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "1094006f-6727-4f07-a5c1-aa28a21bc164",
+      "sourceId": "aaa59fda-062a-47f6-ab64-ed5caac44df7",
+      "targetId": "f52d2967-151a-4179-b6ee-fc67d0e92689",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "a85cc19c-45cb-41f2-a804-8315e41bc2f4",
+      "sourceId": "aaa59fda-062a-47f6-ab64-ed5caac44df7",
+      "targetId": "f9c1105c-b2b8-4c00-a6a6-976b8ceb0d36",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "0a8a7c8a-5dd3-4db7-bdeb-2c2af60e4a0b",
+      "sourceId": "aaa59fda-062a-47f6-ab64-ed5caac44df7",
+      "targetId": "63471b8e-a3db-4eb5-95db-daa2bb27dbae",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "b0422808-2d63-489a-ab2e-aa001a16f9ce",
+      "sourceId": "aaa59fda-062a-47f6-ab64-ed5caac44df7",
+      "targetId": "e484b335-8fa0-4893-a814-7a3b323c04c2",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "442b1bfe-db30-4845-883c-5e0a11f79e45",
+      "sourceId": "fbfe3050-3a2e-4d18-8e81-933ea97e5c88",
+      "targetId": "8ea5aa43-2528-4355-9cec-bccb1c58150e",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "cf08e6a7-8820-4809-8b9a-cf93e6ae91b0",
+      "sourceId": "fbfe3050-3a2e-4d18-8e81-933ea97e5c88",
+      "targetId": "91755c6a-d981-4f97-9ccc-6dbea070ed56",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "203de866-8caf-4e02-8937-2de5c4397a75",
+      "sourceId": "fbfe3050-3a2e-4d18-8e81-933ea97e5c88",
+      "targetId": "9521407d-df49-4e8b-a52d-478ef2266eff",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "b767a68f-18b7-4726-aa45-c725896d4d61",
+      "sourceId": "fbfe3050-3a2e-4d18-8e81-933ea97e5c88",
+      "targetId": "c36d6adf-3c0f-4b9a-b34a-f61bf8ebf87c",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "f31d0e7d-fd17-4584-abb6-7ec22c1e606e",
+      "sourceId": "fbfe3050-3a2e-4d18-8e81-933ea97e5c88",
+      "targetId": "f52d2967-151a-4179-b6ee-fc67d0e92689",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "7a8844a1-d2f6-48b7-88ea-c64c13f15ead",
+      "sourceId": "fbfe3050-3a2e-4d18-8e81-933ea97e5c88",
+      "targetId": "f9c1105c-b2b8-4c00-a6a6-976b8ceb0d36",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "271edf9b-cfe6-491c-b6ad-14e85f2cbdea",
+      "sourceId": "fbfe3050-3a2e-4d18-8e81-933ea97e5c88",
+      "targetId": "63471b8e-a3db-4eb5-95db-daa2bb27dbae",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "df07aebf-8a17-4105-993c-483ea9f6023f",
+      "sourceId": "fbfe3050-3a2e-4d18-8e81-933ea97e5c88",
+      "targetId": "e484b335-8fa0-4893-a814-7a3b323c04c2",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "f44050ca-1374-4f0b-8615-2dd49d6ddcdb",
+      "sourceId": "8ea5aa43-2528-4355-9cec-bccb1c58150e",
+      "targetId": "91755c6a-d981-4f97-9ccc-6dbea070ed56",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "c950d141-bc80-4b0a-9a98-1d8adecd33c9",
+      "sourceId": "8ea5aa43-2528-4355-9cec-bccb1c58150e",
+      "targetId": "9521407d-df49-4e8b-a52d-478ef2266eff",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "7592ef41-688e-4772-92e9-b4ad638bc671",
+      "sourceId": "8ea5aa43-2528-4355-9cec-bccb1c58150e",
+      "targetId": "c36d6adf-3c0f-4b9a-b34a-f61bf8ebf87c",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "1e238f85-0518-414a-8075-3fc1c1adc9a7",
+      "sourceId": "8ea5aa43-2528-4355-9cec-bccb1c58150e",
+      "targetId": "f52d2967-151a-4179-b6ee-fc67d0e92689",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "3b6cc64e-c7d4-4e54-b86b-e89f650a83eb",
+      "sourceId": "8ea5aa43-2528-4355-9cec-bccb1c58150e",
+      "targetId": "f9c1105c-b2b8-4c00-a6a6-976b8ceb0d36",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "72a7de4e-65ef-4c6d-bb6a-0dcf0f40e1ba",
+      "sourceId": "8ea5aa43-2528-4355-9cec-bccb1c58150e",
+      "targetId": "63471b8e-a3db-4eb5-95db-daa2bb27dbae",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "aa419452-c986-4662-8d2d-2539f497267c",
+      "sourceId": "8ea5aa43-2528-4355-9cec-bccb1c58150e",
+      "targetId": "e484b335-8fa0-4893-a814-7a3b323c04c2",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "ee07263e-bb00-4a7a-b429-fa92ac79f779",
+      "sourceId": "91755c6a-d981-4f97-9ccc-6dbea070ed56",
+      "targetId": "9521407d-df49-4e8b-a52d-478ef2266eff",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "f01f98cb-72dc-421b-a411-9e9d26f428dd",
+      "sourceId": "91755c6a-d981-4f97-9ccc-6dbea070ed56",
+      "targetId": "c36d6adf-3c0f-4b9a-b34a-f61bf8ebf87c",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "0ce4130f-f4f4-4102-99e5-dec35105c6d9",
+      "sourceId": "91755c6a-d981-4f97-9ccc-6dbea070ed56",
+      "targetId": "f52d2967-151a-4179-b6ee-fc67d0e92689",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "819fbca5-c2e2-48be-ab7e-223310eaa1ed",
+      "sourceId": "91755c6a-d981-4f97-9ccc-6dbea070ed56",
+      "targetId": "f9c1105c-b2b8-4c00-a6a6-976b8ceb0d36",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "4340672c-3d8a-4168-b251-086c45675f7b",
+      "sourceId": "91755c6a-d981-4f97-9ccc-6dbea070ed56",
+      "targetId": "63471b8e-a3db-4eb5-95db-daa2bb27dbae",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "565df7e4-c7f9-4c61-ba63-53a212370769",
+      "sourceId": "91755c6a-d981-4f97-9ccc-6dbea070ed56",
+      "targetId": "e484b335-8fa0-4893-a814-7a3b323c04c2",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "c66302bc-9003-44c7-81ab-bab904da2995",
+      "sourceId": "9521407d-df49-4e8b-a52d-478ef2266eff",
+      "targetId": "c36d6adf-3c0f-4b9a-b34a-f61bf8ebf87c",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "5055c8f6-1577-4445-b591-f9eb50e9c5b7",
+      "sourceId": "9521407d-df49-4e8b-a52d-478ef2266eff",
+      "targetId": "f52d2967-151a-4179-b6ee-fc67d0e92689",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "d595cf0e-7219-4757-b070-aae71dd0d02c",
+      "sourceId": "9521407d-df49-4e8b-a52d-478ef2266eff",
+      "targetId": "f9c1105c-b2b8-4c00-a6a6-976b8ceb0d36",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "543cf206-f460-4228-8672-9e7b1e79524c",
+      "sourceId": "9521407d-df49-4e8b-a52d-478ef2266eff",
+      "targetId": "63471b8e-a3db-4eb5-95db-daa2bb27dbae",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "c444a7d9-9d16-4535-8a22-1cf8545877be",
+      "sourceId": "9521407d-df49-4e8b-a52d-478ef2266eff",
+      "targetId": "e484b335-8fa0-4893-a814-7a3b323c04c2",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "c691af7f-d407-4aa0-8e29-e5c25ae06236",
+      "sourceId": "c36d6adf-3c0f-4b9a-b34a-f61bf8ebf87c",
+      "targetId": "f52d2967-151a-4179-b6ee-fc67d0e92689",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "08d91f3c-3f78-48f9-a64c-7cc2e82f9ef4",
+      "sourceId": "c36d6adf-3c0f-4b9a-b34a-f61bf8ebf87c",
+      "targetId": "f9c1105c-b2b8-4c00-a6a6-976b8ceb0d36",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "cc29c427-332b-4e40-ad8c-10fb69278364",
+      "sourceId": "c36d6adf-3c0f-4b9a-b34a-f61bf8ebf87c",
+      "targetId": "63471b8e-a3db-4eb5-95db-daa2bb27dbae",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "f449f294-8a1b-4da7-a287-bc72a236bf84",
+      "sourceId": "c36d6adf-3c0f-4b9a-b34a-f61bf8ebf87c",
+      "targetId": "e484b335-8fa0-4893-a814-7a3b323c04c2",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "7f3dac63-d5e2-479a-8859-b2c9579c58da",
+      "sourceId": "f52d2967-151a-4179-b6ee-fc67d0e92689",
+      "targetId": "f9c1105c-b2b8-4c00-a6a6-976b8ceb0d36",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "58032137-2b4e-4223-9ecd-020fb0d4ffef",
+      "sourceId": "f52d2967-151a-4179-b6ee-fc67d0e92689",
+      "targetId": "63471b8e-a3db-4eb5-95db-daa2bb27dbae",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "540c0dc5-dfa6-4310-b169-5920d94bcdee",
+      "sourceId": "f52d2967-151a-4179-b6ee-fc67d0e92689",
+      "targetId": "e484b335-8fa0-4893-a814-7a3b323c04c2",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "f5460c42-2fb8-485d-81bb-d4739ee2fc86",
+      "sourceId": "f9c1105c-b2b8-4c00-a6a6-976b8ceb0d36",
+      "targetId": "63471b8e-a3db-4eb5-95db-daa2bb27dbae",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "97f44e5e-7844-4086-ba32-5f02d587a48c",
+      "sourceId": "f9c1105c-b2b8-4c00-a6a6-976b8ceb0d36",
+      "targetId": "e484b335-8fa0-4893-a814-7a3b323c04c2",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    },
+    {
+      "id": "7adac0b5-bfc7-4316-a28c-61e5244c5825",
+      "sourceId": "63471b8e-a3db-4eb5-95db-daa2bb27dbae",
+      "targetId": "e484b335-8fa0-4893-a814-7a3b323c04c2",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, ..."
+      ]
+    }
+  ],
+  "meta": {
+    "graphId": "2652b16f-52b6-4a2f-8e53-9b01577f48c9",
+    "createdAt": "2025-11-23T05:20:47.187Z",
+    "updatedAt": "2025-11-23T05:20:47.187Z",
+    "sourceText": "\nArtificial Intelligence (AI) has revolutionized technology in the 21st century. Machine Learning, \na subset of AI, enables computers to learn from data without explicit programming. Deep Learning, \nw"
+  }
+}

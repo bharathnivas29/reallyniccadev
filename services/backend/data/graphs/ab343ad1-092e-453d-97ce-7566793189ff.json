@@ -1,0 +1,237 @@
+{
+  "nodes": [
+    {
+      "id": "743f98ae-f879-4b0c-9fbb-ad9171d9e99f",
+      "label": "Machine Learning",
+      "type": "ORGANIZATION",
+      "confidence": 0.81,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Machine Learning uses neural networks for pattern recognition. Dee",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "Machine Learning uses neural networks for pattern recognition. Deep Learning is a subset of AI.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "4dc2a0f5-021f-4719-b4c4-d9bb3ff3d8c2",
+      "label": "Deep Learning",
+      "type": "PERSON",
+      "confidence": 0.78,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "ing uses neural networks for pattern recognition. Deep Learning is a subset of AI.",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "Machine Learning uses neural networks for pattern recognition. Deep Learning is a subset of AI.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "84ccea97-8eb6-426c-a7ee-baa675d013c1",
+      "label": "AI",
+      "type": "ORGANIZATION",
+      "confidence": 0.67,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "pattern recognition. Deep Learning is a subset of AI.",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "Machine Learning uses neural networks for pattern recognition. Deep Learning is a subset of AI.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "2ba8c97f-493f-4510-9503-def21159ffb9",
+      "label": "neural networks",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Machine Learning uses neural networks for pattern recognition. Deep Learning is a subset of AI.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "ac354e53-079d-4944-b72e-9c354da67f14",
+      "label": "pattern recognition",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Machine Learning uses neural networks for pattern recognition. Deep Learning is a subset of AI.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "7d6adfbc-d32f-4157-b8cc-f533416b0aaa",
+      "sourceId": "743f98ae-f879-4b0c-9fbb-ad9171d9e99f",
+      "targetId": "4dc2a0f5-021f-4719-b4c4-d9bb3ff3d8c2",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Machine Learning uses neural networks for pattern recognition. Deep Learning is a subset of AI."
+      ]
+    },
+    {
+      "id": "a8c78316-20a4-4254-af18-13d9262fa5be",
+      "sourceId": "743f98ae-f879-4b0c-9fbb-ad9171d9e99f",
+      "targetId": "84ccea97-8eb6-426c-a7ee-baa675d013c1",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Machine Learning uses neural networks for pattern recognition. Deep Learning is a subset of AI."
+      ]
+    },
+    {
+      "id": "fcfb341f-7c48-4dcf-b44a-9fb3507cc3d8",
+      "sourceId": "743f98ae-f879-4b0c-9fbb-ad9171d9e99f",
+      "targetId": "2ba8c97f-493f-4510-9503-def21159ffb9",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Machine Learning uses neural networks for pattern recognition. Deep Learning is a subset of AI."
+      ]
+    },
+    {
+      "id": "dc67c9b7-7f2c-4ee7-a826-46ea3e9cfd97",
+      "sourceId": "743f98ae-f879-4b0c-9fbb-ad9171d9e99f",
+      "targetId": "ac354e53-079d-4944-b72e-9c354da67f14",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Machine Learning uses neural networks for pattern recognition. Deep Learning is a subset of AI."
+      ]
+    },
+    {
+      "id": "6ed0abe8-8cd8-4a1e-bf60-5da141d6477e",
+      "sourceId": "4dc2a0f5-021f-4719-b4c4-d9bb3ff3d8c2",
+      "targetId": "84ccea97-8eb6-426c-a7ee-baa675d013c1",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Machine Learning uses neural networks for pattern recognition. Deep Learning is a subset of AI."
+      ]
+    },
+    {
+      "id": "815972c1-8a2a-44ac-9377-144bfce7c55f",
+      "sourceId": "4dc2a0f5-021f-4719-b4c4-d9bb3ff3d8c2",
+      "targetId": "2ba8c97f-493f-4510-9503-def21159ffb9",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Machine Learning uses neural networks for pattern recognition. Deep Learning is a subset of AI."
+      ]
+    },
+    {
+      "id": "b33f877b-9f99-46f9-ab61-6e71fad9cd33",
+      "sourceId": "4dc2a0f5-021f-4719-b4c4-d9bb3ff3d8c2",
+      "targetId": "ac354e53-079d-4944-b72e-9c354da67f14",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Machine Learning uses neural networks for pattern recognition. Deep Learning is a subset of AI."
+      ]
+    },
+    {
+      "id": "2727173c-1e12-4f62-be2b-c4313c6e3f8d",
+      "sourceId": "84ccea97-8eb6-426c-a7ee-baa675d013c1",
+      "targetId": "2ba8c97f-493f-4510-9503-def21159ffb9",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Machine Learning uses neural networks for pattern recognition. Deep Learning is a subset of AI."
+      ]
+    },
+    {
+      "id": "03e78597-44dd-4a0a-9933-f3b367a135bb",
+      "sourceId": "84ccea97-8eb6-426c-a7ee-baa675d013c1",
+      "targetId": "ac354e53-079d-4944-b72e-9c354da67f14",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Machine Learning uses neural networks for pattern recognition. Deep Learning is a subset of AI."
+      ]
+    },
+    {
+      "id": "d8fabcff-76a3-48bf-997d-06ddb5909109",
+      "sourceId": "2ba8c97f-493f-4510-9503-def21159ffb9",
+      "targetId": "ac354e53-079d-4944-b72e-9c354da67f14",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Machine Learning uses neural networks for pattern recognition. Deep Learning is a subset of AI."
+      ]
+    }
+  ],
+  "meta": {
+    "graphId": "ab343ad1-092e-453d-97ce-7566793189ff",
+    "createdAt": "2025-11-23T18:48:54.105Z",
+    "updatedAt": "2025-11-23T18:48:54.105Z",
+    "sourceText": "Machine Learning uses neural networks for pattern recognition. Deep Learning is a subset of AI."
+  }
+}

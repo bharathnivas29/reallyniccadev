@@ -1,0 +1,127 @@
+{
+  "nodes": [
+    {
+      "id": "0f74f323-d6ab-4e7e-b957-63e6a3323b4c",
+      "label": "TypeScript",
+      "type": "ORGANIZATION",
+      "confidence": 0.8500000000000001,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "TypeScript is a programming language. Microsoft developed Ty",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "pt is a programming language. Microsoft developed TypeScript. TypeScript adds types to JavaScript.",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "ramming language. Microsoft developed TypeScript. TypeScript adds types to JavaScript.",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "TypeScript is a programming language. Microsoft developed TypeScript. TypeScript adds types to JavaScript.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "57b04d3e-0806-4936-a448-e140beb4924f",
+      "label": "Microsoft",
+      "type": "ORGANIZATION",
+      "confidence": 0.74,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "TypeScript is a programming language. Microsoft developed TypeScript. TypeScript adds types to Ja",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "TypeScript is a programming language. Microsoft developed TypeScript. TypeScript adds types to JavaScript.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "f1a2925a-d888-4c9e-a75e-df2e011cf4a8",
+      "label": "JavaScript",
+      "type": "CONCEPT",
+      "confidence": 0.75,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "ft developed TypeScript. TypeScript adds types to JavaScript.",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "TypeScript is a programming language. Microsoft developed TypeScript. TypeScript adds types to JavaScript.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "1dc5701c-249e-4452-9448-ea34fc25f7da",
+      "sourceId": "0f74f323-d6ab-4e7e-b957-63e6a3323b4c",
+      "targetId": "57b04d3e-0806-4936-a448-e140beb4924f",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "TypeScript is a programming language. Microsoft developed TypeScript. TypeScript adds types to JavaScript."
+      ]
+    },
+    {
+      "id": "aa7faa0f-af7b-4e0c-989e-617fb1a3357e",
+      "sourceId": "0f74f323-d6ab-4e7e-b957-63e6a3323b4c",
+      "targetId": "f1a2925a-d888-4c9e-a75e-df2e011cf4a8",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "TypeScript is a programming language. Microsoft developed TypeScript. TypeScript adds types to JavaScript."
+      ]
+    },
+    {
+      "id": "64120175-a654-4aa9-94fe-d4520ab5dbed",
+      "sourceId": "57b04d3e-0806-4936-a448-e140beb4924f",
+      "targetId": "f1a2925a-d888-4c9e-a75e-df2e011cf4a8",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "TypeScript is a programming language. Microsoft developed TypeScript. TypeScript adds types to JavaScript."
+      ]
+    }
+  ],
+  "meta": {
+    "graphId": "80ebd001-7b9a-4123-a1fb-81f39c2af0b1",
+    "createdAt": "2025-11-23T05:17:27.239Z",
+    "updatedAt": "2025-11-23T05:17:27.239Z",
+    "sourceText": "TypeScript is a programming language. Microsoft developed TypeScript. TypeScript adds types to JavaScript."
+  }
+}

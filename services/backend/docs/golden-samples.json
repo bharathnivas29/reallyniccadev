@@ -1,0 +1,95 @@
+[
+    {
+        "name": "Technology – Elon Musk",
+        "text": "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also started Neuralink in 2016.",
+        "expected": {
+            "entities": [
+                {
+                    "label": "Elon Musk",
+                    "type": "PERSON"
+                },
+                {
+                    "label": "Tesla",
+                    "type": "ORGANIZATION"
+                },
+                {
+                    "label": "SpaceX",
+                    "type": "ORGANIZATION"
+                },
+                {
+                    "label": "Neuralink",
+                    "type": "ORGANIZATION"
+                },
+                {
+                    "label": "2003",
+                    "type": "DATE"
+                },
+                {
+                    "label": "2002",
+                    "type": "DATE"
+                },
+                {
+                    "label": "2016",
+                    "type": "DATE"
+                }
+            ],
+            "relationships": [
+                {
+                    "source": "Elon Musk",
+                    "target": "Tesla",
+                    "type": "founded"
+                },
+                {
+                    "source": "Elon Musk",
+                    "target": "SpaceX",
+                    "type": "founded"
+                },
+                {
+                    "source": "Elon Musk",
+                    "target": "Neuralink",
+                    "type": "founded"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Science – Quantum Computing",
+        "text": "Google demonstrated quantum supremacy in 2019 with its Sycamore processor. IBM released a 127‑qubit quantum computer in 2022.",
+        "expected": {
+            "entities": [
+                {
+                    "label": "Google",
+                    "type": "ORGANIZATION"
+                },
+                {
+                    "label": "IBM",
+                    "type": "ORGANIZATION"
+                },
+                {
+                    "label": "Sycamore",
+                    "type": "PRODUCT"
+                },
+                {
+                    "label": "2019",
+                    "type": "DATE"
+                },
+                {
+                    "label": "2022",
+                    "type": "DATE"
+                }
+            ],
+            "relationships": [
+                {
+                    "source": "Google",
+                    "target": "Sycamore",
+                    "type": "demonstrated"
+                },
+                {
+                    "source": "IBM",
+                    "target": "quantum computer",
+                    "type": "released"
+                }
+            ]
+        }
+    }
+]

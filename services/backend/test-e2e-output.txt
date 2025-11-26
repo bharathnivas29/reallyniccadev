@@ -1,0 +1,46 @@
+﻿================================================================================
+END-TO-END APPLICATION TEST
+================================================================================
+
+≡ƒô¥ Input Text:
+   Length: 1426 characters
+   Preview: Elon Musk is the CEO and founder of several groundbreaking companies. In 2003, he co-founded Tesla,...
+
+Step 1: Validating Text...
+   Γ£à Text is valid
+
+Step 2: Cleaning Text...
+   Γ£à Cleaned: 1426 ΓåÆ 1424 chars
+
+Step 3: Chunking Text...
+   Γ£à Created 1 chunks
+      Chunk 1: 1424 chars
+
+Step 4: Checking ML Service...
+   Γ£à ML service is healthy
+
+Step 5: Extracting Entities & Relationships...
+ML service error (attempt 1/3), retrying in 1000ms...
+ML service error (attempt 2/3), retrying in 2000ms...
+node.exe : 
+At C:\Program Files\nodejs\npx.ps1:29 char:3
++   & $NODE_EXE $NPX_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) 
+    [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Γ¥î TEST FAILED: ML service unavailable after 3 
+attempts: Request failed with status code 500
+
+Error Details: Error: ML service unavailable after 3 
+attempts: Request failed with status code 500
+    at PythonMLClient.callExtractEndpoint 
+(C:\Users\Bharath Kannan\OneDrive\Desktop\ReallyNicca\
+Dev\services\backend\src\core\ml\python-client.service
+.ts:83:19)
+    at processTicksAndRejections 
+(node:internal/process/task_queues:105:5)
+    at async runEndToEndTest (C:\Users\Bharath Kannan\
+OneDrive\Desktop\ReallyNicca\Dev\services\backend\scri
+pts\test-e2e.ts:71:20)

@@ -1,0 +1,1219 @@
+{
+  "nodes": [
+    {
+      "id": "fbe79313-5fb8-4146-b2d3-59271d2af414",
+      "label": "Artificial Intelligence (AI",
+      "type": "ORGANIZATION",
+      "confidence": 0.7350000000000001,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Artificial Intelligence (AI) is transforming technology. Machine Learning is",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "rming technology. Machine Learning is a subset of AI. Deep Learning uses neural networks. Google devel",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "ocessing. Python is the most popular language for AI.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [
+        "AI"
+      ],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "c87daf29-9085-47ef-99f1-9d85a3bcccbc",
+      "label": "Machine Learning",
+      "type": "PERSON",
+      "confidence": 0.81,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "ial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI. Deep Learning uses neural netw",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT mod",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "8d82c488-201e-4395-b082-4e9c977c747b",
+      "label": "Deep Learning",
+      "type": "ORGANIZATION",
+      "confidence": 0.78,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "g technology. Machine Learning is a subset of AI. Deep Learning uses neural networks. Google developed TensorFlow",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT mod",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "cf910681-56b8-4f33-b1b9-a03018b47986",
+      "label": "Google",
+      "type": "ORGANIZATION",
+      "confidence": 0.71,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "subset of AI. Deep Learning uses neural networks. Google developed TensorFlow for ML applications. OpenAI",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT mod",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "3613abf0-5328-418c-8d9a-1a540bdb131d",
+      "label": "TensorFlow",
+      "type": "ORGANIZATION",
+      "confidence": 0.75,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "p Learning uses neural networks. Google developed TensorFlow for ML applications. OpenAI created GPT models fo",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT mod",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "2641281b-21ba-4c02-966f-7c9d10f9e249",
+      "label": "ML",
+      "type": "ORGANIZATION",
+      "confidence": 0.62,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "neural networks. Google developed TensorFlow for ML applications. OpenAI created GPT models for natur",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "526c70cb-e90d-43f1-8505-4565f6c02e5b",
+      "label": "OpenAI",
+      "type": "LOCATION",
+      "confidence": 0.71,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Google developed TensorFlow for ML applications. OpenAI created GPT models for natural language processin",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT mod",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "9b3dcde1-8a8b-4c8a-a52d-bef7e4803b12",
+      "label": "GPT",
+      "type": "ORGANIZATION",
+      "confidence": 0.63,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "ed TensorFlow for ML applications. OpenAI created GPT models for natural language processing. Python is",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "471cf34c-da67-45f9-8d41-a3b02e9d19bd",
+      "label": "Artificial Intelligence",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT mod",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "fd69e413-d32f-4ce5-b810-9033a8e46458",
+      "label": "neural networks",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT mod",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "60928b07-e9a9-4218-a7f3-df4bbe4f9773",
+      "label": "GPT models",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT mod",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "f8891356-22e4-4513-874b-48c3aecb0d6d",
+      "label": "natural language processing",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT mod",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "309c2cfb-9e9c-49f2-91f5-437aac16d9d7",
+      "label": "Python",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT mod",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "3f7f8dfc-0b30-4a83-a38d-a588a70a9ff4",
+      "sourceId": "fbe79313-5fb8-4146-b2d3-59271d2af414",
+      "targetId": "c87daf29-9085-47ef-99f1-9d85a3bcccbc",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "09b5b881-9529-4605-87cb-e2ea320f166f",
+      "sourceId": "fbe79313-5fb8-4146-b2d3-59271d2af414",
+      "targetId": "8d82c488-201e-4395-b082-4e9c977c747b",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "c802f1e7-8d10-4430-b47e-9a490fb26031",
+      "sourceId": "fbe79313-5fb8-4146-b2d3-59271d2af414",
+      "targetId": "cf910681-56b8-4f33-b1b9-a03018b47986",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "2b4a7fa7-3f7b-4140-842b-aaa1667943a6",
+      "sourceId": "fbe79313-5fb8-4146-b2d3-59271d2af414",
+      "targetId": "3613abf0-5328-418c-8d9a-1a540bdb131d",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "3b5c1e68-dcfe-4615-80b4-cd15b4609220",
+      "sourceId": "fbe79313-5fb8-4146-b2d3-59271d2af414",
+      "targetId": "2641281b-21ba-4c02-966f-7c9d10f9e249",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "3db582f3-8e73-4ae3-b7d4-f906e624dca1",
+      "sourceId": "fbe79313-5fb8-4146-b2d3-59271d2af414",
+      "targetId": "526c70cb-e90d-43f1-8505-4565f6c02e5b",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "c38e5f65-b69f-4324-b378-cd09c0619101",
+      "sourceId": "fbe79313-5fb8-4146-b2d3-59271d2af414",
+      "targetId": "9b3dcde1-8a8b-4c8a-a52d-bef7e4803b12",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "f05bcd8d-9a4a-49bb-bd6b-dbc18f8a3fbf",
+      "sourceId": "fbe79313-5fb8-4146-b2d3-59271d2af414",
+      "targetId": "471cf34c-da67-45f9-8d41-a3b02e9d19bd",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "2ad2462d-668f-4592-9425-cd5b3718a7fd",
+      "sourceId": "fbe79313-5fb8-4146-b2d3-59271d2af414",
+      "targetId": "fd69e413-d32f-4ce5-b810-9033a8e46458",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "55691e8f-2058-4d1d-afdf-6c921ed5cfe3",
+      "sourceId": "fbe79313-5fb8-4146-b2d3-59271d2af414",
+      "targetId": "60928b07-e9a9-4218-a7f3-df4bbe4f9773",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "219012cd-6357-4112-b9ae-48e53fe2185f",
+      "sourceId": "fbe79313-5fb8-4146-b2d3-59271d2af414",
+      "targetId": "f8891356-22e4-4513-874b-48c3aecb0d6d",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "fed6df48-cfb6-4d01-aac2-285c19bdc15f",
+      "sourceId": "fbe79313-5fb8-4146-b2d3-59271d2af414",
+      "targetId": "309c2cfb-9e9c-49f2-91f5-437aac16d9d7",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "e51a3c3e-34b2-43a3-9734-d1cd6783b3a8",
+      "sourceId": "c87daf29-9085-47ef-99f1-9d85a3bcccbc",
+      "targetId": "8d82c488-201e-4395-b082-4e9c977c747b",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "6856b76d-45d7-4587-9706-6a66a99d9355",
+      "sourceId": "c87daf29-9085-47ef-99f1-9d85a3bcccbc",
+      "targetId": "cf910681-56b8-4f33-b1b9-a03018b47986",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "b69a120c-43c4-48ab-abff-cb7e41220577",
+      "sourceId": "c87daf29-9085-47ef-99f1-9d85a3bcccbc",
+      "targetId": "3613abf0-5328-418c-8d9a-1a540bdb131d",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "b7d7c6f4-75d4-472d-ba8d-316cee32b00d",
+      "sourceId": "c87daf29-9085-47ef-99f1-9d85a3bcccbc",
+      "targetId": "2641281b-21ba-4c02-966f-7c9d10f9e249",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "0ad88165-04bf-4b6d-845c-66e9781d16ad",
+      "sourceId": "c87daf29-9085-47ef-99f1-9d85a3bcccbc",
+      "targetId": "526c70cb-e90d-43f1-8505-4565f6c02e5b",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "672d302d-7cf4-4353-8ea4-bd100555d842",
+      "sourceId": "c87daf29-9085-47ef-99f1-9d85a3bcccbc",
+      "targetId": "9b3dcde1-8a8b-4c8a-a52d-bef7e4803b12",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "8f27406d-cd27-4769-8a78-a70e7bc92ffa",
+      "sourceId": "c87daf29-9085-47ef-99f1-9d85a3bcccbc",
+      "targetId": "471cf34c-da67-45f9-8d41-a3b02e9d19bd",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "fb7f37e3-e0f1-4d34-8bb1-9fd923ef05e0",
+      "sourceId": "c87daf29-9085-47ef-99f1-9d85a3bcccbc",
+      "targetId": "fd69e413-d32f-4ce5-b810-9033a8e46458",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "3ab4544d-3788-4d27-831a-45b4d86472cd",
+      "sourceId": "c87daf29-9085-47ef-99f1-9d85a3bcccbc",
+      "targetId": "60928b07-e9a9-4218-a7f3-df4bbe4f9773",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "b081e107-aed8-441f-9e8a-2afac8fddf24",
+      "sourceId": "c87daf29-9085-47ef-99f1-9d85a3bcccbc",
+      "targetId": "f8891356-22e4-4513-874b-48c3aecb0d6d",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "d575dd9f-0a39-4eab-93f7-a01be04c4bff",
+      "sourceId": "c87daf29-9085-47ef-99f1-9d85a3bcccbc",
+      "targetId": "309c2cfb-9e9c-49f2-91f5-437aac16d9d7",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "0a5dac74-3a5c-4d62-83c6-32074659771e",
+      "sourceId": "8d82c488-201e-4395-b082-4e9c977c747b",
+      "targetId": "cf910681-56b8-4f33-b1b9-a03018b47986",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "3451fbfb-1cf0-4534-b659-3ea6f62c734d",
+      "sourceId": "8d82c488-201e-4395-b082-4e9c977c747b",
+      "targetId": "3613abf0-5328-418c-8d9a-1a540bdb131d",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "60c39669-b33b-47e3-9d15-e9edd759491e",
+      "sourceId": "8d82c488-201e-4395-b082-4e9c977c747b",
+      "targetId": "2641281b-21ba-4c02-966f-7c9d10f9e249",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "c0b65e2c-ecec-484d-a455-bf0919509bb8",
+      "sourceId": "8d82c488-201e-4395-b082-4e9c977c747b",
+      "targetId": "526c70cb-e90d-43f1-8505-4565f6c02e5b",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "d096b232-f969-476e-87bd-c334dfde20f5",
+      "sourceId": "8d82c488-201e-4395-b082-4e9c977c747b",
+      "targetId": "9b3dcde1-8a8b-4c8a-a52d-bef7e4803b12",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "c4f6ed4c-28e1-4c0e-95f7-ba4a70dda01c",
+      "sourceId": "8d82c488-201e-4395-b082-4e9c977c747b",
+      "targetId": "471cf34c-da67-45f9-8d41-a3b02e9d19bd",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "197a4061-dde0-433b-b1e1-3573aea42388",
+      "sourceId": "8d82c488-201e-4395-b082-4e9c977c747b",
+      "targetId": "fd69e413-d32f-4ce5-b810-9033a8e46458",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "2243f09d-f765-45d3-82dc-e769d1394075",
+      "sourceId": "8d82c488-201e-4395-b082-4e9c977c747b",
+      "targetId": "60928b07-e9a9-4218-a7f3-df4bbe4f9773",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "9e805229-f0f1-4e29-a272-2d6aa14d6d16",
+      "sourceId": "8d82c488-201e-4395-b082-4e9c977c747b",
+      "targetId": "f8891356-22e4-4513-874b-48c3aecb0d6d",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "1ac718bd-2e9d-43fa-af32-f60af6044dba",
+      "sourceId": "8d82c488-201e-4395-b082-4e9c977c747b",
+      "targetId": "309c2cfb-9e9c-49f2-91f5-437aac16d9d7",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "9ab82062-9a81-4626-b82d-32b1b4a01de1",
+      "sourceId": "cf910681-56b8-4f33-b1b9-a03018b47986",
+      "targetId": "3613abf0-5328-418c-8d9a-1a540bdb131d",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "aaac74ac-62e6-44bb-8830-b649da76ecdf",
+      "sourceId": "cf910681-56b8-4f33-b1b9-a03018b47986",
+      "targetId": "2641281b-21ba-4c02-966f-7c9d10f9e249",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "07f4aa99-77e6-484a-8668-142bf7ca0ad7",
+      "sourceId": "cf910681-56b8-4f33-b1b9-a03018b47986",
+      "targetId": "526c70cb-e90d-43f1-8505-4565f6c02e5b",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "48762399-64b5-4beb-95f4-9aa643259d8a",
+      "sourceId": "cf910681-56b8-4f33-b1b9-a03018b47986",
+      "targetId": "9b3dcde1-8a8b-4c8a-a52d-bef7e4803b12",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "3e6498b5-a0af-4ebc-9704-23a609fb1b10",
+      "sourceId": "cf910681-56b8-4f33-b1b9-a03018b47986",
+      "targetId": "471cf34c-da67-45f9-8d41-a3b02e9d19bd",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "6301e2fa-45e1-44f5-88ff-c7ad779f20c3",
+      "sourceId": "cf910681-56b8-4f33-b1b9-a03018b47986",
+      "targetId": "fd69e413-d32f-4ce5-b810-9033a8e46458",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "290ade83-3ef2-44db-aa43-e766e8621ea9",
+      "sourceId": "cf910681-56b8-4f33-b1b9-a03018b47986",
+      "targetId": "60928b07-e9a9-4218-a7f3-df4bbe4f9773",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "569cae42-989f-4276-be50-d846f15655ba",
+      "sourceId": "cf910681-56b8-4f33-b1b9-a03018b47986",
+      "targetId": "f8891356-22e4-4513-874b-48c3aecb0d6d",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "ce2b6677-d1e7-46b3-8d7b-d1f32ccdde80",
+      "sourceId": "cf910681-56b8-4f33-b1b9-a03018b47986",
+      "targetId": "309c2cfb-9e9c-49f2-91f5-437aac16d9d7",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "fc1daf5d-aa46-4187-aa60-4e5256558688",
+      "sourceId": "3613abf0-5328-418c-8d9a-1a540bdb131d",
+      "targetId": "2641281b-21ba-4c02-966f-7c9d10f9e249",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "7e3dfe53-0822-4452-acd8-0277d9ec7803",
+      "sourceId": "3613abf0-5328-418c-8d9a-1a540bdb131d",
+      "targetId": "526c70cb-e90d-43f1-8505-4565f6c02e5b",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "d60b35e4-42e9-4099-8e6f-65ee785ed9eb",
+      "sourceId": "3613abf0-5328-418c-8d9a-1a540bdb131d",
+      "targetId": "9b3dcde1-8a8b-4c8a-a52d-bef7e4803b12",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "08bf4cc6-08e7-4d5b-97ce-815b763a3880",
+      "sourceId": "3613abf0-5328-418c-8d9a-1a540bdb131d",
+      "targetId": "471cf34c-da67-45f9-8d41-a3b02e9d19bd",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "f044f09b-9f17-47e0-90af-9c27b42210df",
+      "sourceId": "3613abf0-5328-418c-8d9a-1a540bdb131d",
+      "targetId": "fd69e413-d32f-4ce5-b810-9033a8e46458",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "04c01503-332b-4f15-8ae5-a7826e3b3a57",
+      "sourceId": "3613abf0-5328-418c-8d9a-1a540bdb131d",
+      "targetId": "60928b07-e9a9-4218-a7f3-df4bbe4f9773",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "29073711-c062-4793-af14-fcbdb6d47466",
+      "sourceId": "3613abf0-5328-418c-8d9a-1a540bdb131d",
+      "targetId": "f8891356-22e4-4513-874b-48c3aecb0d6d",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "31d8a5e7-0898-4064-830b-0e09d366f2e3",
+      "sourceId": "3613abf0-5328-418c-8d9a-1a540bdb131d",
+      "targetId": "309c2cfb-9e9c-49f2-91f5-437aac16d9d7",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "1a0f5ab6-c8cf-4d18-9488-4654dbb0da15",
+      "sourceId": "2641281b-21ba-4c02-966f-7c9d10f9e249",
+      "targetId": "526c70cb-e90d-43f1-8505-4565f6c02e5b",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "127c516b-ba62-4349-8049-407480b0971e",
+      "sourceId": "2641281b-21ba-4c02-966f-7c9d10f9e249",
+      "targetId": "9b3dcde1-8a8b-4c8a-a52d-bef7e4803b12",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "c27ce332-354c-40d8-a80f-6a35da347445",
+      "sourceId": "2641281b-21ba-4c02-966f-7c9d10f9e249",
+      "targetId": "471cf34c-da67-45f9-8d41-a3b02e9d19bd",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "81f10d24-9a43-4292-acb6-dd27be575021",
+      "sourceId": "2641281b-21ba-4c02-966f-7c9d10f9e249",
+      "targetId": "fd69e413-d32f-4ce5-b810-9033a8e46458",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "c531eaae-6da8-4e96-8b50-882278661c0c",
+      "sourceId": "2641281b-21ba-4c02-966f-7c9d10f9e249",
+      "targetId": "60928b07-e9a9-4218-a7f3-df4bbe4f9773",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "72e7c323-a9a1-4229-9d0b-2672f52fc842",
+      "sourceId": "2641281b-21ba-4c02-966f-7c9d10f9e249",
+      "targetId": "f8891356-22e4-4513-874b-48c3aecb0d6d",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "aa6f4f8c-325b-4601-b3f7-d32fe126a251",
+      "sourceId": "2641281b-21ba-4c02-966f-7c9d10f9e249",
+      "targetId": "309c2cfb-9e9c-49f2-91f5-437aac16d9d7",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "f46f330e-f113-4583-928b-56bedfa89e29",
+      "sourceId": "526c70cb-e90d-43f1-8505-4565f6c02e5b",
+      "targetId": "9b3dcde1-8a8b-4c8a-a52d-bef7e4803b12",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "17c3568d-2274-452f-8f39-ea11bb3ac5d0",
+      "sourceId": "526c70cb-e90d-43f1-8505-4565f6c02e5b",
+      "targetId": "471cf34c-da67-45f9-8d41-a3b02e9d19bd",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "bcf8a9eb-baa2-4c7c-a597-77d21d5c14db",
+      "sourceId": "526c70cb-e90d-43f1-8505-4565f6c02e5b",
+      "targetId": "fd69e413-d32f-4ce5-b810-9033a8e46458",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "ebebae16-5739-42f6-a9d4-8379f7048e11",
+      "sourceId": "526c70cb-e90d-43f1-8505-4565f6c02e5b",
+      "targetId": "60928b07-e9a9-4218-a7f3-df4bbe4f9773",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "2caac8db-7b5e-4f4c-b3b4-eaa42d770122",
+      "sourceId": "526c70cb-e90d-43f1-8505-4565f6c02e5b",
+      "targetId": "f8891356-22e4-4513-874b-48c3aecb0d6d",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "4a4e3284-bba6-4997-ae58-de25889ad550",
+      "sourceId": "526c70cb-e90d-43f1-8505-4565f6c02e5b",
+      "targetId": "309c2cfb-9e9c-49f2-91f5-437aac16d9d7",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "69f32a47-c0b3-4288-8a46-642de570cb1e",
+      "sourceId": "9b3dcde1-8a8b-4c8a-a52d-bef7e4803b12",
+      "targetId": "471cf34c-da67-45f9-8d41-a3b02e9d19bd",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "93f01d3c-68d1-45e0-b501-4356f8e3c52e",
+      "sourceId": "9b3dcde1-8a8b-4c8a-a52d-bef7e4803b12",
+      "targetId": "fd69e413-d32f-4ce5-b810-9033a8e46458",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "77148b5b-a4e7-4bd9-a1c0-98999920cb44",
+      "sourceId": "9b3dcde1-8a8b-4c8a-a52d-bef7e4803b12",
+      "targetId": "60928b07-e9a9-4218-a7f3-df4bbe4f9773",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "2c30ef79-fef1-49a5-99b3-0ec0fe60bc7c",
+      "sourceId": "9b3dcde1-8a8b-4c8a-a52d-bef7e4803b12",
+      "targetId": "f8891356-22e4-4513-874b-48c3aecb0d6d",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "f0b0db24-7f3a-42e8-ae0d-2ac31f5a05ca",
+      "sourceId": "9b3dcde1-8a8b-4c8a-a52d-bef7e4803b12",
+      "targetId": "309c2cfb-9e9c-49f2-91f5-437aac16d9d7",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "dfa07cb3-ee4f-47fb-95d9-8ceefdbba1ff",
+      "sourceId": "471cf34c-da67-45f9-8d41-a3b02e9d19bd",
+      "targetId": "fd69e413-d32f-4ce5-b810-9033a8e46458",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "75bbe2cd-8130-49c1-b8d8-9f03921cb6bc",
+      "sourceId": "471cf34c-da67-45f9-8d41-a3b02e9d19bd",
+      "targetId": "60928b07-e9a9-4218-a7f3-df4bbe4f9773",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "563ff7c0-058b-46d5-a4a0-361c6411c87f",
+      "sourceId": "471cf34c-da67-45f9-8d41-a3b02e9d19bd",
+      "targetId": "f8891356-22e4-4513-874b-48c3aecb0d6d",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "4ec08565-ced4-44e5-a2f7-c574bab9277b",
+      "sourceId": "471cf34c-da67-45f9-8d41-a3b02e9d19bd",
+      "targetId": "309c2cfb-9e9c-49f2-91f5-437aac16d9d7",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "c930ef61-16b8-4d99-a88f-0ec6673e4f89",
+      "sourceId": "fd69e413-d32f-4ce5-b810-9033a8e46458",
+      "targetId": "60928b07-e9a9-4218-a7f3-df4bbe4f9773",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "02b367e2-5d18-4e86-abd9-29594b61ba15",
+      "sourceId": "fd69e413-d32f-4ce5-b810-9033a8e46458",
+      "targetId": "f8891356-22e4-4513-874b-48c3aecb0d6d",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "17727216-2b27-4613-85a0-ee29a810ef27",
+      "sourceId": "fd69e413-d32f-4ce5-b810-9033a8e46458",
+      "targetId": "309c2cfb-9e9c-49f2-91f5-437aac16d9d7",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "75f0a59a-f9d6-46eb-b01f-fe0a4397f321",
+      "sourceId": "60928b07-e9a9-4218-a7f3-df4bbe4f9773",
+      "targetId": "f8891356-22e4-4513-874b-48c3aecb0d6d",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "848fbcd2-0d0e-4c24-9211-5f04f2fd00c0",
+      "sourceId": "60928b07-e9a9-4218-a7f3-df4bbe4f9773",
+      "targetId": "309c2cfb-9e9c-49f2-91f5-437aac16d9d7",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    },
+    {
+      "id": "910a188f-d5b7-4b29-b5f9-364da0ea549c",
+      "sourceId": "f8891356-22e4-4513-874b-48c3aecb0d6d",
+      "targetId": "309c2cfb-9e9c-49f2-91f5-437aac16d9d7",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Artificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT ..."
+      ]
+    }
+  ],
+  "meta": {
+    "graphId": "2b5e7b3e-6d11-4bc4-8910-672fa5b82cae",
+    "createdAt": "2025-11-23T05:12:59.704Z",
+    "updatedAt": "2025-11-23T05:12:59.704Z",
+    "sourceText": "\nArtificial Intelligence (AI) is transforming technology. Machine Learning is a subset of AI.\nDeep Learning uses neural networks. Google developed TensorFlow for ML applications.\nOpenAI created GPT mo"
+  }
+}

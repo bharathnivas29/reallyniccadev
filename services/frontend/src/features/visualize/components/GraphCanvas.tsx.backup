@@ -1,0 +1,398 @@
+import { useEffect, useRef, useState, FC } from "react";
+import cytoscape, { Core } from "cytoscape";
+import { Graph, Relationship } from "@really-nicca/types";
+import {
+  ZoomIn,
+  ZoomOut,
+  Maximize2,
+  Search,
+  Filter,
+  Download,
+  Eye,
+  EyeOff,
+  ChevronDown,
+  ChevronUp,
+} from "lucide-react";
+
+interface GraphCanvasProps {
+  graphData?: Graph;
+  onNodeClick?: (nodeId: string) => void;
+  onEdgeClick?: (edge: Relationship) => void;
+  selectedNodeId?: string;
+  className?: string;
+}
+
+type LayoutName = "cose" | "circle" | "grid" | "breadthfirst" | "concentric";
+
+export const GraphCanvas: FC<GraphCanvasProps> = ({
+  graphData,
+  onNodeClick,
+  onEdgeClick,
+  selectedNodeId,
+  className = "",
+
+    cyRef.current = cytoscape({
+      container: containerRef.current,
+      userPanningEnabled: true,
+      userZoomingEnabled: true,
+      boxSelectionEnabled: false,
+      style: [
+        // Node Styles
+        {
+          selector: "node",
+          style: {
+            "background-color": "#6366f1", // Indigo 500
+            label: "data(label)",
+            color: "#0f172a", // Slate 900
+            "font-family": "Inter, sans-serif",
+            "font-size": "12px",
+            "text-valign": "bottom",
+            "text-margin-y": 6,
+            width: 32,
+            height: 32,
+            "border-width": 2,
+            "border-color": "#e2e8f0", // Slate 200
+            "text-background-opacity": 0,
+          },
+        },
+        // Edge Styles
+        {
+          selector: "edge",
+          style: {
+            width: 2,
+            "line-color": "#cbd5e1", // Slate 300
+            "target-arrow-color": "#cbd5e1",
+            "target-arrow-shape": "triangle",
+            "curve-style": "bezier",
+            label: "data(label)",
+            "font-size": "10px",
+            color: "#94a3b8", // Slate 400
+            "text-rotation": "autorotate",
+            "text-background-color": "#ffffff",
+            "text-background-opacity": 1,
+            "text-background-padding": "2px",
+          },
+        },
+        // Selected State
+        {
+          selector: ":selected",
+          style: {
+            "background-color": "#4f46e5", // Indigo 600
+            "border-color": "#312e81", // Indigo 900
+            "border-width": 3,
+            "line-color": "#6366f1",
+            "target-arrow-color": "#6366f1",
+            "source-arrow-color": "#6366f1",
+          },
+        },
+        // Highlighted nodes (connected to hovered/selected)
+        {
+          selector: "node.highlighted",
+          style: {
+            "background-color": "#6366f1",
+            opacity: 1,
+          },
+        },
+        // Dimmed nodes (not connected)
+        {
+          selector: "node.dimmed",
+          style: {
+            opacity: 0.3,
+          },
+        },
+        // Highlighted edges
+        {
+          selector: "edge.highlighted",
+          style: {
+            "line-color": "#6366f1",
+            "target-arrow-color": "#6366f1",
+            opacity: 1,
+            width: 3,
+          },
+        },
+        // Dimmed edges
+        {
+          selector: "edge.dimmed",
+          style: {
+            opacity: 0.2,
+          },
+        },
+      ],
+      layout: {
+        name: "grid",
+        rows: 1,
+      },
+      wheelSensitivity: 0.2,
+    });
+
+    // Event Listeners
+    cyRef.current.on("tap", "node", (evt) => {
+      const node = evt.target;
+      if (onNodeClick) {
+        onNodeClick(node.id());
+      }
+    });
+
+    // Edge Click Handler
+    cyRef.current.on("tap", "edge", (evt) => {
+      const edge = evt.target;
+      if (onEdgeClick && graphData) {
+        const edgeData = graphData.edges.find(
+          (e) =>
+            e.sourceId === edge.data("source") &&
+            e.targetId === edge.data("target")
+        );
+        if (edgeData) {
+          onEdgeClick(edgeData);
+        }
+      }
+    });
+
+    // Hover Effects
+    cyRef.current.on("mouseover", "node", (evt) => {
+      const node = evt.target;
+      const neighborhood = node.neighborhood();
+
+      cyRef.current?.elements().addClass("dimmed");
+      node.removeClass("dimmed").addClass("highlighted");
+      neighborhood.removeClass("dimmed").addClass("highlighted");
+    });
+
+    cyRef.current.on("mouseout", "node", () => {
+      cyRef.current?.elements().removeClass("dimmed highlighted");
+    });
+
+    setIsGraphReady(true);
+
+    return () => {
+      if (cyRef.current) {
+        cyRef.current.destroy();
+      }
+    };
+  }, []);
+
+  // Update Graph Data
+  useEffect(() => {
+    if (!cyRef.current || !graphData) return;
+
+    const cy = cyRef.current;
+
+    // Transform data to Cytoscape elements
+    const elements = [
+      ...graphData.nodes.map((node) => ({
+        group: "nodes" as const,
+        data: {
+          id: node.id,
+          label: node.label,
+          type: node.type,
+          ...node.metadata,
+        },
+      })),
+      ...graphData.edges.map((edge, i) => ({
+        group: "edges" as const,
+        data: {
+          id: `e${i}`,
+          source: edge.sourceId,
+          target: edge.targetId,
+          label: edge.relationType || edge.type,
+          weight: edge.weight,
+        },
+      })),
+    ];
+
+    cy.elements().remove();
+    cy.add(elements);
+
+    // Run layout
+    cy.layout({
+      name: currentLayout,
+      animate: true,
+      animationDuration: 500,
+      padding: 50,
+      // @ts-ignore - layout options
+      componentSpacing: 40,
+      nodeOverlap: 4,
+      refresh: 20,
+      fit: true,
+      randomize: false,
+    }).run();
+  }, [graphData, currentLayout]);
+
+  // Handle Selected Node Highlight
+  useEffect(() => {
+    if (!cyRef.current) return;
+
+    cyRef.current.elements().removeClass("selected-node");
+
+    if (selectedNodeId) {
+      const selectedNode = cyRef.current.$(`#${selectedNodeId}`);
+      selectedNode.select();
+    }
+  }, [selectedNodeId]);
+
+  // Search Functionality
+  useEffect(() => {
+    if (!cyRef.current) return;
+
+    if (searchQuery.trim()) {
+      const matchedNodes = cyRef.current.nodes().filter((node) => {
+        const label = node.data("label")?.toLowerCase() || "";
+        return label.includes(searchQuery.toLowerCase());
+      });
+
+      cyRef.current.elements().addClass("dimmed");
+      matchedNodes.removeClass("dimmed").addClass("highlighted");
+
+      if (matchedNodes.length > 0) {
+        cyRef.current.fit(matchedNodes, 50);
+      }
+    } else {
+      cyRef.current.elements().removeClass("dimmed highlighted");
+    }
+  }, [searchQuery]);
+
+  // Label Toggle Effect
+  useEffect(() => {
+    if (!cyRef.current || !isGraphReady) return;
+
+    cyRef.current.nodes().style({
+      label: showLabels ? "data(label)" : "",
+    });
+  }, [showLabels, isGraphReady]);
+
+  // Zoom Controls
+  const handleZoomIn = () => {
+    if (cyRef.current) {
+      cyRef.current.zoom(cyRef.current.zoom() * 1.2);
+      cyRef.current.center();
+    }
+  };
+
+  const handleZoomOut = () => {
+    if (cyRef.current) {
+      cyRef.current.zoom(cyRef.current.zoom() * 0.8);
+      cyRef.current.center();
+    }
+  };
+
+  const handleFit = () => {
+    if (cyRef.current) {
+      cyRef.current.fit(undefined, 50);
+    }
+  };
+
+  // Export Functions
+  const handleExportPNG = () => {
+    if (cyRef.current) {
+      const png = cyRef.current.png({ scale: 2 });
+      const link = document.createElement("a");
+      link.download = `graph-${Date.now()}.png`;
+      link.href = png;
+      link.click();
+    }
+  };
+
+  // @ts-ignore - Prepared for entity filter feature (future enhancement)
+  // Entity Type Toggle
+  const toggleEntityType = (type: string) => {
+    setSelectedEntityTypes((prev) => {
+      const newSet = new Set(prev);
+      if (newSet.has(type)) {
+        newSet.delete(type);
+      } else {
+        newSet.add(type);
+      }
+      return newSet;
+    });
+  };
+
+  return (
+    <div className={`relative w-full h-full bg-[var(--bg-app)] ${className}`}>
+      {/* Search Bar */}
+      <div className="absolute top-4 left-4 z-10 flex gap-2">
+        <div className="relative">
+          <Search
+            className="absolute left-3 top-1/2 -translate-y-1/2 text-[var(--text-muted)]"
+            size={16}
+          />
+          <input
+            type="text"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            placeholder="Search nodes..."
+            className="pl-10 pr-4 py-2 bg-white border border-[var(--border)] rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent"
+          />
+        </div>
+
+        {/* Layout Selector */}
+        <select
+          value={currentLayout}
+          onChange={(e) => setCurrentLayout(e.target.value as LayoutName)}
+          className="px-3 py-2 bg-white border border-[var(--border)] rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent cursor-pointer"
+          title="Change Layout"
+        >
+          <option value="cose">Force</option>
+          <option value="circle">Circle</option>
+          <option value="grid">Grid</option>
+          <option value="breadthfirst">Hierarchy</option>
+          <option value="concentric">Concentric</option>
+        </select>
+      </div>
+
+      {/* Visualization Controls */}
+      <div className="absolute top-4 right-4 z-10 flex flex-col gap-2">
+        <button
+          onClick={handleExportPNG}
+          className="p-2 bg-white border border-[var(--border)] rounded-lg hover:bg-[var(--bg-app)] transition-colors shadow-sm flex items-center gap-2"
+          title="Export as PNG"
+        >
+          <Download size={16} className="text-[var(--text-main)]" />
+          <span className="text-xs">PNG</span>
+        </button>
+        <button
+          onClick={() => setShowLabels(!showLabels)}
+          className="p-2 bg-white border border-[var(--border)] rounded-lg hover:bg-[var(--bg-app)] transition-colors shadow-sm"
+          title={showLabels ? "Hide Labels" : "Show Labels"}
+        >
+          {showLabels ? (
+            <Eye size={16} className="text-[var(--text-main)]" />
+          ) : (
+            <EyeOff size={16} className="text-[var(--text-muted)]" />
+          )}
+        </button>
+      </div>
+
+      {/* Zoom Controls */}
+      <div className="absolute bottom-4 right-4 z-10 flex flex-col gap-2">
+        <button
+          onClick={handleZoomIn}
+          className="p-2 bg-white border border-[var(--border)] rounded-lg hover:bg-[var(--bg-app)] transition-colors shadow-sm"
+          title="Zoom In"
+        >
+          <ZoomIn size={20} className="text-[var(--text-main)]" />
+        </button>
+        <button
+          onClick={handleZoomOut}
+          className="p-2 bg-white border border-[var(--border)] rounded-lg hover:bg-[var(--bg-app)] transition-colors shadow-sm"
+          title="Zoom Out"
+        >
+          <ZoomOut size={20} className="text-[var(--text-main)]" />
+        </button>
+        <button
+          onClick={handleFit}
+          className="p-2 bg-white border border-[var(--border)] rounded-lg hover:bg-[var(--bg-app)] transition-colors shadow-sm"
+          title="Fit to View"
+        >
+          <Maximize2 size={20} className="text-[var(--text-main)]" />
+        </button>
+      </div>
+
+      <div ref={containerRef} className="absolute inset-0 w-full h-full" />
+      {!isGraphReady && (
+        <div className="absolute inset-0 flex items-center justify-center text-[var(--text-muted)]">
+          Initializing Graph...
+        </div>
+      )}
+    </div>
+  );
+};

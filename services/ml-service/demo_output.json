@@ -1,0 +1,293 @@
+{
+  "entities": [
+    {
+      "name": "Elon Musk",
+      "type": "PERSON",
+      "confidence": 0.69,
+      "sources": [
+        {
+          "docId": "demo_doc_001",
+          "snippet": "Elon Musk is the CEO of Tesla, Inc. He co-founded the compa",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "demo_doc_001",
+          "snippet": "Elon Musk is the CEO of Tesla, Inc. He co-founded the company in 2003. Musk is also the founder of SpaceX, which designs rockets. Tesla is headquartered in Austin, Texas.",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "demo_doc_001",
+          "snippet": "of Tesla, Inc. He co-founded the company in 2003. Musk is also the founder of SpaceX, which designs rock",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [
+        "Musk"
+      ]
+    },
+    {
+      "name": "Tesla, Inc.",
+      "type": "ORGANIZATION",
+      "confidence": 0.7050000000000001,
+      "sources": [
+        {
+          "docId": "demo_doc_001",
+          "snippet": "Elon Musk is the CEO of Tesla, Inc. He co-founded the company in 2003. Musk is also t",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "demo_doc_001",
+          "snippet": "lso the founder of SpaceX, which designs rockets. Tesla is headquartered in Austin, Texas.",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "demo_doc_001",
+          "snippet": "Elon Musk is the CEO of Tesla, Inc. He co-founded the company in 2003. Musk is also the founder of SpaceX, which designs rockets. Tesla is headquartered in Austin, Texas.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [
+        "Tesla"
+      ]
+    },
+    {
+      "name": "2003",
+      "type": "DATE",
+      "confidence": 0.6900000000000001,
+      "sources": [
+        {
+          "docId": "demo_doc_001",
+          "snippet": "e CEO of Tesla, Inc. He co-founded the company in 2003. Musk is also the founder of SpaceX, which design",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "demo_doc_001",
+          "snippet": "Elon Musk is the CEO of Tesla, Inc. He co-founded the company in 2003. Musk is also the founder of SpaceX, which designs rockets. Tesla is headquartered in Austin, Texas.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "name": "SpaceX",
+      "type": "ORGANIZATION",
+      "confidence": 0.71,
+      "sources": [
+        {
+          "docId": "demo_doc_001",
+          "snippet": "the company in 2003. Musk is also the founder of SpaceX, which designs rockets. Tesla is headquartered in",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "demo_doc_001",
+          "snippet": "Elon Musk is the CEO of Tesla, Inc. He co-founded the company in 2003. Musk is also the founder of SpaceX, which designs rockets. Tesla is headquartered in Austin, Texas.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "name": "Austin",
+      "type": "LOCATION",
+      "confidence": 0.71,
+      "sources": [
+        {
+          "docId": "demo_doc_001",
+          "snippet": "which designs rockets. Tesla is headquartered in Austin, Texas.",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "demo_doc_001",
+          "snippet": "Elon Musk is the CEO of Tesla, Inc. He co-founded the company in 2003. Musk is also the founder of SpaceX, which designs rockets. Tesla is headquartered in Austin, Texas.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "name": "Texas",
+      "type": "LOCATION",
+      "confidence": 0.7000000000000001,
+      "sources": [
+        {
+          "docId": "demo_doc_001",
+          "snippet": "esigns rockets. Tesla is headquartered in Austin, Texas.",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "demo_doc_001",
+          "snippet": "Elon Musk is the CEO of Tesla, Inc. He co-founded the company in 2003. Musk is also the founder of SpaceX, which designs rockets. Tesla is headquartered in Austin, Texas.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": []
+    }
+  ],
+  "relationships": [
+    {
+      "sourceEntity": "Elon Musk",
+      "targetEntity": "Tesla, Inc.",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1.0,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk is the CEO of Tesla, Inc. He co-founded the company in 2003. Musk is also the founder of SpaceX, which designs rockets. Tesla is headquartered in Austin, Texas."
+      ]
+    },
+    {
+      "sourceEntity": "Elon Musk",
+      "targetEntity": "2003",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1.0,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk is the CEO of Tesla, Inc. He co-founded the company in 2003. Musk is also the founder of SpaceX, which designs rockets. Tesla is headquartered in Austin, Texas."
+      ]
+    },
+    {
+      "sourceEntity": "Elon Musk",
+      "targetEntity": "SpaceX",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1.0,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk is the CEO of Tesla, Inc. He co-founded the company in 2003. Musk is also the founder of SpaceX, which designs rockets. Tesla is headquartered in Austin, Texas."
+      ]
+    },
+    {
+      "sourceEntity": "Elon Musk",
+      "targetEntity": "Austin",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1.0,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk is the CEO of Tesla, Inc. He co-founded the company in 2003. Musk is also the founder of SpaceX, which designs rockets. Tesla is headquartered in Austin, Texas."
+      ]
+    },
+    {
+      "sourceEntity": "Elon Musk",
+      "targetEntity": "Texas",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1.0,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk is the CEO of Tesla, Inc. He co-founded the company in 2003. Musk is also the founder of SpaceX, which designs rockets. Tesla is headquartered in Austin, Texas."
+      ]
+    },
+    {
+      "sourceEntity": "Tesla, Inc.",
+      "targetEntity": "2003",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1.0,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk is the CEO of Tesla, Inc. He co-founded the company in 2003. Musk is also the founder of SpaceX, which designs rockets. Tesla is headquartered in Austin, Texas."
+      ]
+    },
+    {
+      "sourceEntity": "Tesla, Inc.",
+      "targetEntity": "SpaceX",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1.0,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk is the CEO of Tesla, Inc. He co-founded the company in 2003. Musk is also the founder of SpaceX, which designs rockets. Tesla is headquartered in Austin, Texas."
+      ]
+    },
+    {
+      "sourceEntity": "Tesla, Inc.",
+      "targetEntity": "Austin",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1.0,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk is the CEO of Tesla, Inc. He co-founded the company in 2003. Musk is also the founder of SpaceX, which designs rockets. Tesla is headquartered in Austin, Texas."
+      ]
+    },
+    {
+      "sourceEntity": "Tesla, Inc.",
+      "targetEntity": "Texas",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1.0,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk is the CEO of Tesla, Inc. He co-founded the company in 2003. Musk is also the founder of SpaceX, which designs rockets. Tesla is headquartered in Austin, Texas."
+      ]
+    },
+    {
+      "sourceEntity": "2003",
+      "targetEntity": "SpaceX",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1.0,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk is the CEO of Tesla, Inc. He co-founded the company in 2003. Musk is also the founder of SpaceX, which designs rockets. Tesla is headquartered in Austin, Texas."
+      ]
+    },
+    {
+      "sourceEntity": "2003",
+      "targetEntity": "Austin",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1.0,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk is the CEO of Tesla, Inc. He co-founded the company in 2003. Musk is also the founder of SpaceX, which designs rockets. Tesla is headquartered in Austin, Texas."
+      ]
+    },
+    {
+      "sourceEntity": "2003",
+      "targetEntity": "Texas",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1.0,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk is the CEO of Tesla, Inc. He co-founded the company in 2003. Musk is also the founder of SpaceX, which designs rockets. Tesla is headquartered in Austin, Texas."
+      ]
+    },
+    {
+      "sourceEntity": "SpaceX",
+      "targetEntity": "Austin",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1.0,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk is the CEO of Tesla, Inc. He co-founded the company in 2003. Musk is also the founder of SpaceX, which designs rockets. Tesla is headquartered in Austin, Texas."
+      ]
+    },
+    {
+      "sourceEntity": "SpaceX",
+      "targetEntity": "Texas",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1.0,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk is the CEO of Tesla, Inc. He co-founded the company in 2003. Musk is also the founder of SpaceX, which designs rockets. Tesla is headquartered in Austin, Texas."
+      ]
+    },
+    {
+      "sourceEntity": "Austin",
+      "targetEntity": "Texas",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1.0,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk is the CEO of Tesla, Inc. He co-founded the company in 2003. Musk is also the founder of SpaceX, which designs rockets. Tesla is headquartered in Austin, Texas."
+      ]
+    }
+  ]
+}

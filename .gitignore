@@ -1,0 +1,46 @@
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+dist/
+build/
+coverage/
+.npm/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Really Nicca Data
+data/graphs/*
+!data/graphs/.keep
+data/sample/*
+!data/sample/.keep
+uploads/*
+!uploads/.keep
+
+# Misc
+.pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

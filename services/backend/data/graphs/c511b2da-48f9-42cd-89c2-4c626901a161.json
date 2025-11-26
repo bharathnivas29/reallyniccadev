@@ -1,0 +1,38 @@
+{
+  "nodes": [
+    {
+      "id": "a071ee17-6de9-4c1f-90e6-63fee21ed562",
+      "label": "Artificial Intelligence",
+      "type": "CONCEPT",
+      "aliases": [
+        "AI"
+      ],
+      "confidence": 0.95,
+      "sources": [
+        {
+          "docId": "test",
+          "snippet": "AI...",
+          "chunkIndex": 0
+        }
+      ],
+      "metadata": {
+        "importance": 0
+      }
+    }
+  ],
+  "edges": [],
+  "meta": {
+    "graphId": "c511b2da-48f9-42cd-89c2-4c626901a161",
+    "createdAt": "2025-11-22T04:04:56.252Z",
+    "updatedAt": "2025-11-22T04:04:56.252Z",
+    "sourceDocs": [
+      {
+        "id": "8da17ad8-7bd4-4edf-8688-13c6e57a6d6c",
+        "filename": "test.pdf",
+        "fileType": "pdf",
+        "uploadedAt": "2025-11-22T04:04:56.251Z",
+        "size": 1024
+      }
+    ]
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "nodes": [
+    {
+      "id": "401d00ee-11ca-4a31-87a1-bfbe77dfe586",
+      "label": "Elon Musk",
+      "type": "PERSON",
+      "confidence": 0.74,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also started Neuralink in 2016.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "a30a3fd4-a30a-47c0-803e-98406fd9d2b5",
+      "label": "Tesla",
+      "type": "ORGANIZATION",
+      "confidence": 0.7000000000000001,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also started Neura",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also started Neuralink in 2016.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "d4adab9a-4908-41f6-a995-40bfcec6ce41",
+      "label": "2003",
+      "type": "DATE",
+      "confidence": 0.6900000000000001,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also started Neuralink in",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also started Neuralink in 2016.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "5493db05-3089-40b1-b6b9-43ccbacf5b40",
+      "label": "2002",
+      "type": "DATE",
+      "confidence": 0.6900000000000001,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also started Neuralink in 2016.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "41678485-3a9f-4255-8bb6-72cc053ada7f",
+      "label": "Neuralink",
+      "type": "ORGANIZATION",
+      "confidence": 0.74,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Tesla in 2003 and SpaceX in 2002. He also started Neuralink in 2016.",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also started Neuralink in 2016.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "a7fe1bdd-6a30-4d5d-96c6-630f06d9be4c",
+      "label": "2016",
+      "type": "DATE",
+      "confidence": 0.6900000000000001,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "and SpaceX in 2002. He also started Neuralink in 2016.",
+          "chunkIndex": 0
+        },
+        {
+          "docId": "web_request",
+          "snippet": "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also started Neuralink in 2016.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    },
+    {
+      "id": "388a41b1-5371-4dcc-b6ed-0a8b08e3ed15",
+      "label": "SpaceX",
+      "type": "ORGANIZATION",
+      "confidence": 0.92,
+      "sources": [
+        {
+          "docId": "web_request",
+          "snippet": "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also started Neuralink in 2016.",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": [],
+      "hasEmbedding": false,
+      "metadata": {
+        "importance": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "2aec9253-a86a-445b-8dab-56a00fd27c6d",
+      "sourceId": "401d00ee-11ca-4a31-87a1-bfbe77dfe586",
+      "targetId": "a30a3fd4-a30a-47c0-803e-98406fd9d2b5",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also started Neuralink in 2016."
+      ]
+    },
+    {
+      "id": "1de36d59-c4d4-42f3-8300-323412c7ede8",
+      "sourceId": "401d00ee-11ca-4a31-87a1-bfbe77dfe586",
+      "targetId": "d4adab9a-4908-41f6-a995-40bfcec6ce41",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also started Neuralink in 2016."
+      ]
+    },
+    {
+      "id": "2de52fe9-0af6-4904-bc90-1e936f7c0a81",
+      "sourceId": "401d00ee-11ca-4a31-87a1-bfbe77dfe586",
+      "targetId": "5493db05-3089-40b1-b6b9-43ccbacf5b40",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also started Neuralink in 2016."
+      ]
+    },
+    {
+      "id": "79e102c6-cea9-4f19-9a10-f9283ea0e611",
+      "sourceId": "401d00ee-11ca-4a31-87a1-bfbe77dfe586",
+      "targetId": "41678485-3a9f-4255-8bb6-72cc053ada7f",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also started Neuralink in 2016."
+      ]
+    },
+    {
+      "id": "0696e2ab-9ddc-4708-9293-557da30718fd",
+      "sourceId": "401d00ee-11ca-4a31-87a1-bfbe77dfe586",
+      "targetId": "a7fe1bdd-6a30-4d5d-96c6-630f06d9be4c",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also started Neuralink in 2016."
+      ]
+    },
+    {
+      "id": "d59e65c5-5ca3-40c2-b1d2-d24cfb84dadb",
+      "sourceId": "401d00ee-11ca-4a31-87a1-bfbe77dfe586",
+      "targetId": "388a41b1-5371-4dcc-b6ed-0a8b08e3ed15",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also started Neuralink in 2016."
+      ]
+    },
+    {
+      "id": "67160ce9-2bce-4c6f-b0a9-53d36e3f5b5e",
+      "sourceId": "a30a3fd4-a30a-47c0-803e-98406fd9d2b5",
+      "targetId": "d4adab9a-4908-41f6-a995-40bfcec6ce41",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also started Neuralink in 2016."
+      ]
+    },
+    {
+      "id": "069f2edc-50de-451a-9e39-23af5d112407",
+      "sourceId": "a30a3fd4-a30a-47c0-803e-98406fd9d2b5",
+      "targetId": "5493db05-3089-40b1-b6b9-43ccbacf5b40",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also started Neuralink in 2016."
+      ]
+    },
+    {
+      "id": "72b1a586-9d52-4561-85d7-ab746248031b",
+      "sourceId": "a30a3fd4-a30a-47c0-803e-98406fd9d2b5",
+      "targetId": "41678485-3a9f-4255-8bb6-72cc053ada7f",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also started Neuralink in 2016."
+      ]
+    },
+    {
+      "id": "5a347070-81d8-4efe-82bd-22c03e7f1a99",
+      "sourceId": "a30a3fd4-a30a-47c0-803e-98406fd9d2b5",
+      "targetId": "a7fe1bdd-6a30-4d5d-96c6-630f06d9be4c",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also started Neuralink in 2016."
+      ]
+    },
+    {
+      "id": "9289ff07-9151-49f8-908d-c4da4053ccde",
+      "sourceId": "a30a3fd4-a30a-47c0-803e-98406fd9d2b5",
+      "targetId": "388a41b1-5371-4dcc-b6ed-0a8b08e3ed15",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also started Neuralink in 2016."
+      ]
+    },
+    {
+      "id": "ff0cd8da-f31e-483e-9def-7eac9926cf0c",
+      "sourceId": "d4adab9a-4908-41f6-a995-40bfcec6ce41",
+      "targetId": "5493db05-3089-40b1-b6b9-43ccbacf5b40",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also started Neuralink in 2016."
+      ]
+    },
+    {
+      "id": "5b708ee7-a7b2-4da1-b94d-8867eef70963",
+      "sourceId": "d4adab9a-4908-41f6-a995-40bfcec6ce41",
+      "targetId": "41678485-3a9f-4255-8bb6-72cc053ada7f",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also started Neuralink in 2016."
+      ]
+    },
+    {
+      "id": "532caf8b-a8b7-447f-b73a-d749044959dd",
+      "sourceId": "d4adab9a-4908-41f6-a995-40bfcec6ce41",
+      "targetId": "a7fe1bdd-6a30-4d5d-96c6-630f06d9be4c",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also started Neuralink in 2016."
+      ]
+    },
+    {
+      "id": "8d00da27-5519-49bb-a8cb-a2b6c3bc4eb9",
+      "sourceId": "d4adab9a-4908-41f6-a995-40bfcec6ce41",
+      "targetId": "388a41b1-5371-4dcc-b6ed-0a8b08e3ed15",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also started Neuralink in 2016."
+      ]
+    },
+    {
+      "id": "b973c534-a78d-495f-9443-e455564f29a7",
+      "sourceId": "5493db05-3089-40b1-b6b9-43ccbacf5b40",
+      "targetId": "41678485-3a9f-4255-8bb6-72cc053ada7f",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also started Neuralink in 2016."
+      ]
+    },
+    {
+      "id": "d7c8d73f-3223-45da-a7ee-a4558711d950",
+      "sourceId": "5493db05-3089-40b1-b6b9-43ccbacf5b40",
+      "targetId": "a7fe1bdd-6a30-4d5d-96c6-630f06d9be4c",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also started Neuralink in 2016."
+      ]
+    },
+    {
+      "id": "f363cfa4-9dac-456b-9bda-4f076c9dbd57",
+      "sourceId": "5493db05-3089-40b1-b6b9-43ccbacf5b40",
+      "targetId": "388a41b1-5371-4dcc-b6ed-0a8b08e3ed15",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also started Neuralink in 2016."
+      ]
+    },
+    {
+      "id": "a304da45-2493-421a-9aad-e5079fc29026",
+      "sourceId": "41678485-3a9f-4255-8bb6-72cc053ada7f",
+      "targetId": "a7fe1bdd-6a30-4d5d-96c6-630f06d9be4c",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also started Neuralink in 2016."
+      ]
+    },
+    {
+      "id": "6feee376-a689-4907-98f7-0f227fac0b2f",
+      "sourceId": "41678485-3a9f-4255-8bb6-72cc053ada7f",
+      "targetId": "388a41b1-5371-4dcc-b6ed-0a8b08e3ed15",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also started Neuralink in 2016."
+      ]
+    },
+    {
+      "id": "9d0bb31e-7e87-444e-ba60-f0258c84842b",
+      "sourceId": "a7fe1bdd-6a30-4d5d-96c6-630f06d9be4c",
+      "targetId": "388a41b1-5371-4dcc-b6ed-0a8b08e3ed15",
+      "type": "cooccurrence",
+      "relationType": "related_to",
+      "weight": 1,
+      "confidence": 0.7,
+      "examples": [
+        "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also started Neuralink in 2016."
+      ]
+    }
+  ],
+  "meta": {
+    "graphId": "5bd21a99-2934-4cbe-bac9-2ccd237e88a0",
+    "createdAt": "2025-11-23T06:08:42.141Z",
+    "updatedAt": "2025-11-23T06:08:42.141Z",
+    "sourceText": "Elon Musk founded Tesla in 2003 and SpaceX in 2002. He also started Neuralink in 2016."
+  }
+}

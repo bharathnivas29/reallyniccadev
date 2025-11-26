@@ -1,0 +1,37 @@
+:root {
+  /* Brand Colors */
+  --primary: #6366f1; /* Indigo 500 - Primary Action */
+  --primary-hover: #4f46e5; /* Indigo 600 */
+  --primary-light: #e0e7ff; /* Indigo 100 - Backgrounds/Accents */
+
+  /* Neutral / Surface Colors */
+  --bg-app: #f8fafc; /* Slate 50 - Main Background */
+  --bg-panel: #ffffff; /* White - Cards/Sidebars */
+  --border: #e2e8f0; /* Slate 200 - Borders */
+
+  /* Text Colors */
+  --text-main: #0f172a; /* Slate 900 - Headings/Body */
+  --text-muted: #64748b; /* Slate 500 - Secondary info */
+  --text-light: #94a3b8; /* Slate 400 - Placeholders */
+
+  /* Semantic Colors */
+  --success: #10b981; /* Emerald 500 */
+  --error: #ef4444; /* Red 500 */
+  --warning: #f59e0b; /* Amber 500 */
+
+  /* Graph Colors (Node Types) */
+  --node-person: #3b82f6; /* Blue */
+  --node-org: #8b5cf6; /* Violet */
+  --node-concept: #10b981; /* Emerald */
+  --node-paper: #f43f5e; /* Rose */
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+
+  /* Spacing */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+}

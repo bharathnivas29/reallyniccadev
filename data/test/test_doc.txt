@@ -1,0 +1,7 @@
+Machine learning is a subset of artificial intelligence that enables computers to learn from data. 
+
+Neural networks are the foundation of deep learning. Deep learning models use neural networks with multiple layers to process information.
+
+Google and Microsoft are leading companies in AI research. Research at Stanford University has advanced the field significantly.
+
+The transformer architecture revolutionized natural language processing. Attention mechanisms allow models to focus on relevant parts of the input.

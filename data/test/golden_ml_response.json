@@ -1,0 +1,69 @@
+{
+  "entities": [
+    {
+      "name": "Artificial Intelligence",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "sources": [
+        {
+          "docId": "test-doc-1",
+          "snippet": "Artificial Intelligence is transforming technology...",
+          "chunkIndex": 0
+        }
+      ],
+      "aliases": ["AI"]
+    },
+    {
+      "name": "Machine Learning",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "sources": [
+        {
+          "docId": "test-doc-1",
+          "snippet": "Machine Learning is a subset of AI...",
+          "chunkIndex": 1
+        }
+      ],
+      "aliases": ["ML"]
+    },
+    {
+      "name": "Google",
+      "type": "ORGANIZATION",
+      "confidence": 0.98,
+      "sources": [
+        {
+          "docId": "test-doc-1",
+          "snippet": "Google is a leader in AI research...",
+          "chunkIndex": 2
+        }
+      ],
+      "aliases": []
+    }
+  ],
+  "relationships": [
+    {
+      "sourceName": "Machine Learning",
+      "targetName": "Artificial Intelligence",
+      "relationType": "part_of",
+      "confidence": 0.9,
+      "examples": [
+        {
+          "docId": "test-doc-1",
+          "snippet": "Machine Learning is a subset of AI"
+        }
+      ]
+    },
+    {
+      "sourceName": "Google",
+      "targetName": "Artificial Intelligence",
+      "relationType": "uses",
+      "confidence": 0.85,
+      "examples": [
+        {
+          "docId": "test-doc-1",
+          "snippet": "Google is a leader in AI research"
+        }
+      ]
+    }
+  ]
+}

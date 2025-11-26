@@ -1,0 +1,238 @@
+{
+  "success": true,
+  "graphId": "d0a028d7-8daa-47eb-9a2b-b37740464b93",
+  "graph": {
+    "nodes": [
+      {
+        "id": "3bea2166-1449-497e-9614-e7b6ef5a835e",
+        "label": "Steve Jobs",
+        "type": "PERSON",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "docId": "web_request",
+            "snippet": "Steve Jobs founded Apple in 1976. He worked at Atari before",
+            "chunkIndex": 0
+          }
+        ],
+        "aliases": [],
+        "hasEmbedding": false,
+        "metadata": {
+          "importance": 1
+        }
+      },
+      {
+        "id": "03a0a29c-e32c-4e6a-9c6a-65415179e541",
+        "label": "Apple",
+        "type": "ORGANIZATION",
+        "confidence": 0.7000000000000001,
+        "sources": [
+          {
+            "docId": "web_request",
+            "snippet": "Steve Jobs founded Apple in 1976. He worked at Atari before that. Apple is",
+            "chunkIndex": 0
+          },
+          {
+            "docId": "web_request",
+            "snippet": "ed Apple in 1976. He worked at Atari before that. Apple is located in Cupertino.",
+            "chunkIndex": 0
+          }
+        ],
+        "aliases": [],
+        "hasEmbedding": false,
+        "metadata": {
+          "importance": 1
+        }
+      },
+      {
+        "id": "a7626d7c-4bb9-4143-a6e8-53e17f3dae50",
+        "label": "1976",
+        "type": "DATE",
+        "confidence": 0.64,
+        "sources": [
+          {
+            "docId": "web_request",
+            "snippet": "Steve Jobs founded Apple in 1976. He worked at Atari before that. Apple is located",
+            "chunkIndex": 0
+          }
+        ],
+        "aliases": [],
+        "hasEmbedding": false,
+        "metadata": {
+          "importance": 1
+        }
+      },
+      {
+        "id": "017ccdc9-198f-4d4f-8096-90a869ac366d",
+        "label": "Atari",
+        "type": "CONCEPT",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "docId": "web_request",
+            "snippet": "Steve Jobs founded Apple in 1976. He worked at Atari before that. Apple is located in Cupertino.",
+            "chunkIndex": 0
+          }
+        ],
+        "aliases": [],
+        "hasEmbedding": false,
+        "metadata": {
+          "importance": 1
+        }
+      },
+      {
+        "id": "88a8d90e-4ab7-4734-a65f-fafba80ace83",
+        "label": "Cupertino",
+        "type": "LOCATION",
+        "confidence": 0.69,
+        "sources": [
+          {
+            "docId": "web_request",
+            "snippet": "worked at Atari before that. Apple is located in Cupertino.",
+            "chunkIndex": 0
+          }
+        ],
+        "aliases": [],
+        "hasEmbedding": false,
+        "metadata": {
+          "importance": 1
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "786adc4e-5477-44c3-af01-117182741532",
+        "sourceId": "3bea2166-1449-497e-9614-e7b6ef5a835e",
+        "targetId": "03a0a29c-e32c-4e6a-9c6a-65415179e541",
+        "type": "cooccurrence",
+        "relationType": "related_to",
+        "weight": 1,
+        "confidence": 0.7,
+        "examples": [
+          "Steve Jobs founded Apple in 1976. He worked at Atari before that. Apple is located in Cupertino."
+        ]
+      },
+      {
+        "id": "9e64dd78-3491-465d-89c3-f5becbae78cc",
+        "sourceId": "3bea2166-1449-497e-9614-e7b6ef5a835e",
+        "targetId": "a7626d7c-4bb9-4143-a6e8-53e17f3dae50",
+        "type": "cooccurrence",
+        "relationType": "related_to",
+        "weight": 1,
+        "confidence": 0.7,
+        "examples": [
+          "Steve Jobs founded Apple in 1976. He worked at Atari before that. Apple is located in Cupertino."
+        ]
+      },
+      {
+        "id": "4056b25e-4d14-43ef-ad2d-a5a2f35b12e9",
+        "sourceId": "3bea2166-1449-497e-9614-e7b6ef5a835e",
+        "targetId": "017ccdc9-198f-4d4f-8096-90a869ac366d",
+        "type": "cooccurrence",
+        "relationType": "related_to",
+        "weight": 1,
+        "confidence": 0.7,
+        "examples": [
+          "Steve Jobs founded Apple in 1976. He worked at Atari before that. Apple is located in Cupertino."
+        ]
+      },
+      {
+        "id": "67eea9fb-c135-4675-92f6-c78dd28619fb",
+        "sourceId": "3bea2166-1449-497e-9614-e7b6ef5a835e",
+        "targetId": "88a8d90e-4ab7-4734-a65f-fafba80ace83",
+        "type": "cooccurrence",
+        "relationType": "related_to",
+        "weight": 1,
+        "confidence": 0.7,
+        "examples": [
+          "Steve Jobs founded Apple in 1976. He worked at Atari before that. Apple is located in Cupertino."
+        ]
+      },
+      {
+        "id": "33f80e5c-19c2-484b-97fc-495b02a06545",
+        "sourceId": "03a0a29c-e32c-4e6a-9c6a-65415179e541",
+        "targetId": "a7626d7c-4bb9-4143-a6e8-53e17f3dae50",
+        "type": "cooccurrence",
+        "relationType": "related_to",
+        "weight": 1,
+        "confidence": 0.7,
+        "examples": [
+          "Steve Jobs founded Apple in 1976. He worked at Atari before that. Apple is located in Cupertino."
+        ]
+      },
+      {
+        "id": "63f66f2e-710d-4f2c-a866-a9c2c2877ad6",
+        "sourceId": "03a0a29c-e32c-4e6a-9c6a-65415179e541",
+        "targetId": "017ccdc9-198f-4d4f-8096-90a869ac366d",
+        "type": "cooccurrence",
+        "relationType": "related_to",
+        "weight": 1,
+        "confidence": 0.7,
+        "examples": [
+          "Steve Jobs founded Apple in 1976. He worked at Atari before that. Apple is located in Cupertino."
+        ]
+      },
+      {
+        "id": "756b8ee4-1b59-4731-9ee6-875e427927e3",
+        "sourceId": "03a0a29c-e32c-4e6a-9c6a-65415179e541",
+        "targetId": "88a8d90e-4ab7-4734-a65f-fafba80ace83",
+        "type": "cooccurrence",
+        "relationType": "related_to",
+        "weight": 1,
+        "confidence": 0.7,
+        "examples": [
+          "Steve Jobs founded Apple in 1976. He worked at Atari before that. Apple is located in Cupertino."
+        ]
+      },
+      {
+        "id": "2e2d5a21-18cd-4a9f-adb4-fc8fa0a252ea",
+        "sourceId": "a7626d7c-4bb9-4143-a6e8-53e17f3dae50",
+        "targetId": "017ccdc9-198f-4d4f-8096-90a869ac366d",
+        "type": "cooccurrence",
+        "relationType": "related_to",
+        "weight": 1,
+        "confidence": 0.7,
+        "examples": [
+          "Steve Jobs founded Apple in 1976. He worked at Atari before that. Apple is located in Cupertino."
+        ]
+      },
+      {
+        "id": "8dd9d29f-af59-4828-ab06-e7771c6a0465",
+        "sourceId": "a7626d7c-4bb9-4143-a6e8-53e17f3dae50",
+        "targetId": "88a8d90e-4ab7-4734-a65f-fafba80ace83",
+        "type": "cooccurrence",
+        "relationType": "related_to",
+        "weight": 1,
+        "confidence": 0.7,
+        "examples": [
+          "Steve Jobs founded Apple in 1976. He worked at Atari before that. Apple is located in Cupertino."
+        ]
+      },
+      {
+        "id": "e7c742c5-1412-4836-a980-40080376dd33",
+        "sourceId": "017ccdc9-198f-4d4f-8096-90a869ac366d",
+        "targetId": "88a8d90e-4ab7-4734-a65f-fafba80ace83",
+        "type": "cooccurrence",
+        "relationType": "related_to",
+        "weight": 1,
+        "confidence": 0.7,
+        "examples": [
+          "Steve Jobs founded Apple in 1976. He worked at Atari before that. Apple is located in Cupertino."
+        ]
+      }
+    ],
+    "meta": {
+      "graphId": "d0a028d7-8daa-47eb-9a2b-b37740464b93",
+      "createdAt": "2025-11-25T17:46:05.980Z",
+      "updatedAt": "2025-11-25T17:46:05.980Z",
+      "sourceText": "Steve Jobs founded Apple in 1976. He worked at Atari before that. Apple is located in Cupertino."
+    }
+  },
+  "metadata": {
+    "processingTimeMs": 7387,
+    "textLength": 96,
+    "chunkCount": 1,
+    "entityCount": 5,
+    "relationshipCount": 10
+  }
+}
