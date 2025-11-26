@@ -14,37 +14,29 @@ class GeminiClient:
     """
     
     def __init__(self, api_key: Optional[str] = None):
-        print(f"\n{'='*60}")
-        print("GeminiClient Initialization")
-        print(f"{'='*60}")
+        logger.info("GeminiClient Initialization")
         
         self.api_key = api_key or os.getenv("GEMINI_API_KEY")
         
         if not self.api_key:
-            print("✗ GEMINI_API_KEY not found!")
-            print("  Checked: api_key parameter and GEMINI_API_KEY env var")
-            logger.warning("GEMINI_API_KEY not found. Gemini features will be disabled.")
+            logger.warning("GEMINI_API_KEY not found! Checked: api_key parameter and GEMINI_API_KEY env var")
+            logger.warning("Gemini features will be disabled.")
             self.model = None
-            print(f"{'='*60}\n")
             return
 
-        print(f"✓ GEMINI_API_KEY found (length: {len(self.api_key)})")
-        print(f"  First 10 chars: {self.api_key[:10]}...")
+        logger.info(f"GEMINI_API_KEY found (length: {len(self.api_key)})")
+        logger.debug(f"First 10 chars: {self.api_key[:10]}...")
         
         try:
-            print("  Configuring Gemini API...")
+            logger.debug("Configuring Gemini API...")
             genai.configure(api_key=self.api_key)
-            print("  Creating GenerativeModel...")
+            logger.debug("Creating GenerativeModel...")
             # Use available model found during testing
             self.model = genai.GenerativeModel('gemini-2.0-flash-lite-preview-02-05')
-            print("✓ GeminiClient initialized successfully!")
             logger.info("GeminiClient initialized successfully.")
         except Exception as e:
-            print(f"✗ Failed to initialize GeminiClient: {e}")
             logger.error(f"Failed to initialize GeminiClient: {e}")
             self.model = None
-        
-        print(f"{'='*60}\n")
 
     def _call_with_retry(self, func: Callable, *args, **kwargs) -> Any:
         """

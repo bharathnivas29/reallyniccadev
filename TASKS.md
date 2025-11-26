@@ -386,6 +386,25 @@
 
 ---
 
+## Phase 1.5: Code Consistency Overhaul ✅
+
+### 1.5.1 Logging Infrastructure
+- [x] Backend: Winston logger with request tracking
+- [x] Frontend: Conditional logging (Dev only)
+- [x] ML Service: Standard Python logging
+
+### 1.5.2 Linting & Formatting
+- [x] Root: Prettier & ESLint config
+- [x] Backend/Frontend: Lint & Format scripts
+- [x] ML Service: Flake8, Black, Isort, MyPy
+
+### 1.5.3 Type Safety & Standardization
+- [x] Shared Types: Updated & Enforced
+- [x] Backend: Refactored to use shared types
+- [x] Import/Export: Standardized on Named Exports
+
+---
+
 ## 🚀 PHASE 2: USER INTERFACE & PRODUCTIZATION (IN PROGRESS)
 
 **Goal**: Build web UI with graph visualization, file upload, manual editing, and export  

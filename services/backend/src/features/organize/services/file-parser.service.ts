@@ -1,6 +1,9 @@
 import fs from 'fs/promises';
 import mammoth from 'mammoth';
+import { logger } from '../../../shared/utils/logger';
 const pdfParse = require('pdf-parse');
+
+const log = logger.child('FileParserService');
 
 /**
  * Service for parsing different file types and extracting text content
@@ -13,7 +16,7 @@ class FileParserService {
    * @returns Extracted text content
    */
   async parseFile(filePath: string, mimetype: string): Promise<string> {
-    console.log(`[FileParser] Parsing file: ${filePath}, type: ${mimetype}`);
+    log.debug('Parsing file', { filePath, mimetype });
 
     switch (mimetype) {
       case 'application/pdf':
@@ -26,6 +29,7 @@ class FileParserService {
         return await this.parseTXT(filePath);
       
       default:
+        log.error('Unsupported file type', { mimetype });
         throw new Error(`Unsupported file type: ${mimetype}`);
     }
   }
@@ -42,10 +46,10 @@ class FileParserService {
         throw new Error('PDF contains no extractable text. It may be scanned or image-based.');
       }
 
-      console.log(`[FileParser] Extracted ${data.text.length} characters from PDF`);
+      log.info('PDF parsed successfully', { charCount: data.text.length });
       return data.text;
     } catch (error: any) {
-      console.error('[FileParser] PDF parsing error:', error.message);
+      log.error('PDF parsing error', { error: error.message, stack: error.stack });
       throw new Error(`Failed to parse PDF: ${error.message}`);
     }
   }
@@ -63,13 +67,13 @@ class FileParserService {
 
       // Log any warnings from mammoth
       if (result.messages && result.messages.length > 0) {
-        console.warn('[FileParser] DOCX parsing warnings:', result.messages);
+        log.warn('DOCX parsing warnings', { warnings: result.messages });
       }
 
-      console.log(`[FileParser] Extracted ${result.value.length} characters from DOCX`);
+      log.info('DOCX parsed successfully', { charCount: result.value.length });
       return result.value;
     } catch (error: any) {
-      console.error('[FileParser] DOCX parsing error:', error.message);
+      log.error('DOCX parsing error', { error: error.message, stack: error.stack });
       throw new Error(`Failed to parse DOCX: ${error.message}`);
     }
   }
@@ -85,10 +89,10 @@ class FileParserService {
         throw new Error('Text file is empty');
       }
 
-      console.log(`[FileParser] Read ${text.length} characters from TXT file`);
+      log.info('TXT file read successfully', { charCount: text.length });
       return text;
     } catch (error: any) {
-      console.error('[FileParser] TXT reading error:', error.message);
+      log.error('TXT reading error', { error: error.message, stack: error.stack });
       throw new Error(`Failed to read text file: ${error.message}`);
     }
   }

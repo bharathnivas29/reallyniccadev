@@ -1,4 +1,4 @@
-export type EntityType = 'PERSON' | 'ORGANIZATION' | 'CONCEPT' | 'DATE' | 'PAPER';
+export type EntityType = 'PERSON' | 'ORGANIZATION' | 'CONCEPT' | 'DATE' | 'PAPER' | 'LOCATION';
 
 export interface EntitySource {
   docId: string;

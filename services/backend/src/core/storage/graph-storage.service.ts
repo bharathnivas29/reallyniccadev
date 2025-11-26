@@ -1,6 +1,9 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { Graph } from '@really-nicca/types';
+import { logger } from '../../shared/utils/logger';
+
+const log = logger.child('GraphStorageService');
 
 export class GraphStorageService {
   private readonly storageDir: string;
@@ -32,6 +35,7 @@ export class GraphStorageService {
       fs.writeFileSync(filePath, jsonData, 'utf-8');
       return graphId;
     } catch (error: any) {
+      log.error('Failed to save graph', { graphId, error: error.message });
       throw new Error(`Failed to save graph ${graphId}: ${error.message}`);
     }
   }
@@ -57,6 +61,7 @@ export class GraphStorageService {
 
       return graph;
     } catch (error: any) {
+      log.error('Failed to load graph', { graphId, error: error.message });
       throw new Error(`Failed to load graph ${graphId}: ${error.message}`);
     }
   }
@@ -89,12 +94,13 @@ export class GraphStorageService {
           });
         } catch (error) {
           // Skip invalid files
-          console.warn(`Skipping invalid graph file: ${file}`);
+          log.warn('Skipping invalid graph file', { file });
         }
       }
 
       return graphs;
     } catch (error: any) {
+      log.error('Failed to list graphs', { error: error.message });
       throw new Error(`Failed to list graphs: ${error.message}`);
     }
   }
@@ -112,6 +118,7 @@ export class GraphStorageService {
     try {
       fs.unlinkSync(filePath);
     } catch (error: any) {
+      log.error('Failed to delete graph', { graphId, error: error.message });
       throw new Error(`Failed to delete graph ${graphId}: ${error.message}`);
     }
   }

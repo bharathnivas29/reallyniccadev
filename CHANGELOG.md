@@ -15,3 +15,10 @@ All notable changes to this project will be documented in this file.
   - Entity deduplication and resolution.
   - Relationship detection and classification.
   - Graph export capabilities.
+
+### Changed
+- **Code Consistency Overhaul**:
+  - **Logging**: Standardized Winston logger (Backend), conditional logging (Frontend), Python logging (ML).
+  - **Linting**: Enforced ESLint, Prettier, Flake8, Black, MyPy across all services.
+  - **Type Safety**: Unified shared types and removed duplicates.
+  - **Standardization**: Converted default exports to named exports.

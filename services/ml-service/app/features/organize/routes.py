@@ -32,7 +32,7 @@ async def extract_graph(request: ExtractRequest):
         
         # Stage 1: Extract entities using hybrid approach (spaCy + Gemini)
         stage_start = time.time()
-        print(f"\n[STAGE 1] Entity extraction - Gemini ENABLED")
+        logger.info("[STAGE 1] Entity extraction - Gemini ENABLED")
         entities = extract_entities_with_gemini(
             request.textChunks, 
             request.docId,
@@ -75,8 +75,7 @@ async def extract_graph(request: ExtractRequest):
         
         # Stage 5: Classify high-confidence relationships using Gemini
         stage_start = time.time()
-        print(f"\n[STAGE 5] Relationship classification ENABLED")
-        logger.info(f"Stage 5: Relationship classification ENABLED")
+        logger.info("[STAGE 5] Relationship classification ENABLED")
         
         # Limit the number of relationships to classify to prevent timeout
         # Sort by weight (highest first) and take top 20

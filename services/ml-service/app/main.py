@@ -16,17 +16,14 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 # Verify environment variables are loaded
-print("\n" + "="*80)
-print("ML SERVICE STARTUP - Environment Check")
-print("="*80)
+# Verify environment variables are loaded
+logger.info("ML SERVICE STARTUP - Environment Check")
 gemini_key = os.getenv("GEMINI_API_KEY")
 if gemini_key:
-    print(f"✓ GEMINI_API_KEY is set (length: {len(gemini_key)})")
-    print(f"  First 10 chars: {gemini_key[:10]}...")
+    logger.info(f"GEMINI_API_KEY is set (length: {len(gemini_key)})")
+    logger.debug(f"First 10 chars: {gemini_key[:10]}...")
 else:
-    print("✗ GEMINI_API_KEY is NOT set!")
-    print("  Gemini features will be disabled")
-print("="*80 + "\n")
+    logger.warning("GEMINI_API_KEY is NOT set! Gemini features will be disabled")
 
 app = FastAPI(
     title="Really Nicca ML Service",

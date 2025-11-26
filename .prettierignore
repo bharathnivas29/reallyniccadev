@@ -1,0 +1,42 @@
+# Dependencies
+node_modules
+**/node_modules
+
+# Build output
+dist
+build
+**/dist
+**/build
+
+# Logs
+*.log
+logs
+
+# Package manager
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment
+.env
+.env.*
+
+# IDE
+.vscode
+.idea
+
+# Generated files
+*.min.js
+*.min.css
+
+# Python
+__pycache__
+*.pyc
+.venv
+venv
+
+# Test coverage
+coverage
+
+# Misc
+.DS_Store

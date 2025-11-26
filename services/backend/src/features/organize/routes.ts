@@ -18,4 +18,4 @@ router.get('/graphs', (req, res) => graphController.listGraphs(req, res));
 // GET /api/organize/graphs/:graphId - Get specific graph
 router.get('/graphs/:graphId', (req, res) => graphController.getGraph(req, res));
 
-export default router;
+export const organizeRouter = router;

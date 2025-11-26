@@ -8,7 +8,7 @@ interface ExtractResponse {
 }
 
 interface GraphListResponse {
-  id: string;
+  graphId: string;
   createdAt: string;
   nodeCount: number;
   edgeCount: number;
@@ -29,17 +29,22 @@ class OrganizeApiClient {
 
     // Request interceptor for logging
     this.client.interceptors.request.use((config) => {
-      console.log(`[API] ${config.method?.toUpperCase()} ${config.url}`, config.data ? { data: config.data } : '');
+      if (import.meta.env.DEV) {
+        console.log(`[API] ${config.method?.toUpperCase()} ${config.url}`, config.data ? { data: config.data } : '');
+      }
       return config;
     });
 
     // Response interceptor for logging and error handling
     this.client.interceptors.response.use(
       (response) => {
-        console.log(`[API] Success ${response.status}`, response.data);
+        if (import.meta.env.DEV) {
+          console.log(`[API] Success ${response.status}`, response.data);
+        }
         return response;
       },
       (error: AxiosError) => {
+        // Always log errors, but maybe less verbose in prod
         console.error('[API] Error:', error.response?.data || error.message);
         return Promise.reject(error);
       }

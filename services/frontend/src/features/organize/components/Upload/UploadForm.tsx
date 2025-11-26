@@ -14,10 +14,7 @@ interface UploadFormProps {
 
 type UploadState = "idle" | "selected" | "uploading" | "success" | "error";
 
-export const UploadForm: React.FC<UploadFormProps> = ({
-  onUploadSuccess,
-  onError,
-}) => {
+export const UploadForm: React.FC<UploadFormProps> = ({ onUploadSuccess, onError }) => {
   const [uploadState, setUploadState] = useState<UploadState>("idle");
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [filePreview, setFilePreview] = useState<string>("");
@@ -36,9 +33,7 @@ export const UploadForm: React.FC<UploadFormProps> = ({
     setSelectedFile(file);
     setError("");
     setUploadState("selected");
-    setFilePreview(
-      `Ready to upload: ${file.name} (${(file.size / 1024).toFixed(1)} KB)`
-    );
+    setFilePreview(`Ready to upload: ${file.name} (${(file.size / 1024).toFixed(1)} KB)`);
   }, []);
 
   const handleUpload = useCallback(async () => {
@@ -71,9 +66,8 @@ export const UploadForm: React.FC<UploadFormProps> = ({
       // Return the extracted graph
       onUploadSuccess(response.graph);
     } catch (err: any) {
-      console.error("Upload failed:", err);
-      const errorMessage =
-        err.response?.data?.message || err.message || "Failed to upload file";
+      // Error is handled by UI state below
+      const errorMessage = err.response?.data?.message || err.message || "Failed to upload file";
       setError(errorMessage);
       setUploadState("error");
       if (onError) onError(errorMessage);
@@ -86,9 +80,7 @@ export const UploadForm: React.FC<UploadFormProps> = ({
 
   return (
     <div className="w-full space-y-4">
-      {uploadState === "idle" && (
-        <FileUploadZone onFileSelect={handleFileSelect} />
-      )}
+      {uploadState === "idle" && <FileUploadZone onFileSelect={handleFileSelect} />}
 
       {uploadState === "selected" && selectedFile && (
         <>
@@ -136,12 +128,9 @@ export const UploadForm: React.FC<UploadFormProps> = ({
         <div className="flex items-start gap-3 p-4 bg-green-50 border border-green-200 rounded-lg">
           <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
           <div className="flex-1">
-            <p className="text-sm font-medium text-green-900">
-              File uploaded successfully!
-            </p>
+            <p className="text-sm font-medium text-green-900">File uploaded successfully!</p>
             <p className="text-sm text-green-700 mt-1">
-              {selectedFile.name} has been processed. Generating knowledge
-              graph...
+              {selectedFile.name} has been processed. Generating knowledge graph...
             </p>
           </div>
         </div>

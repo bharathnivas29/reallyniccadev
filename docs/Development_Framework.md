@@ -81,6 +81,9 @@
 
 ## Coding Standards
 
+> [!NOTE]
+> For detailed coding standards, including logging, linting, and type safety, please refer to [CODE_CONSISTENCY.md](./CODE_CONSISTENCY.md).
+
 ### TypeScript (Backend + Frontend)
 
 **Imports**:
@@ -93,6 +96,7 @@ import { GraphBuilder } from '../services/graph-builder';
 // ❌ Bad
 import express = require('express'); // No CommonJS
 const { Entity } = require('@really-nicca/types'); // Use ESM
+import app from '../server'; // Avoid default exports
 ```
 
 **Type Safety**:
@@ -114,7 +118,7 @@ function processText(text: any): any { // No 'any'
 try {
   await service.doWork();
 } catch (error) {
-  logger.error('Failed to do work', error);
+  logger.error('Failed to do work', { error }); // Use structured logging
   throw new AppError(400, 'Invalid input');
 }
 
@@ -180,6 +184,7 @@ export const GraphVisualization: React.FC<GraphVisualizationProps> = ({ graph, o
 export const GraphVisualization = (props: any) => { // No 'any'
   // Component logic
 };
+export default GraphVisualization; // Avoid default exports
 ```
 
 **Hooks**:
@@ -304,6 +309,7 @@ npm run dev
 5. **ROUTES.md** - API documentation
 6. **ALGORITHMS.md** - Algorithm explanations
 7. **TESTING_PROTOCOL.md** - Testing procedures
+8. **CODE_CONSISTENCY.md** - Coding standards (logging, linting, etc.)
 
 ---
 
@@ -338,8 +344,12 @@ npm test                    # Frontend
 npm run build              # Backend
 npm run build              # Frontend
 
-# Lint
+# Lint & Format
 npm run lint               # Backend/Frontend
+npm run format             # Backend/Frontend
+flake8 app                 # ML Service
+black app                  # ML Service
+isort app                  # ML Service
 mypy app                   # ML Service
 ```
 

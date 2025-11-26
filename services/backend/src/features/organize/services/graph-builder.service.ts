@@ -1,35 +1,17 @@
 import { v4 as uuidv4 } from 'uuid';
 import { Graph, GraphMetadata, Entity, Relationship } from '@really-nicca/types';
+import { ExtractedEntity, ExtractedRelationship } from '../../../core/ml/python-client.service';
+import { logger } from '../../../shared/utils/logger';
 
-interface MLEntity {
-  name: string;
-  type: string;
-  confidence: number;
-  sources: Array<{
-    docId: string;
-    snippet: string;
-    chunkIndex: number;
-  }>;
-  aliases: string[];
-}
-
-interface MLRelationship {
-  sourceEntity: string;
-  targetEntity: string;
-  type: string;
-  relationType?: string;
-  weight: number;
-  confidence: number;
-  examples: string[];
-}
+const log = logger.child('GraphBuilderService');
 
 export class GraphBuilderService {
   /**
    * Build a complete graph from ML service output
    */
   buildGraph(
-    mlEntities: MLEntity[],
-    mlRelationships: MLRelationship[],
+    mlEntities: ExtractedEntity[],
+    mlRelationships: ExtractedRelationship[],
     sourceText?: string
   ): Graph {
     // Generate graph ID
@@ -64,7 +46,10 @@ export class GraphBuilderService {
 
       // Skip if entities not found
       if (!sourceId || !targetId) {
-        console.warn(`Skipping relationship: ${rel.sourceEntity} -> ${rel.targetEntity} (entity not found)`);
+        log.warn('Skipping relationship - entity not found', { 
+          source: rel.sourceEntity, 
+          target: rel.targetEntity 
+        });
         continue;
       }
 

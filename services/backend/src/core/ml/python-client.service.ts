@@ -1,4 +1,7 @@
 import axios, { AxiosInstance } from 'axios';
+import { logger } from '../../shared/utils/logger';
+
+const log = logger.child('MLClient');
 
 interface ExtractRequest {
   textChunks: string[];
@@ -11,7 +14,7 @@ interface EntitySourceSnippet {
   chunkIndex: number;
 }
 
-interface ExtractedEntity {
+export interface ExtractedEntity {
   name: string;
   type: 'PERSON' | 'ORGANIZATION' | 'CONCEPT' | 'DATE' | 'PAPER' | 'LOCATION';
   confidence: number;
@@ -19,7 +22,7 @@ interface ExtractedEntity {
   aliases: string[];
 }
 
-interface ExtractedRelationship {
+export interface ExtractedRelationship {
   sourceEntity: string;
   targetEntity: string;
   type: string;
@@ -29,7 +32,7 @@ interface ExtractedRelationship {
   examples: string[];
 }
 
-interface ExtractResponse {
+export interface ExtractResponse {
   entities: ExtractedEntity[];
   relationships: ExtractedRelationship[];
 }
@@ -60,7 +63,7 @@ export class PythonMLClient {
     docId: string
   ): Promise<ExtractResponse> {
     const request: ExtractRequest = { textChunks, docId };
-    console.debug(`Calling ML service with ${textChunks.length} chunks for docId: ${docId}`);
+    log.debug('Calling ML service', { chunkCount: textChunks.length, docId });
 
     for (let attempt = 0; attempt < this.maxRetries; attempt++) {
       try {
@@ -70,8 +73,12 @@ export class PythonMLClient {
           request
         );
         const duration = Date.now() - startTime;
-        console.debug(`ML service responded in ${duration}ms`);
-        console.debug(`Extracted ${response.data.entities.length} entities, ${response.data.relationships.length} relationships`);
+        
+        log.info('ML service responded', { 
+          duration: `${duration}ms`,
+          entityCount: response.data.entities.length,
+          relationshipCount: response.data.relationships.length
+        });
         
         return response.data;
       } catch (error: any) {
@@ -79,13 +86,15 @@ export class PythonMLClient {
         
         // Don't retry on client errors (400)
         if (error.response?.status === 400) {
-          console.error(`ML service rejected request: ${error.response.data.detail || error.message}`);
+          log.error('ML service rejected request', { 
+            error: error.response.data.detail || error.message 
+          });
           throw new Error(`Invalid request to ML service: ${error.response.data.detail || error.message}`);
         }
         
         // Handle timeout errors explicitly
         if (error.code === 'ETIMEDOUT' || error.code === 'ECONNABORTED') {
-          console.warn(`ML service timeout (attempt ${attempt + 1}/${this.maxRetries})`);
+          log.warn('ML service timeout', { attempt: attempt + 1, maxRetries: this.maxRetries });
           if (isLastAttempt) {
             throw new Error(`ML service timeout after ${this.maxRetries} attempts. Consider increasing timeout or reducing text size.`);
           }
@@ -94,11 +103,10 @@ export class PythonMLClient {
         // Retry on server errors (500, 503) or network errors
         if (error.response?.status >= 500 || error.code === 'ECONNREFUSED' || error.code === 'ETIMEDOUT') {
           if (isLastAttempt) {
-            console.error(`ML service unavailable after ${this.maxRetries} attempts`);
-            console.error(`Error details:`, {
+            log.error('ML service unavailable', { 
+              attempts: this.maxRetries,
               status: error.response?.status,
               statusText: error.response?.statusText,
-              data: error.response?.data,
               message: error.message
             });
             throw new Error(`ML service unavailable after ${this.maxRetries} attempts: ${error.message}`);
@@ -106,13 +114,17 @@ export class PythonMLClient {
           
           // Exponential backoff
           const delay = this.baseDelay * Math.pow(2, attempt);
-          console.log(`ML service error (attempt ${attempt + 1}/${this.maxRetries}), retrying in ${delay}ms...`);
+          log.warn('ML service error, retrying', { 
+            attempt: attempt + 1, 
+            maxRetries: this.maxRetries, 
+            delay: `${delay}ms` 
+          });
           await this.sleep(delay);
           continue;
         }
         
         // Unknown error, don't retry
-        console.error(`ML service error: ${error.message}`);
+        log.error('ML service error', { error: error.message });
         throw new Error(`ML service error: ${error.message}`);
       }
     }
@@ -127,10 +139,10 @@ export class PythonMLClient {
     try {
       const response = await this.client.get('/health');
       const isHealthy = response.data.status === 'ok';
-      console.debug(`ML service health check: ${isHealthy ? 'healthy' : 'unhealthy'}`);
+      log.debug('ML service health check', { status: isHealthy ? 'healthy' : 'unhealthy' });
       return isHealthy;
-    } catch (error) {
-      console.warn('ML service health check failed:', error);
+    } catch (error: any) {
+      log.warn('ML service health check failed', { error: error.message });
       return false;
     }
   }

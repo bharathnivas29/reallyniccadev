@@ -5,6 +5,9 @@ import { mlClient } from '../../../core/ml/python-client.service';
 import { graphBuilder } from '../services/graph-builder.service';
 import { graphStorage } from '../../../core/storage/graph-storage.service';
 import fs from 'fs/promises';
+import { logger } from '../../../shared/utils/logger';
+
+const log = logger.child('UploadController');
 
 export class UploadController {
   /**
@@ -13,11 +16,13 @@ export class UploadController {
    */
   async uploadFile(req: Request, res: Response): Promise<void> {
     const startTime = Date.now();
+    const requestId = req.requestId;
     let filePath: string | undefined;
 
     try {
       // Step 1: Validate file upload
       if (!req.file) {
+        log.warn('No file uploaded', { requestId });
         res.status(400).json({
           error: 'Bad Request',
           message: 'No file uploaded'
@@ -28,17 +33,24 @@ export class UploadController {
       const file = req.file;
       filePath = file.path;
 
-      console.log(`[Upload] Processing file: ${file.originalname} (${file.size} bytes, ${file.mimetype})`);
+      log.info('Processing file upload', {
+        requestId,
+        filename: file.originalname,
+        size: file.size,
+        mimetype: file.mimetype
+      });
 
       // Step 2: Parse file to extract text
-      console.log('[Upload] Parsing file...');
+      log.debug('Parsing file', { requestId });
       const text = await fileParserService.parseFile(file.path, file.mimetype);
 
       // Step 3: Validate extracted text
       const validation = textProcessor.validateText(text);
       if (!validation.valid) {
+        log.warn('Extracted text invalid', { requestId, error: validation.error });
+        
         // Clean up uploaded file
-        await this.cleanupFile(filePath);
+        await this.cleanupFile(filePath, requestId);
         
         res.status(400).json({
           error: 'Bad Request',
@@ -49,15 +61,24 @@ export class UploadController {
 
       // Step 4: Chunk text
       const chunks = textProcessor.chunkText(text);
-      console.log(`[Upload] Created ${chunks.length} chunks from extracted text`);
+      log.debug('Text extracted and chunked', { 
+        requestId, 
+        textLength: text.length,
+        chunkCount: chunks.length 
+      });
 
       // Step 5: Call ML service
-      console.log('[Upload] Calling ML service...');
+      log.debug('Calling ML service', { requestId });
       const mlResult = await mlClient.callExtractEndpoint(chunks, file.originalname);
-      console.log(`[Upload] ML service returned ${mlResult.entities.length} entities, ${mlResult.relationships.length} relationships`);
+      
+      log.info('ML service response received', { 
+        requestId,
+        entityCount: mlResult.entities.length,
+        relationshipCount: mlResult.relationships.length
+      });
 
       // Step 6: Build graph
-      console.log('[Upload] Building graph...');
+      log.debug('Building graph structure', { requestId });
       const graph = graphBuilder.buildGraph(
         mlResult.entities,
         mlResult.relationships,
@@ -65,15 +86,24 @@ export class UploadController {
       );
 
       // Step 7: Save graph
-      console.log('[Upload] Saving graph...');
+      log.debug('Saving graph to storage', { requestId });
       const graphId = await graphStorage.saveGraph(graph);
 
       // Step 8: Clean up uploaded file
-      await this.cleanupFile(filePath);
+      await this.cleanupFile(filePath, requestId);
 
       // Step 9: Return response
       const duration = Date.now() - startTime;
-      console.log(`[Upload] Complete in ${duration}ms - Graph ID: ${graphId}`);
+      
+      log.info('File processing completed successfully', {
+        requestId,
+        graphId,
+        duration: `${duration}ms`,
+        stats: {
+          nodes: graph.nodes.length,
+          edges: graph.edges.length
+        }
+      });
 
       res.status(200).json({
         success: true,
@@ -93,11 +123,17 @@ export class UploadController {
 
     } catch (error: any) {
       const duration = Date.now() - startTime;
-      console.error(`[Upload] Failed after ${duration}ms:`, error.message);
+      
+      log.error('File processing failed', {
+        requestId,
+        duration: `${duration}ms`,
+        error: error.message,
+        stack: error.stack
+      });
 
       // Clean up file if it exists
       if (filePath) {
-        await this.cleanupFile(filePath);
+        await this.cleanupFile(filePath, requestId);
       }
 
       res.status(500).json({
@@ -111,12 +147,16 @@ export class UploadController {
   /**
    * Clean up uploaded file
    */
-  private async cleanupFile(filePath: string): Promise<void> {
+  private async cleanupFile(filePath: string, requestId?: string): Promise<void> {
     try {
       await fs.unlink(filePath);
-      console.log(`[Upload] Cleaned up file: ${filePath}`);
+      log.debug('Cleaned up uploaded file', { requestId, filePath });
     } catch (error: any) {
-      console.warn(`[Upload] Failed to cleanup file: ${error.message}`);
+      log.warn('Failed to cleanup file', { 
+        requestId, 
+        filePath, 
+        error: error.message 
+      });
       // Don't throw - cleanup failure shouldn't break the request
     }
   }
